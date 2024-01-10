@@ -1,0 +1,18 @@
+2023-06-06 14:42:17 INFO  Keywords:90 - Navigate is called
+2023-06-06 14:42:20 INFO  Keywords:488 - ClearText is called
+2023-06-06 14:42:20 INFO  Keywords:279 - Waiting for webElement...gateway.partnerCode
+2023-06-06 14:42:20 INFO  Keywords:282 - Element found...gateway.partnerCode
+2023-06-06 14:42:20 INFO  Keywords:492 - 
+2023-06-06 14:42:20 INFO  Keywords:118 - InputText is called
+2023-06-06 14:42:20 INFO  Keywords:279 - Waiting for webElement...gateway.partnerCode
+2023-06-06 14:42:20 INFO  Keywords:282 - Element found...gateway.partnerCode
+2023-06-06 14:42:21 INFO  Keywords:488 - ClearText is called
+2023-06-06 14:42:21 INFO  Keywords:279 - Waiting for webElement...gateway.username
+2023-06-06 14:42:21 INFO  Keywords:118 - InputText is called
+2023-06-06 14:42:21 INFO  Keywords:279 - Waiting for webElement...gateway.username
+2023-06-06 14:42:21 INFO  Keywords:488 - ClearText is called
+2023-06-06 14:42:21 INFO  Keywords:279 - Waiting for webElement...gateway.password
+2023-06-06 14:42:21 INFO  Keywords:118 - InputText is called
+2023-06-06 14:42:21 INFO  Keywords:279 - Waiting for webElement...gateway.password
+2023-06-06 14:42:21 INFO  Keywords:131 - ClickOnLink is called
+2023-06-06 14:42:21 INFO  Keywords:279 - Waiting for webElement...gateway.login

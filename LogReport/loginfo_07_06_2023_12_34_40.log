@@ -1,0 +1,28 @@
+2023-06-07 12:34:44 INFO  Keywords:95 - Navigate is called
+2023-06-07 12:34:47 INFO  Keywords:123 - InputText is called
+2023-06-07 12:34:47 INFO  Keywords:284 - Waiting for webElement...gateway.username
+2023-06-07 12:34:47 INFO  Keywords:287 - Element found...gateway.username
+2023-06-07 12:34:47 INFO  Keywords:123 - InputText is called
+2023-06-07 12:34:47 INFO  Keywords:284 - Waiting for webElement...gateway.password
+2023-06-07 12:34:47 INFO  Keywords:287 - Element found...gateway.password
+2023-06-07 12:34:47 INFO  Keywords:136 - ClickOnLink is called
+2023-06-07 12:34:47 INFO  Keywords:284 - Waiting for webElement...gateway.login
+2023-06-07 12:34:47 INFO  Keywords:287 - Element found...gateway.login
+2023-06-07 12:35:27 INFO  Keywords:136 - ClickOnLink is called
+2023-06-07 12:35:27 INFO  Keywords:284 - Waiting for webElement...postsamldata
+2023-06-07 12:35:27 INFO  Keywords:287 - Element found...postsamldata
+2023-06-07 12:35:33 INFO  Keywords:136 - ClickOnLink is called
+2023-06-07 12:35:33 INFO  Keywords:284 - Waiting for webElement...next
+2023-06-07 12:35:33 INFO  Keywords:287 - Element found...next
+2023-06-07 12:35:36 INFO  Keywords:123 - InputText is called
+2023-06-07 12:35:36 INFO  Keywords:284 - Waiting for webElement...policyConfiguration.insuranceamount
+2023-06-07 12:35:36 INFO  Keywords:287 - Element found...policyConfiguration.insuranceamount
+2023-06-07 12:35:36 INFO  Keywords:284 - Waiting for webElement...policyConfiguration.LTC
+2023-06-07 12:35:36 INFO  Keywords:287 - Element found...policyConfiguration.LTC
+2023-06-07 12:35:36 INFO  Keywords:284 - Waiting for webElement...policyConfiguration.payors
+2023-06-07 12:35:36 INFO  Keywords:287 - Element found...policyConfiguration.payors
+2023-06-07 12:35:37 INFO  Keywords:284 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2023-06-07 12:35:37 INFO  Keywords:287 - Element found...policyConfiguration.purposeofpolicy
+2023-06-07 12:35:37 INFO  Keywords:136 - ClickOnLink is called
+2023-06-07 12:35:37 INFO  Keywords:284 - Waiting for webElement...next
+2023-06-07 12:35:37 INFO  Keywords:287 - Element found...next

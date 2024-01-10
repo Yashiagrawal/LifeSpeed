@@ -1,0 +1,28 @@
+2024-01-04 11:12:17 INFO  Keywords:94 - Navigate is called
+2024-01-04 11:12:20 INFO  Keywords:122 - InputText is called
+2024-01-04 11:12:20 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-01-04 11:12:21 INFO  Keywords:286 - Element found...gateway.username
+2024-01-04 11:12:21 INFO  Keywords:122 - InputText is called
+2024-01-04 11:12:21 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-01-04 11:12:21 INFO  Keywords:286 - Element found...gateway.password
+2024-01-04 11:12:21 INFO  Keywords:135 - ClickOnLink is called
+2024-01-04 11:12:21 INFO  Keywords:283 - Waiting for webElement...gateway.login
+2024-01-04 11:12:21 INFO  Keywords:286 - Element found...gateway.login
+2024-01-04 11:13:00 INFO  Keywords:135 - ClickOnLink is called
+2024-01-04 11:13:00 INFO  Keywords:283 - Waiting for webElement...postsamldata
+2024-01-04 11:13:00 INFO  Keywords:286 - Element found...postsamldata
+2024-01-04 11:13:17 INFO  Keywords:135 - ClickOnLink is called
+2024-01-04 11:13:17 INFO  Keywords:283 - Waiting for webElement...next
+2024-01-04 11:13:17 INFO  Keywords:286 - Element found...next
+2024-01-04 11:13:39 INFO  Keywords:122 - InputText is called
+2024-01-04 11:13:39 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-01-04 11:13:39 INFO  Keywords:286 - Element found...policyConfiguration.insuranceamount
+2024-01-04 11:13:39 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.LTC
+2024-01-04 11:13:49 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.payors
+2024-01-04 11:13:49 INFO  Keywords:286 - Element found...policyConfiguration.payors
+2024-01-04 11:13:50 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-01-04 11:13:50 INFO  Keywords:286 - Element found...policyConfiguration.purposeofpolicy
+2024-01-04 11:13:50 INFO  Keywords:135 - ClickOnLink is called
+2024-01-04 11:13:50 INFO  Keywords:283 - Waiting for webElement...next
+2024-01-04 11:13:50 INFO  Keywords:286 - Element found...next
+2024-01-04 11:15:25 INFO  Keywords:283 - Waiting for webElement...primaryinsured.birthcountry
