@@ -114,10 +114,6 @@ public class TestController extends TestBase {
 		ReportUtil.endSuite();
 		ReportUtil.updateEndTime(TestBase.now("dd.MMMM.yyyy hh.mm.ss aaa"));
 	}
-	
-	
-	
-
 	@AfterClass
 	public void quitBrowser() {
 		System.out.println("In quitBrowser---------------------------");

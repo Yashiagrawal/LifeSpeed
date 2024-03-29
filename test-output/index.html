@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\yashi.agrawal\AppData\Local\Temp\testng-eclipse-1687135204\testng-customsuite.xml</span>
+                    <span>C:\Users\yashi.agrawal\AppData\Local\Temp\testng-eclipse--1255918181\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testController.TestController" class="method navigator-link" hash-for-method="TestCaseController">TestCaseController</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +118,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testController.TestController</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,14 +129,60 @@
                   <a name="TestCaseController">
                   </a> <!-- TestCaseController -->
                   <span class="method-name">TestCaseController</span>
+                  <div class="stack-trace">java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at testController.TestController.TestCaseController(TestController.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;NOIANJUACER&apos;, ip: &apos;192.168.82.26&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at keywords.Keywords.navigate(Keywords.java:99)
+	... 33 more
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\yashi.agrawal\AppData\Local\Temp\testng-eclipse-1687135204\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\yashi.agrawal\AppData\Local\Temp\testng-eclipse--1255918181\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -189,12 +235,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestCaseController')
 data.setCell(0, 2, 'testController.TestController')
-data.setCell(0, 3, 1235636);
+data.setCell(0, 3, 1065937);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -209,56 +255,11 @@ return data;
               <span class="reporter-method-name">TestCaseController</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_02_56_36.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_02_56_36.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]inputText_29_03_2024_01_05_06.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]inputText_29_03_2024_01_05_06.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_02_56_46.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_02_56_46.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]inputText_29_03_2024_01_05_56.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]inputText_29_03_2024_01_05_56.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_02_59_56.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_02_59_56.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]selectByVisibleText_09_01_2024_03_00_21.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]selectByVisibleText_09_01_2024_03_00_21.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]selectByVisibleText_09_01_2024_03_01_12.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]selectByVisibleText_09_01_2024_03_01_12.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_02_51.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_02_51.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_03_41.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_03_41.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_04_32.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_04_32.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_47.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_47.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_54.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_54.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_55.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickRadioButton_09_01_2024_03_04_55.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_18.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_18.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_25.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_25.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_35.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_35.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_45.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_45.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_58.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]inputText_09_01_2024_03_05_58.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_06_24.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_06_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_07_07.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_07_07.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_07_33.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_07_33.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]verifyText_09_01_2024_03_09_03.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]verifyText_09_01_2024_03_09_03.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_09_36.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_09_36.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_10_22.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_10_22.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_14_59.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC02[1]clickOnLink_09_01_2024_03_14_59.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]verifyText_29_03_2024_01_08_38.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC09[1]verifyText_29_03_2024_01_08_38.png'height='100' width='100'/></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -283,15 +284,17 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">initBrowser</span>
-                <span class="method-start">157 ms</span>
+                <span class="method-start">337 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TestCaseController</span>
-                <span class="method-start">1104 ms</span>
+                <span class="method-start">1755 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">1236743 ms</span>
+                <span class="method-start">1067700 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

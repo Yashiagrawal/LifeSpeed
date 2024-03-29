@@ -1,0 +1,5508 @@
+2024-03-19 16:52:36 INFO  Keywords:96 - Navigate is called
+2024-03-19 16:52:39 INFO  Keywords:494 - ClearText is called
+2024-03-19 16:52:39 INFO  Keywords:280 - Waiting for webElement...gateway.username
+2024-03-19 16:52:39 INFO  Keywords:283 - Element found...gateway.username
+2024-03-19 16:52:39 INFO  Keywords:498 - 
+2024-03-19 16:52:39 INFO  Keywords:122 - InputText is called
+2024-03-19 16:52:39 INFO  Keywords:280 - Waiting for webElement...gateway.username
+2024-03-19 16:52:39 INFO  Keywords:283 - Element found...gateway.username
+2024-03-19 16:52:39 INFO  Keywords:494 - ClearText is called
+2024-03-19 16:52:39 INFO  Keywords:280 - Waiting for webElement...gateway.password
+2024-03-19 16:52:39 INFO  Keywords:283 - Element found...gateway.password
+2024-03-19 16:52:39 INFO  Keywords:498 - 
+2024-03-19 16:52:39 INFO  Keywords:122 - InputText is called
+2024-03-19 16:52:39 INFO  Keywords:280 - Waiting for webElement...gateway.password
+2024-03-19 16:52:39 INFO  Keywords:283 - Element found...gateway.password
+2024-03-19 16:52:39 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:52:39 INFO  Keywords:280 - Waiting for webElement...gateway.login
+2024-03-19 16:52:40 INFO  Keywords:283 - Element found...gateway.login
+2024-03-19 16:53:01 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:53:01 INFO  Keywords:280 - Waiting for webElement...management
+2024-03-19 16:53:01 INFO  Keywords:283 - Element found...management
+2024-03-19 16:53:01 INFO  Keywords:280 - Waiting for webElement...managementTools
+2024-03-19 16:53:01 INFO  Keywords:283 - Element found...managementTools
+2024-03-19 16:53:02 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:53:02 INFO  Keywords:280 - Waiting for webElement...feedManagement
+2024-03-19 16:53:02 INFO  Keywords:283 - Element found...feedManagement
+2024-03-19 16:53:19 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:53:19 INFO  Keywords:280 - Waiting for webElement...Search1Bar
+2024-03-19 16:53:19 INFO  Keywords:283 - Element found...Search1Bar
+2024-03-19 16:53:35 INFO  Keywords:280 - Waiting for webElement...TrID
+2024-03-19 16:53:35 INFO  Keywords:283 - Element found...TrID
+2024-03-19 16:53:35 INFO  Keywords:122 - InputText is called
+2024-03-19 16:53:35 INFO  Keywords:280 - Waiting for webElement...Search2Bar
+2024-03-19 16:53:35 INFO  Keywords:283 - Element found...Search2Bar
+2024-03-19 16:53:35 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:53:35 INFO  Keywords:280 - Waiting for webElement...SearchButton3
+2024-03-19 16:53:35 INFO  Keywords:283 - Element found...SearchButton3
+2024-03-19 16:53:52 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:53:52 INFO  Keywords:280 - Waiting for webElement...transactionSearchmyResult
+2024-03-19 16:53:52 INFO  Keywords:283 - Element found...transactionSearchmyResult
+2024-03-19 16:54:08 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:54:08 INFO  Keywords:280 - Waiting for webElement...TransXMLButton
+2024-03-19 16:54:08 INFO  Keywords:283 - Element found...TransXMLButton
+2024-03-19 16:54:24 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:54:24 INFO  Keywords:280 - Waiting for webElement...TransResponseXML
+2024-03-19 16:54:25 INFO  Keywords:283 - Element found...TransResponseXML
+2024-03-19 16:54:25 INFO  Keywords:280 - Waiting for webElement...TransResponseXML
+2024-03-19 16:54:25 INFO  Keywords:283 - Element found...TransResponseXML
+2024-03-19 16:54:57 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:54:57 INFO  Keywords:280 - Waiting for webElement...PrintSignButton
+2024-03-19 16:54:57 INFO  Keywords:283 - Element found...PrintSignButton
+2024-03-19 16:55:30 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:55:30 INFO  Keywords:280 - Waiting for webElement...ForeignForm
+2024-03-19 16:55:47 INFO  Keywords:96 - Navigate is called
+2024-03-19 16:55:49 INFO  Keywords:494 - ClearText is called
+2024-03-19 16:55:49 INFO  Keywords:280 - Waiting for webElement...gateway.username
+2024-03-19 16:55:50 INFO  Keywords:283 - Element found...gateway.username
+2024-03-19 16:55:50 INFO  Keywords:498 - <?xml version="1.0" encoding="utf-16"?>
+<txn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <txnDetails>
+    <txnID>JHC000000525549</txnID>
+    <CreationDate>March 14, 2024</CreationDate>
+    <GAName>HIGHLAND</GAName>
+    <SolicitationState>Kentucky</SolicitationState>
+    <SolicitationStateCode>KY</SolicitationStateCode>
+    <TransactionStatus>Draft</TransactionStatus>
+    <ICCState />
+    <IsNaicState>True</IsNaicState>
+    <ECI>0006098121</ECI>
+    <SolicitationCity>Saint Paul</SolicitationCity>
+    <PrBeneCount>1</PrBeneCount>
+    <ContBeneCount>2</ContBeneCount>
+    <ISMMLCCARRQUES169>false</ISMMLCCARRQUES169>
+    <Sole>False</Sole>
+    <Other>True</Other>
+    <IsRep>false</IsRep>
+    <IsWetSign>False</IsWetSign>
+    <IsEsign>False</IsEsign>
+    <HasInvestmentExpriece>True</HasInvestmentExpriece>
+    <InsOwnerPrefferedPhoneNumber>882-698-4188</InsOwnerPrefferedPhoneNumber>
+    <SignatureProcess xsi:nil="true" />
+    <FormGroups>
+      <Code>NIT</Code>
+    </FormGroups>
+    <OverFlowData>Proposed Insured: Mukesh JO Test
+
+Product: John Hancock Protection Term
+
+Contingent Beneficiaries: Shantanu M Randels,Son,50% / Anju L Randels,Son,50%
+
+</OverFlowData>
+    <DateSubmitted>03/14/2024</DateSubmitted>
+    <DateOfApplication>03/14/2024</DateOfApplication>
+    <IsExchange1035>false</IsExchange1035>
+    <IsReplacingJPMCD>false</IsReplacingJPMCD>
+    <OwnerCityStateZipMGMA>PEORIA Arizona 85383-4620</OwnerCityStateZipMGMA>
+    <FormDetails>
+      <TransactionForms>
+        <TransactionForm>
+          <FormID>38290</FormID>
+          <SourceFileName>41013sup_A v1_0.pdf</SourceFileName>
+          <Description>Life Insurance Replacement Client Acknowledgement</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38288</FormID>
+          <SourceFileName>41028_LI v4.2 flat.pdf</SourceFileName>
+          <Description>Life Insurance Authorization Form</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38291</FormID>
+          <SourceFileName>41027_LI v2 Flat.pdf</SourceFileName>
+          <Description>Life Insurance Authorization Disclosure Document (Non-NY Non-Variable IADD)</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38294</FormID>
+          <SourceFileName>33500_A LI v3 (Flat).pdf</SourceFileName>
+          <Description>Trusted Contact Person Authorization Form</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38298</FormID>
+          <SourceFileName>33600_A v1_0.pdf</SourceFileName>
+          <Description>Foreign Language Affirmation For Insurance Products</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38394</FormID>
+          <SourceFileName>41030_A v2 flat.pdf</SourceFileName>
+          <Description>Suitability Detail Important Consideration Sheet</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38300</FormID>
+          <SourceFileName>ICC21 NB5025.pdf</SourceFileName>
+          <Description>HIPAA Compliant Authorization | ICC21 NB5025</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38308</FormID>
+          <SourceFileName>NB5011US.pdf</SourceFileName>
+          <Description>Important Notice:Replacement of Life Insurance or Annuities | NB5011US</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38336</FormID>
+          <SourceFileName>NB5075US_052021.pdf</SourceFileName>
+          <Description>Agent Report | NB5075US_052021</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38344</FormID>
+          <SourceFileName>NB1081US_092020.pdf</SourceFileName>
+          <Description>Illustration Certification  | NB1081US_092020</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38408</FormID>
+          <SourceFileName>ICC16 NB6002.pdf</SourceFileName>
+          <Description>Authorization to Obtain Information | ICC16 NB6002</Description>
+        </TransactionForm>
+      </TransactionForms>
+    </FormDetails>
+  </txnDetails>
+  <Distributor>
+    <Name>JP Morgan Chase Distributor</Name>
+    <DistributorCode>JPMCD</DistributorCode>
+    <CaseManager />
+    <ClientAcctNum>FRLAN</ClientAcctNum>
+    <EdjdReplacementDetails>
+      <Replacements />
+      <FiduciaryWorkflowID />
+      <ReplacedTermCount>0</ReplacedTermCount>
+    </EdjdReplacementDetails>
+  </Distributor>
+  <Agent>
+    <FirstName>Yash</FirstName>
+    <MiddleName>L</MiddleName>
+    <LastName>GUSTAFSON JR.</LastName>
+    <FullName>Yash L GUSTAFSON JR.</FullName>
+    <ID>F111111</ID>
+    <Commission />
+    <GovtID>
+      <Formatted>677-77-7762</Formatted>
+      <Unformatted>677777762</Unformatted>
+    </GovtID>
+    <WorkPhone>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </WorkPhone>
+    <Email>shantanu.upadhyay@ebix.com</Email>
+    <Attestations>
+      <Illustration />
+    </Attestations>
+    <Relationship>
+      <FinanciallyResponsible>false</FinanciallyResponsible>
+      <Related>false</Related>
+      <PayorOrOwner>false</PayorOrOwner>
+    </Relationship>
+    <Requirements>
+      <Ordered />
+      <ParamedService xsi:nil="true" />
+    </Requirements>
+    <ApplicationSignature />
+    <HomeAddress>
+      <Line1>495 Bhangel Street </Line1>
+      <Line3 />
+      <City>CINCINNATI</City>
+      <State>Ohio</State>
+      <StateAbbr>OH</StateAbbr>
+      <Country>US</Country>
+      <Zip>
+        <Formatted>45202</Formatted>
+        <Unformatted>45202</Unformatted>
+      </Zip>
+      <CompleteAddress>495 Bhangel Street , CINCINNATI, 45202, Ohio, US</CompleteAddress>
+    </HomeAddress>
+    <BranchAddress>
+      <Line1>495 Bhangel Street </Line1>
+      <Line3 />
+      <City>CINCINNATI</City>
+      <State>Ohio</State>
+      <StateAbbr>OH</StateAbbr>
+      <Country>US</Country>
+    </BranchAddress>
+    <BranchCode>OD37</BranchCode>
+    <BranchName>Cincinnati Downtown</BranchName>
+    <BranchAddressLine1>495 Bhangel Street </BranchAddressLine1>
+    <BranchAddressCountry>US</BranchAddressCountry>
+    <BranchAddressState>OH</BranchAddressState>
+    <BranchAddressCity>CINCINNATI</BranchAddressCity>
+    <BranchAddressZipCode>45202</BranchAddressZipCode>
+    <RepID>F111111</RepID>
+    <NPN>13022464</NPN>
+    <CarrierQuestion />
+    <BGAName>HIGHLAND</BGAName>
+    <BGAPersonFirstName>Yashi</BGAPersonFirstName>
+    <BGAPersonLastName>Agrawal</BGAPersonLastName>
+    <BGAPersonPhone>821-882-8905</BGAPersonPhone>
+    <BGAPersonEmail>yashi.agrawal@ebix.com</BGAPersonEmail>
+    <producerCertificate />
+  </Agent>
+  <Carrier>
+    <Name>John Hancock Carrier</Name>
+    <CarrierCode>JHC</CarrierCode>
+  </Carrier>
+  <Policy>
+    <Name>John Hancock Protection Term</Name>
+    <Type>Term Insurance</Type>
+    <ProductCode>JHT19_JPMCD</ProductCode>
+    <CusipNum>47804V472</CusipNum>
+    <SaveAge>No</SaveAge>
+    <Purpose>
+      <Desc>(Income_Replacement)</Desc>
+      <Option tc="(Income_Replacement)">
+        <Selected>true</Selected>
+      </Option>
+    </Purpose>
+    <OwnerEntityType>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Name>Individual/Person</Name>
+        <Selected>true</Selected>
+      </Option>
+    </OwnerEntityType>
+    <ContingentOwnerEntityType>
+      <Desc />
+      <Option tc="">
+        <Selected>true</Selected>
+      </Option>
+    </ContingentOwnerEntityType>
+    <OwnerSameAsPrimaryInsured>True</OwnerSameAsPrimaryInsured>
+    <PACProductName />
+    <OwnerIsBeneficiary>False</OwnerIsBeneficiary>
+    <PayorSameAs>
+      <Desc>2</Desc>
+      <Option tc="2">
+        <Name>Primary Insured</Name>
+        <Selected>true</Selected>
+      </Option>
+    </PayorSameAs>
+    <BaseCoverage>
+      <isFAover30lakhs>N</isFAover30lakhs>
+      <FaceAmt>
+        <Unformatted>27000.00</Unformatted>
+        <Formatted>$27,000.00</Formatted>
+      </FaceAmt>
+      <CoverageOption>
+        <ProductCode>TDW</ProductCode>
+        <PlanName>Total Disability Waiver</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>ABR</ProductCode>
+        <PlanName>Accelerated Benefit Rider</PlanName>
+        <Selected>true</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>UP</ProductCode>
+        <PlanName>Unemployment Protection Rider</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>HE</ProductCode>
+        <PlanName>Healthy Engagement Rider</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <Term>
+        <Desc>20</Desc>
+        <Option tc="20">
+          <Name>20</Name>
+          <Selected>true</Selected>
+        </Option>
+      </Term>
+      <IsFAover30lakhs>N</IsFAover30lakhs>
+    </BaseCoverage>
+    <SupplementalCoverage>
+      <ProductCode>BASE</ProductCode>
+      <PlanName>JOHN HANCOCK TERM</PlanName>
+      <Selected>true</Selected>
+      <NumInsured>1</NumInsured>
+      <CoverageUnitType>1</CoverageUnitType>
+    </SupplementalCoverage>
+    <SpecialPolicyDate />
+    <IsJointOwner>False</IsJointOwner>
+    <ltcplanInfo />
+    <IsPurposeOfPolicyEvalRedFlag>False</IsPurposeOfPolicyEvalRedFlag>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+    <JPMCProductType>Term</JPMCProductType>
+    <XMLData>
+      <Data>
+        <Extensions>
+          <Extension Id="clientData">
+            <User>
+              <Ids>
+                <Id>
+                  <PartyId>JPMC</PartyId>
+                  <IdValue>Yashi</IdValue>
+                </Id>
+              </Ids>
+              <TaxIds>
+                <TaxId>
+                  <Type>SOCIAL_SECURITY_NUMBER</Type>
+                  <Value>123456789</Value>
+                </TaxId>
+                <OtherIdentifier>
+                  <Type>NATIONAL_PRODUCER_NUMBER</Type>
+                  <Value>114649</Value>
+                </OtherIdentifier>
+              </TaxIds>
+              <EmailAddress>yashi.agrawal@ebix.com</EmailAddress>
+              <Role>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>SU</IdValue>
+                  </Id>
+                </Ids>
+              </Role>
+              <PersonName>
+                <FirstName>Yashi</FirstName>
+                <MName />
+                <LastName>Agrawal</LastName>
+              </PersonName>
+              <BusinessUnitLinks>
+                <BusinessUnitLink>
+                  <Ids>
+                    <Id>
+                      <PartyId>JPMC</PartyId>
+                      <IdValue>Abc</IdValue>
+                    </Id>
+                  </Ids>
+                </BusinessUnitLink>
+              </BusinessUnitLinks>
+              <Telephones>
+                <Telephone>
+                  <Number>6395138537</Number>
+                  <Type>Work</Type>
+                </Telephone>
+              </Telephones>
+            </User>
+            <BusinessUnits>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Ids>
+                <Name>JPMORGAN CHASE</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 1</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>CWM</IdValue>
+                  </Id>
+                </Ids>
+                <Name>LOB</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 2</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>OD37</IdValue>
+                  </Id>
+                </Ids>
+                <Name>Cincinnati Downtown</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 3</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>CWM OR JPMS OR USPB</IdValue>
+                  </Id>
+                </Parent>
+                <Address>
+                  <Line1>495 Bhangel Street </Line1>
+                  <City>CINCINNATI</City>
+                  <State>OH</State>
+                  <PostalCode>45202</PostalCode>
+                  <Country>US</Country>
+                </Address>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>E914649</IdValue>
+                  </Id>
+                </Ids>
+                <Name>SupportFn M SupportLn</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 4</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>OD37</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+            </BusinessUnits>
+            <Product>
+              <Ids>
+                <Id>
+                  <PartyId>JPMC</PartyId>
+                  <IdValue>4660</IdValue>
+                </Id>
+              </Ids>
+              <Names>
+                <Name>
+                  <TYPE>DISPLAY</TYPE>
+                  <VALUE>Eclipse Survivor II IUL</VALUE>
+                </Name>
+              </Names>
+              <CUSIP>47804V472</CUSIP>
+              <Type>
+                <LineOfBusiness>LIFE</LineOfBusiness>
+              </Type>
+              <Parameters>
+                <Parameter>
+                  <Name>ProductCode</Name>
+                  <Value>JHT20</Value>
+                </Parameter>
+                <Parameter>
+                  <Name>CarrierCode</Name>
+                  <Value>65838</Value>
+                </Parameter>
+              </Parameters>
+            </Product>
+            <Parameters>
+              <Parameter>
+                <Name>ClientAccountNumber</Name>
+                <Value>FRLAN</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SolicitationCity</Name>
+                <Value>Saint Paul</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SolicitationState</Name>
+                <Value>KY</Value>
+              </Parameter>
+              <Parameter>
+                <Name>ExternalTransactionId</Name>
+                <Value>8da14197-6V93-4674-8620-5aa78a4a81b0</Value>
+              </Parameter>
+              <Parameter>
+                <Name>JPMCInternalTxnId</Name>
+                <Value>3987403</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SessionJourneyToContinue</Name>
+                <Value>true</Value>
+              </Parameter>
+              <Parameter>
+                <Name>TipSheetURL</Name>
+                <Value>https://go/life.term.tipSheetUrl</Value>
+              </Parameter>
+              <Parameter>
+                <Name>OfferBGAHelp</Name>
+                <Value>NA</Value>
+              </Parameter>
+              <Parameter>
+                <Name>InternalServiceCall</Name>
+                <Value>true</Value>
+              </Parameter>
+              <Parameter>
+                <Name>QuoteOrIllustrationReference</Name>
+                <Value>d7897d57-2402-4108-bd7d-3203f20f652f</Value>
+              </Parameter>
+              <Parameter>
+                <Name>QuoteOrIllustrationObjectId</Name>
+                <Value>ProposalTracking.4.8164</Value>
+              </Parameter>
+              <Parameter>
+                <Name>OffLineCarrierApp</Name>
+                <Value>No</Value>
+              </Parameter>
+              <Parameter>
+                <Name>InformalPolicyNumber</Name>
+                <Value>Test</Value>
+              </Parameter>
+            </Parameters>
+          </Extension>
+        </Extensions>
+      </Data>
+    </XMLData>
+  </Policy>
+  <Authorization xsi:nil="true" />
+  <Insured>
+    <IsOwnerSameAsInsured>true</IsOwnerSameAsInsured>
+    <IsMallingSameAsHome>false</IsMallingSameAsHome>
+    <Type>PrIn</Type>
+    <Prefix />
+    <OtherPrefix />
+    <FirstName>Mukesh</FirstName>
+    <MiddleName>JO</MiddleName>
+    <LastName>Test</LastName>
+    <Suffix />
+    <FullName>Mukesh JO Test</FullName>
+    <RateClass>
+      <Desc>21859</Desc>
+      <Option id="21859">
+        <Name>Standard Smoker</Name>
+        <Selected>true</Selected>
+        <UnderwritingID>1</UnderwritingID>
+        <TobaccoPremiumID>2</TobaccoPremiumID>
+      </Option>
+    </RateClass>
+    <GovtIDType>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Selected>true</Selected>
+      </Option>
+    </GovtIDType>
+    <GovtID>
+      <Formatted>677-77-7777</Formatted>
+      <Unformatted>677777777</Unformatted>
+    </GovtID>
+    <Gender>
+      <Desc>2</Desc>
+      <Option tc="2">
+        <Name>Female</Name>
+        <Selected>true</Selected>
+      </Option>
+    </Gender>
+    <MaritalStatus>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Name>Married</Name>
+        <Selected>true</Selected>
+      </Option>
+    </MaritalStatus>
+    <NumDependents>2</NumDependents>
+    <Birthdate>08/08/1981</Birthdate>
+    <CalcAge>43</CalcAge>
+    <Icul_CalcAge>43</Icul_CalcAge>
+    <StateOfBirth>Alabama</StateOfBirth>
+    <BirthCity>Montogomary</BirthCity>
+    <Citizenship>United States</Citizenship>
+    <BirthCountry>United States</BirthCountry>
+    <BirthStateCountry>United States</BirthStateCountry>
+    <StateCode>AL</StateCode>
+    <BirthStateProvince>Alabama</BirthStateProvince>
+    <HomeAddress>
+      <Line1>test</Line1>
+      <City>PEORIA</City>
+      <State>Arizona</State>
+      <StateAbbr>AZ</StateAbbr>
+      <Country>United States</Country>
+      <Zip>
+        <Formatted>85383-4620</Formatted>
+        <Unformatted>85383-4620</Unformatted>
+      </Zip>
+      <CompleteAddress>test, PEORIA, Arizona, 85383-4620, United States</CompleteAddress>
+      <ShortAddress>test</ShortAddress>
+    </HomeAddress>
+    <MailingAddress>
+      <Line1>test</Line1>
+      <City>PEORIA</City>
+      <State>Arizona</State>
+      <StateAbbr>AZ</StateAbbr>
+      <Country>US</Country>
+      <Zip>
+        <Formatted>85383-4620</Formatted>
+        <Unformatted>85383-4620</Unformatted>
+      </Zip>
+      <CompleteAddress>test, PEORIA, Arizona, 85383-4620, US</CompleteAddress>
+      <ShortAddress>test</ShortAddress>
+    </MailingAddress>
+    <AltBillingAddress>
+      <Zip />
+    </AltBillingAddress>
+    <HomePhone />
+    <SecondaryPhone>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </SecondaryPhone>
+    <WorkPhone />
+    <FaxNumber />
+    <InternationalNumber />
+    <InsuredPrefferedNumber>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </InsuredPrefferedNumber>
+    <PrefferedPhone>
+      <Desc>Mobile</Desc>
+      <Option tc="Mobile">
+        <Name>Mobile</Name>
+        <Selected>true</Selected>
+      </Option>
+    </PrefferedPhone>
+    <WorkPhoneExt />
+    <Email>yashk.gupta@ebix.com</Email>
+    <OtherInsurance>
+      <PrevDeclines>
+        <Explanation />
+      </PrevDeclines>
+      <Existing />
+      <NAICReadAloud>False</NAICReadAloud>
+    </OtherInsurance>
+    <DriversLicense>
+      <State>AL</State>
+    </DriversLicense>
+    <MovingViolation />
+    <Conviction />
+    <IDVerification />
+    <NicotineUse />
+    <Travel />
+    <TravelFuture />
+    <HazardousSports>
+      <Racing />
+      <SkyDiving />
+      <MountainClimbing />
+      <HangGliding />
+      <SCUBA />
+      <Unspecified />
+    </HazardousSports>
+    <Financial>
+      <Personal>
+        <GrossIncome />
+      </Personal>
+      <TaxStatus xsi:nil="true" />
+      <Household xsi:nil="true" />
+      <Corporate xsi:nil="true" />
+    </Financial>
+    <WeightChange />
+    <IsTIA_AGE_FLAG>N</IsTIA_AGE_FLAG>
+    <TimeToCall>
+      <StartTimeAMPM />
+      <EndTimeAMPM />
+    </TimeToCall>
+    <DaytimePhone />
+    <Beneficiary>
+      <Type>Pr</Type>
+      <EqualPercentage>100.00</EqualPercentage>
+      <FirstName>Test</FirstName>
+      <LastName>Test</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Test Test</FullName>
+      <Birthdate>09/29/1973</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7778</Formatted>
+        <Unformatted>677777778</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Husband</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>100.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Beneficiary>
+      <Type>Co</Type>
+      <EqualPercentage>50.00</EqualPercentage>
+      <FirstName>Shantanu</FirstName>
+      <MiddleName>M</MiddleName>
+      <LastName>Randels</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Shantanu M Randels</FullName>
+      <Birthdate>01/25/2004</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7767</Formatted>
+        <Unformatted>677777767</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Son</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>50.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Beneficiary>
+      <Type>Co</Type>
+      <EqualPercentage>50.00</EqualPercentage>
+      <FirstName>Anju</FirstName>
+      <MiddleName>L</MiddleName>
+      <LastName>Randels</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Anju L Randels</FullName>
+      <Birthdate>10/18/2006</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7763</Formatted>
+        <Unformatted>677777763</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Son</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>50.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Guardian />
+    <MedicaTransfer />
+    <FinanciallyDependent />
+    <BeneficiaryInfo>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+    </BeneficiaryInfo>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+  </Insured>
+  <NotificationAlternate>
+    <Phone />
+    <HomeAddress>
+      <Zip>
+        <Formatted />
+      </Zip>
+    </HomeAddress>
+  </NotificationAlternate>
+  <Payments>
+    <Scheduled>
+      <Method>2<Option tc="2"><Name>Direct Billing</Name><Selected>true</Selected></Option></Method>
+      <Premium>
+        <Unformatted>110.12</Unformatted>
+        <Formatted>$110.12</Formatted>
+      </Premium>
+      <Mode>1<Option tc="1"><Name>Annual or Annually</Name><Selected>true</Selected></Option></Mode>
+      <MoneySourceTC>
+        <Desc>1</Desc>
+        <Option tc="1">
+          <Selected>true</Selected>
+        </Option>
+      </MoneySourceTC>
+    </Scheduled>
+    <Initial>
+      <EFTInfo>
+        <IsUseOfEFT>false</IsUseOfEFT>
+        <IsActOwnrSameAsPolicyOwnr>false</IsActOwnrSameAsPolicyOwnr>
+      </EFTInfo>
+      <MoneySourceTC>
+        <Desc>1</Desc>
+        <Option tc="1">
+          <Selected>true</Selected>
+        </Option>
+      </MoneySourceTC>
+    </Initial>
+    <Payor>
+      <PayorType>
+        <Desc>Person</Desc>
+        <Option tc="Person">
+          <Selected>true</Selected>
+        </Option>
+      </PayorType>
+      <FirstName>Mukesh</FirstName>
+      <MiddleName>JO</MiddleName>
+      <LastName>Test</LastName>
+      <RelationPrimaryInsured>
+        <Desc>Self</Desc>
+        <Option tc="Self">
+          <Selected>true</Selected>
+        </Option>
+      </RelationPrimaryInsured>
+      <OtherRelation>Self</OtherRelation>
+      <Birthdate>08/08/1981</Birthdate>
+      <Occupation />
+      <EmailID>yashk.gupta@ebix.com</EmailID>
+      <GovtID>
+        <Formatted>677-77-7777</Formatted>
+        <Unformatted>677777777</Unformatted>
+      </GovtID>
+      <HomeAddress>
+        <Line1>test</Line1>
+        <City>PEORIA</City>
+        <State>Arizona</State>
+        <StateAbbr>AZ</StateAbbr>
+        <Country>United States</Country>
+        <Zip>
+          <Formatted>85383-4620</Formatted>
+          <Unformatted>85383-4620</Unformatted>
+        </Zip>
+        <CompleteAddress>test, PEORIA, Arizona, United States, 85383-4620</CompleteAddress>
+        <ShortAddress>test</ShortAddress>
+      </HomeAddress>
+      <HomePhone>
+        <Formatted />
+      </HomePhone>
+      <MobilePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </MobilePhone>
+      <FullName>Mukesh JO Test</FullName>
+    </Payor>
+    <premiumPmntOption />
+    <CalculatedPremium>
+      <Premium>110.12</Premium>
+    </CalculatedPremium>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+  </Payments>
+  <Payor xsi:nil="true" />
+  <Branch>
+    <CostCenter />
+    <Phone>
+      <Formatted />
+      <Unformatted />
+    </Phone>
+    <ManagerEmail />
+  </Branch>
+  <FormInstance id="FINQES">
+    <FormInstanceCategory>Financial Details</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>FINQES1</QuestionName>
+      <Answer>(Income_from_employment_Business_Ownership)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES3</QuestionName>
+      <Answer>(Variable_Annuity)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES12</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES14</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES17</QuestionName>
+      <Answer>2</Answer>
+      <AnswerText>1-15%</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES18</QuestionName>
+      <Answer>Moderate</Answer>
+      <AnswerText>Moderate</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES19</QuestionName>
+      <Answer>(Tax_Advantages)(Income)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES20</QuestionName>
+      <Answer>Hold_Until_Dealth</Answer>
+      <AnswerText>Hold Until Death</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES47</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES56</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES49</QuestionName>
+      <Answer>77.00</Answer>
+      <UnformattedAnswer>77</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES57</QuestionName>
+      <Answer>7,777.00</Answer>
+      <UnformattedAnswer>7777</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES50</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES58</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES51</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES59</QuestionName>
+      <Answer>4.00</Answer>
+      <UnformattedAnswer>4</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES52</QuestionName>
+      <Answer>3.00</Answer>
+      <UnformattedAnswer>3</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES60</QuestionName>
+      <Answer>7,789.00</Answer>
+      <UnformattedAnswer>7789</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES53</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES61</QuestionName>
+      <Answer>93,468.00</Answer>
+      <UnformattedAnswer>93468</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES54</QuestionName>
+      <Answer>97.00</Answer>
+      <UnformattedAnswer>97</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES69</QuestionName>
+      <Answer>9.00</Answer>
+      <UnformattedAnswer>9</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES73</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES70</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES68</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES75</QuestionName>
+      <Answer>6.00</Answer>
+      <UnformattedAnswer>6</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES65</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES66</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES63</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES67</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES71</QuestionName>
+      <Answer>3.00</Answer>
+      <UnformattedAnswer>3</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES76</QuestionName>
+      <Answer>2.00</Answer>
+      <UnformattedAnswer>2.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES64</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES74</QuestionName>
+      <Answer>65.00</Answer>
+      <UnformattedAnswer>65</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES72</QuestionName>
+      <Answer>57.00</Answer>
+      <UnformattedAnswer>57</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES77</QuestionName>
+      <Answer>9.00</Answer>
+      <UnformattedAnswer>9.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES78</QuestionName>
+      <Answer>11.00</Answer>
+      <UnformattedAnswer>11.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES79</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES81</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES82</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="JHCEXINSQ">
+    <FormInstanceCategory>Existing Insurance Information</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>EXISINSQES1</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES2</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES5</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES6</QuestionName>
+      <Answer>111</Answer>
+      <AnswerText>20th Century Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES7</QuestionName>
+      <Answer>Product 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES69</QuestionName>
+      <Answer>Insured 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES70</QuestionName>
+      <Answer>Owner 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES8</QuestionName>
+      <Answer>11/06/2013</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES9</QuestionName>
+      <Answer>4,500.00</Answer>
+      <UnformattedAnswer>4500</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES10</QuestionName>
+      <Answer>Individual</Answer>
+      <AnswerText>Individual</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES11</QuestionName>
+      <Answer>Life</Answer>
+      <AnswerText>Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES253</QuestionName>
+      <Answer>1</Answer>
+      <AnswerText>Whole Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES13</QuestionName>
+      <Answer>23,000.00</Answer>
+      <UnformattedAnswer>23000</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES12</QuestionName>
+      <Answer>PL9067878989</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES254</QuestionName>
+      <Answer>Personal</Answer>
+      <AnswerText>Other Personal Needs</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES96</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES15</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES74</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES75</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES16</QuestionName>
+      <Answer>g</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES17</QuestionName>
+      <Answer>Full_Surrender</Answer>
+      <AnswerText>Full Surrender</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES77</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES18</QuestionName>
+      <Answer>340</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES19</QuestionName>
+      <Answer>1,200.00</Answer>
+      <UnformattedAnswer>1200</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES20</QuestionName>
+      <Answer>6700</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES21</QuestionName>
+      <Answer>2,600.00</Answer>
+      <UnformattedAnswer>2600</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES22</QuestionName>
+      <Answer>5,900.00</Answer>
+      <UnformattedAnswer>5900</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES23</QuestionName>
+      <Answer>1,800.00</Answer>
+      <UnformattedAnswer>1800</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES24</QuestionName>
+      <Answer>Alabama</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES78</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES79</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES80</QuestionName>
+      <Answer>r</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES81</QuestionName>
+      <Answer>q</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES82</QuestionName>
+      <Answer>Annuity</Answer>
+      <AnswerText>Annuity</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES83</QuestionName>
+      <Answer>r</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES84</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES85</QuestionName>
+      <Answer>12.00</Answer>
+      <UnformattedAnswer>12</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES86</QuestionName>
+      <Answer>12,000.00</Answer>
+      <UnformattedAnswer>12000</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES89</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES90</QuestionName>
+      <Answer>d</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES91</QuestionName>
+      <Answer>Pl98</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES92</QuestionName>
+      <Answer>3,400.00</Answer>
+      <UnformattedAnswer>3400</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES93</QuestionName>
+      <Answer>04/01/2023</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES94</QuestionName>
+      <Answer>03/01/2024</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES6</QuestionName>
+      <Answer>14</Answer>
+      <AnswerText>Aetna</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES7</QuestionName>
+      <Answer>Product 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES69</QuestionName>
+      <Answer>Insured 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES70</QuestionName>
+      <Answer>Owner 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES8</QuestionName>
+      <Answer>06/07/2022</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES9</QuestionName>
+      <Answer>23,000.00</Answer>
+      <UnformattedAnswer>23000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES10</QuestionName>
+      <Answer>Individual</Answer>
+      <AnswerText>Individual</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES11</QuestionName>
+      <Answer>Life</Answer>
+      <AnswerText>Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES253</QuestionName>
+      <Answer>1</Answer>
+      <AnswerText>Whole Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES13</QuestionName>
+      <Answer>1,500.00</Answer>
+      <UnformattedAnswer>1500.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES12</QuestionName>
+      <Answer>PL900</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES254</QuestionName>
+      <Answer>Personal</Answer>
+      <AnswerText>Other Personal Needs</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES96</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES15</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES74</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES75</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES16</QuestionName>
+      <Answer>RL90</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES17</QuestionName>
+      <Answer>Full_Surrender</Answer>
+      <AnswerText>Full Surrender</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES77</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES18</QuestionName>
+      <Answer>76</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES19</QuestionName>
+      <Answer>7,200.00</Answer>
+      <UnformattedAnswer>7200.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES20</QuestionName>
+      <Answer>8900</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES21</QuestionName>
+      <Answer>12,000.00</Answer>
+      <UnformattedAnswer>12000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES22</QuestionName>
+      <Answer>56,000.00</Answer>
+      <UnformattedAnswer>56000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES23</QuestionName>
+      <Answer>14,000.00</Answer>
+      <UnformattedAnswer>14000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES24</QuestionName>
+      <Answer>Alabama</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="ACQUES">
+    <FormInstanceCategory>Additional Client Questions</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>LargePercentofExpensesComparedtoIncome</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>ExpensesGreaterThanIncome</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>LowCashEmployed</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="JHCCARRQUES">
+    <FormInstanceCategory>Carrier Additional Information</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES43</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES44</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES2</QuestionName>
+      <Answer>6,700.00</Answer>
+      <UnformattedAnswer>6700</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES3</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES5</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES6</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES7</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES8</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES9</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES10</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES16</QuestionName>
+      <Answer>h</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES18</QuestionName>
+      <Answer>the</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <PrucCarrierData xsi:nil="true" />
+  <RBCCarrierData xsi:nil="true" />
+  <EpsInformation />
+  <SignerEPS />
+  <SignerAgent />
+  <AepsInformation xsi:nil="true" />
+  <SIQES4>N/A: Applied and Recommended Death Benefit are the same</SIQES4>
+  <Owner_JointOwner_Name>Mukesh JO Test</Owner_JointOwner_Name>
+  <CustomizedCarrierData>
+    <CustomizedQuestionXML id="FINQES">
+      <TotalSocialSecAndOther>12.00</TotalSocialSecAndOther>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES1</Code>
+        <AnswerText>Income from employment/Business Ownership</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES17</Code>
+        <AnswerText>1-15%</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES18</Code>
+        <AnswerText>Moderate</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES19</Code>
+        <AnswerText>Income,Tax Advantages</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES2</Code>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES20</Code>
+        <AnswerText>Hold Until Death</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES3</Code>
+        <AnswerText>Variable Annuity</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES4</Code>
+      </CustomizedQuestionAnswer>
+    </CustomizedQuestionXML>
+  </CustomizedCarrierData>
+  <PassThroughData>
+    <PrimaryInsured>
+      <IDVerification>
+        <IDType>Driver's License with photo (US)</IDType>
+        <IdentificationNumber>A00111111</IdentificationNumber>
+        <IDIssueBy>AZ</IDIssueBy>
+        <IDIssueDate>07/29/2019</IDIssueDate>
+        <IDExpDate>03/15/2038</IDExpDate>
+        <IDIssuePlace>AZ</IDIssuePlace>
+      </IDVerification>
+      <EmpDetails>
+        <EmpStatus>Employed</EmpStatus>
+        <EmpOccupation>Service</EmpOccupation>
+        <EmployerName>Crossroad Services</EmployerName>
+        <IsEmployerRegBrokerDealer>NO</IsEmployerRegBrokerDealer>
+        <EmpAddressLine1>Test</EmpAddressLine1>
+        <EmpAddressLine2>Test</EmpAddressLine2>
+        <EmpAddressState>AZ</EmpAddressState>
+        <EmpAddressCity>Phoenix</EmpAddressCity>
+        <EmpAddressZip>85085</EmpAddressZip>
+      </EmpDetails>
+    </PrimaryInsured>
+    <NaturalOwner>
+      <IDVerification>
+        <IDType>Driver's License with photo (US)</IDType>
+        <IdentificationNumber>A00111111</IdentificationNumber>
+        <IDIssueBy>AZ</IDIssueBy>
+        <IDIssueDate>07/29/2019</IDIssueDate>
+        <IDExpDate>03/15/2038</IDExpDate>
+        <IDIssuePlace>AZ</IDIssuePlace>
+      </IDVerification>
+      <EmpDetails>
+        <EmpStatus>Employed</EmpStatus>
+        <EmpOccupation>Service</EmpOccupation>
+        <EmployerName>Crossroad Services</EmployerName>
+        <IsEmployerRegBrokerDealer>NO</IsEmployerRegBrokerDealer>
+        <EmpAddressLine1>Test</EmpAddressLine1>
+        <EmpAddressLine2>Test</EmpAddressLine2>
+        <EmpAddressState>AZ</EmpAddressState>
+        <EmpAddressCity>Phoenix</EmpAddressCity>
+        <EmpAddressZip>85085</EmpAddressZip>
+      </EmpDetails>
+    </NaturalOwner>
+    <Trustee />
+    <AgentReport>
+      <NonEngBusinessLang>Yes</NonEngBusinessLang>
+      <AffirmationRecordedOn />
+    </AgentReport>
+    <Trusted_Contact_Person />
+  </PassThroughData>
+  <SupervisionFlag>
+    <Flags>
+      <Flag>
+        <FlagID>313</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>LargePercentofExpensesComparedtoIncome</FieldName>
+        <Description>Based on the information provided, the client's monthly expenses appear to be a large percentage of the client's montly income.  Please detail how your client would meet any unexpected financials needs considering their income to expense ratio.</Description>
+        <Answer>N</Answer>
+      </Flag>
+      <Flag>
+        <FlagID>315</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>ExpensesGreaterThanIncome</FieldName>
+        <Description>Based on the information provided your client's total household income is less than his/her household annual expenses. Please detail how your client is prepared to cover annual expenses which would include the premiums associated with the proposed insurance applied for.</Description>
+        <Answer>N</Answer>
+      </Flag>
+      <Flag>
+        <FlagID>316</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>LowCashEmployed</FieldName>
+        <Description>Your client is listed as Employed but appears to have less than 6 months’ worth of expenses in cash. Based on information provided, this purchase may leave your client with inadequate cash reserves to meet unexpected financial needs that may occur. Please detail how the client will meet any unexpected financial needs.</Description>
+        <Answer>N</Answer>
+      </Flag>
+    </Flags>
+  </SupervisionFlag>
+  <QuestionData>
+    <Data>
+      <FINQES1>
+        <QuestionLabel>Source of Wealth (Select All that Apply)</QuestionLabel>
+        <Answer>(Income_from_employment_Business_Ownership)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES1>
+      <FINQES12>
+        <QuestionLabel>Was any Surrender Charge or Penalty incurred for any indicated Source of Funds?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES12>
+      <FINQES14>
+        <QuestionLabel>Do you envision taking a loan on this life insurance policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES14>
+      <FINQES17>
+        <QuestionLabel>Federal Tax Bracket</QuestionLabel>
+        <Answer>2</Answer>
+        <UnformattedAnswer />
+        <AnswerText>1-15%</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES17>
+      <FINQES18>
+        <QuestionLabel>Risk Tolerance for this Policy</QuestionLabel>
+        <Answer>Moderate</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Moderate</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES18>
+      <FINQES19>
+        <QuestionLabel>Investment Objectives (Select all that apply)</QuestionLabel>
+        <Answer>(Tax_Advantages)(Income)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES19>
+      <FINQES20>
+        <QuestionLabel>Time Horizon</QuestionLabel>
+        <Answer>Hold_Until_Dealth</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Hold Until Death</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES20>
+      <FINQES3>
+        <QuestionLabel>Source of Funds (Select All that Apply)</QuestionLabel>
+        <Answer>(Variable_Annuity)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES3>
+      <FINQES47>
+        <QuestionLabel>Wages</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES47>
+      <FINQES49>
+        <QuestionLabel>Personal Investment</QuestionLabel>
+        <Answer>77.00</Answer>
+        <UnformattedAnswer>77</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES49>
+      <FINQES50>
+        <QuestionLabel>Rental Income</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES50>
+      <FINQES51>
+        <QuestionLabel>Pension</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES51>
+      <FINQES52>
+        <QuestionLabel>Social Security</QuestionLabel>
+        <Answer>3.00</Answer>
+        <UnformattedAnswer>3</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES52>
+      <FINQES53>
+        <QuestionLabel>Other (Alimony, Unemployment Income etc)</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES53>
+      <FINQES54>
+        <QuestionLabel>&lt;b&gt;Total Annual Income&lt;/b&gt;</QuestionLabel>
+        <Answer>97.00</Answer>
+        <UnformattedAnswer>97</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES54>
+      <FINQES56>
+        <QuestionLabel>Living Expenses (e.g. Food, medical, gasoline, insurance, property, taxes etc)</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES56>
+      <FINQES57>
+        <QuestionLabel>Fixed debt expenses (e.g. car loans, mortage, otherfixed loans)</QuestionLabel>
+        <Answer>7,777.00</Answer>
+        <UnformattedAnswer>7777</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES57>
+      <FINQES58>
+        <QuestionLabel>Variable debt expenses (e.g. Credit cards, line of credits)</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES58>
+      <FINQES59>
+        <QuestionLabel>Discretionary Expenses (e.g clothes, entertainment)</QuestionLabel>
+        <Answer>4.00</Answer>
+        <UnformattedAnswer>4</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES59>
+      <FINQES60>
+        <QuestionLabel>&lt;b&gt;Total Monthly Expenses&lt;/b&gt;</QuestionLabel>
+        <Answer>7,789.00</Answer>
+        <UnformattedAnswer>7789</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES60>
+      <FINQES61>
+        <QuestionLabel>&lt;b&gt;Total Annual Expenses&lt;/b&gt;</QuestionLabel>
+        <Answer>93,468.00</Answer>
+        <UnformattedAnswer>93468</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES61>
+      <FINQES63>
+        <QuestionLabel>Liquid Net worth (e.g cash, checking, savings, money market)</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES63>
+      <FINQES64>
+        <QuestionLabel>Variable Annuity</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES64>
+      <FINQES65>
+        <QuestionLabel>Fixed Annuity</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES65>
+      <FINQES66>
+        <QuestionLabel>Index Annuity</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES66>
+      <FINQES67>
+        <QuestionLabel>Mutual Funds</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES67>
+      <FINQES68>
+        <QuestionLabel>Equities</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES68>
+      <FINQES69>
+        <QuestionLabel>Bonds, CDs&gt;1year</QuestionLabel>
+        <Answer>9.00</Answer>
+        <UnformattedAnswer>9</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES69>
+      <FINQES70>
+        <QuestionLabel>Employer Sponsored Retirement Plan</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES70>
+      <FINQES71>
+        <QuestionLabel>Other Brokerage (e.g. options, commodities, alternate investments, etc.)</QuestionLabel>
+        <Answer>3.00</Answer>
+        <UnformattedAnswer>3</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES71>
+      <FINQES72>
+        <QuestionLabel>&lt;b&gt;Total Investable Assets&lt;/b&gt;</QuestionLabel>
+        <Answer>57.00</Answer>
+        <UnformattedAnswer>57</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES72>
+      <FINQES73>
+        <QuestionLabel>Business, Trust, Real Estate, Other</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES73>
+      <FINQES74>
+        <QuestionLabel>&lt;b&gt;Total Net Worth&lt;/b&gt;</QuestionLabel>
+        <Answer>65.00</Answer>
+        <UnformattedAnswer>65</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES74>
+      <FINQES75>
+        <QuestionLabel>Face Value of any permanent Life Insurance</QuestionLabel>
+        <Answer>6.00</Answer>
+        <UnformattedAnswer>6</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES75>
+      <FINQES76>
+        <QuestionLabel>&lt;b&gt;Premium for this Policy (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>2.00</Answer>
+        <UnformattedAnswer>2.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES76>
+      <FINQES77>
+        <QuestionLabel>&lt;b&gt;Total Premiums on all in-force life insurance policies (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>9.00</Answer>
+        <UnformattedAnswer>9.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES77>
+      <FINQES78>
+        <QuestionLabel>&lt;b&gt;Proposed total life insurance premium (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>11.00</Answer>
+        <UnformattedAnswer>11.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES78>
+      <FINQES79>
+        <QuestionLabel>Do you anticipate any changes to your financial situation, including income, debt, expenses or life events, during the holding period of this policy that would impact the intended purpose of this product?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES79>
+      <FINQES81>
+        <QuestionLabel>Are you willing to accept non-guaranteed elements in this life insurance policy, including variability in purchase payment, cash value, death benefit or fees</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES81>
+      <FINQES82>
+        <QuestionLabel>Does client have a reverse mortgage?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES82>
+      <EXISINSQES1>
+        <QuestionLabel>Are you considering using or borrowing funds from your existing policies or annuities to pay premiums due on the new or applied for policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES1>
+      <EXISINSQES10>
+        <QuestionLabel>Existing Insurance Type</QuestionLabel>
+        <Answer>Individual</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Individual</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES10>
+      <EXISINSQES11>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Life</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES11>
+      <EXISINSQES12>
+        <QuestionLabel>Policy No</QuestionLabel>
+        <Answer>PL9067878989</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES12>
+      <EXISINSQES13>
+        <QuestionLabel>Benefit Amount</QuestionLabel>
+        <Answer>23,000.00</Answer>
+        <UnformattedAnswer>23000</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES13>
+      <EXISINSQES16>
+        <QuestionLabel>Reason Of Replacement</QuestionLabel>
+        <Answer>g</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES16>
+      <EXISINSQES17>
+        <QuestionLabel>Replacement Type</QuestionLabel>
+        <Answer>Full_Surrender</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Full Surrender</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES17>
+      <EXISINSQES15>
+        <QuestionLabel>Are you Replacing this Policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES15>
+      <EXISINSQES18>
+        <QuestionLabel>Number of Years policy was held</QuestionLabel>
+        <Answer>340</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES18>
+      <EXISINSQES19>
+        <QuestionLabel>Premium Payment of the Existing Life Contract</QuestionLabel>
+        <Answer>1,200.00</Answer>
+        <UnformattedAnswer>1200</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES19>
+      <EXISINSQES2>
+        <QuestionLabel>Are you, owner, considering discontinuing making premium payments, surrendering, forfeiting, assigning to the insurer, or otherwise terminating an existing life policy or annuity contract?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES2>
+      <EXISINSQES20>
+        <QuestionLabel>Frequency of Premium Payment</QuestionLabel>
+        <Answer>6700</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES20>
+      <EXISINSQES21>
+        <QuestionLabel>Amount Being Exchanged</QuestionLabel>
+        <Answer>2,600.00</Answer>
+        <UnformattedAnswer>2600</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES21>
+      <EXISINSQES22>
+        <QuestionLabel>Surrender charge on Amount Exchanged</QuestionLabel>
+        <Answer>5,900.00</Answer>
+        <UnformattedAnswer>5900</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES22>
+      <EXISINSQES23>
+        <QuestionLabel>Death Benefit</QuestionLabel>
+        <Answer>1,800.00</Answer>
+        <UnformattedAnswer>1800</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES23>
+      <EXISINSQES24>
+        <QuestionLabel>Special Features or Riders (Provide name and type of feature/rider. State "None" if no special feature or rider is on the insurance.)</QuestionLabel>
+        <Answer>Alabama</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES24>
+      <EXISINSQES253>
+        <QuestionLabel>Life Product Type</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Whole Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES253>
+      <EXISINSQES254>
+        <QuestionLabel>What is the purpose of the Policy?</QuestionLabel>
+        <Answer>Personal</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Other Personal Needs</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES254>
+      <EXISINSQES5>
+        <QuestionLabel>Does the proposed insured have existing life insurance, disability policies or annuity contracts, including those with Long-Term Care coverage currently in force?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES5>
+      <EXISINSQES6>
+        <QuestionLabel>Insurance Company Name</QuestionLabel>
+        <Answer>111</Answer>
+        <UnformattedAnswer />
+        <AnswerText>20th Century Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES6>
+      <EXISINSQES69>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>Insured 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES69>
+      <EXISINSQES7>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>Product 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES7>
+      <EXISINSQES70>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>Owner 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES70>
+      <EXISINSQES74>
+        <QuestionLabel>Survivorship</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES74>
+      <EXISINSQES80>
+        <QuestionLabel>Policy/Certificate Number</QuestionLabel>
+        <Answer>r</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES80>
+      <EXISINSQES81>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>q</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES81>
+      <EXISINSQES82>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Annuity</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Annuity</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES82>
+      <EXISINSQES83>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>r</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES83>
+      <EXISINSQES84>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES84>
+      <EXISINSQES85>
+        <QuestionLabel>Long-Term Care Maximum Daily Benefit</QuestionLabel>
+        <Answer>12.00</Answer>
+        <UnformattedAnswer>12</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES85>
+      <EXISINSQES86>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>12,000.00</Answer>
+        <UnformattedAnswer>12000</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES86>
+      <EXISINSQES89>
+        <QuestionLabel>Has any Long-Term Care insurance contract or rider lapsed, been surrendered or otherwise terminated in the past 24 months?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES89>
+      <EXISINSQES9>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>4,500.00</Answer>
+        <UnformattedAnswer>4500</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES9>
+      <EXISINSQES77>
+        <QuestionLabel>Is this a 1035 Exchange?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES77>
+      <EXISINSQES78>
+        <QuestionLabel>Currently, or within the past 12 months, have you had any Long-Term Care policies, a chronic illness rider or a Long-Term Care rider including a health care service contract or health maintenance organization contract on either a life insurance policy or annuity contract pending?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES78>
+      <EXISINSQES79>
+        <QuestionLabel>Insurance Company</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES79>
+      <EXISINSQES8>
+        <QuestionLabel>Date Issued</QuestionLabel>
+        <Answer>11/06/2013</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES8>
+      <EXISINSQES90>
+        <QuestionLabel>Insurance Company</QuestionLabel>
+        <Answer>d</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES90>
+      <EXISINSQES91>
+        <QuestionLabel>Policy/Certificate Number</QuestionLabel>
+        <Answer>Pl98</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES91>
+      <EXISINSQES92>
+        <QuestionLabel>Long-Term Care Maximum Daily Benefit</QuestionLabel>
+        <Answer>3,400.00</Answer>
+        <UnformattedAnswer>3400</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES92>
+      <EXISINSQES93>
+        <QuestionLabel>Issue Date</QuestionLabel>
+        <Answer>04/01/2023</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES93>
+      <EXISINSQES94>
+        <QuestionLabel>Date of lapse, surrender, or termination</QuestionLabel>
+        <Answer>03/01/2024</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES94>
+      <EXISINSQES96>
+        <QuestionLabel>Are you using funds from this policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES96>
+      <EXISINSQES75>
+        <QuestionLabel>Sold, Assigned Transferred or Settled</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES75>
+      <EXISINSQES75>
+        <QuestionLabel>Sold, Assigned Transferred or Settled</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES75>
+      <EXISINSQES77>
+        <QuestionLabel>Is this a 1035 Exchange?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES77>
+      <EXISINSQES96>
+        <QuestionLabel>Are you using funds from this policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES96>
+      <EXISINSQES8>
+        <QuestionLabel>Date Issued</QuestionLabel>
+        <Answer>06/07/2022</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES8>
+      <EXISINSQES9>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>23,000.00</Answer>
+        <UnformattedAnswer>23000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES9>
+      <EXISINSQES74>
+        <QuestionLabel>Survivorship</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES74>
+      <EXISINSQES70>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>Owner 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES70>
+      <EXISINSQES7>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>Product 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES7>
+      <EXISINSQES69>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>Insured 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES69>
+      <EXISINSQES6>
+        <QuestionLabel>Insurance Company Name</QuestionLabel>
+        <Answer>14</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Aetna</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES6>
+      <EXISINSQES254>
+        <QuestionLabel>What is the purpose of the Policy?</QuestionLabel>
+        <Answer>Personal</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Other Personal Needs</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES254>
+      <EXISINSQES253>
+        <QuestionLabel>Life Product Type</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Whole Life</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES253>
+      <EXISINSQES24>
+        <QuestionLabel>Special Features or Riders (Provide name and type of feature/rider. State "None" if no special feature or rider is on the insurance.)</QuestionLabel>
+        <Answer>Alabama</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES24>
+      <EXISINSQES22>
+        <QuestionLabel>Surrender charge on Amount Exchanged</QuestionLabel>
+        <Answer>56,000.00</Answer>
+        <UnformattedAnswer>56000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES22>
+      <EXISINSQES23>
+        <QuestionLabel>Death Benefit</QuestionLabel>
+        <Answer>14,000.00</Answer>
+        <UnformattedAnswer>14000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES23>
+      <EXISINSQES20>
+        <QuestionLabel>Frequency of Premium Payment</QuestionLabel>
+        <Answer>8900</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES20>
+      <EXISINSQES21>
+        <QuestionLabel>Amount Being Exchanged</QuestionLabel>
+        <Answer>12,000.00</Answer>
+        <UnformattedAnswer>12000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES21>
+      <EXISINSQES19>
+        <QuestionLabel>Premium Payment of the Existing Life Contract</QuestionLabel>
+        <Answer>7,200.00</Answer>
+        <UnformattedAnswer>7200.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES19>
+      <EXISINSQES15>
+        <QuestionLabel>Are you Replacing this Policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES15>
+      <EXISINSQES16>
+        <QuestionLabel>Reason Of Replacement</QuestionLabel>
+        <Answer>RL90</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES16>
+      <EXISINSQES17>
+        <QuestionLabel>Replacement Type</QuestionLabel>
+        <Answer>Full_Surrender</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Full Surrender</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES17>
+      <EXISINSQES18>
+        <QuestionLabel>Number of Years policy was held</QuestionLabel>
+        <Answer>76</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES18>
+      <EXISINSQES13>
+        <QuestionLabel>Benefit Amount</QuestionLabel>
+        <Answer>1,500.00</Answer>
+        <UnformattedAnswer>1500.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES13>
+      <EXISINSQES12>
+        <QuestionLabel>Policy No</QuestionLabel>
+        <Answer>PL900</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES12>
+      <EXISINSQES11>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Life</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Life</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES11>
+      <EXISINSQES10>
+        <QuestionLabel>Existing Insurance Type</QuestionLabel>
+        <Answer>Individual</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Individual</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES10>
+      <ExpensesGreaterThanIncome>
+        <QuestionLabel>Based on the information provided your client's total household income is less than his/her household annual expenses. Please detail how your client is prepared to cover annual expenses which would include the premiums associated with the proposed insurance applied for.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </ExpensesGreaterThanIncome>
+      <LargePercentofExpensesComparedtoIncome>
+        <QuestionLabel>Based on the information provided, the client's monthly expenses appear to be a large percentage of the client's monthly income.  Please detail how your client would meet any unexpected financials needs considering their income to expense ratio.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </LargePercentofExpensesComparedtoIncome>
+      <LowCashEmployed>
+        <QuestionLabel>Your client is listed as Employed but appears to have less than 6 months’ worth of expenses in cash. Based on information provided, this purchase may leave your client with inadequate cash reserves to meet unexpected financial needs that may occur. Please detail how the client will meet any unexpected financial needs.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </LowCashEmployed>
+      <JHCCARRQUES10>
+        <QuestionLabel>Will this policy be owned by the employer of the Proposed Insured(s)?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES10>
+      <JHCCARRQUES16>
+        <QuestionLabel>Name of Wholesaler (if applicable)</QuestionLabel>
+        <Answer>h</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES16>
+      <JHCCARRQUES18>
+        <QuestionLabel>The existing policy or contract is being replaced because</QuestionLabel>
+        <Answer>the</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES18>
+      <JHCCARRQUES2>
+        <QuestionLabel>Total Premium Collected</QuestionLabel>
+        <Answer>6,700.00</Answer>
+        <UnformattedAnswer>6700</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES2>
+      <JHCCARRQUES3>
+        <QuestionLabel>Does or will any person or entity (other than the Owner, Proposed Insured(s) and beneficiaries specified in the application) have any right, title or interest in any policy issued as a result of the application? For example, an arrangement where the Owner has or will have an option to sell an interest in the policy to a third party.</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES3>
+      <JHCCARRQUES43>
+        <QuestionLabel>Does the Policy Owner have any existing life insurance and/or annuities with this or any other company?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES43>
+      <JHCCARRQUES44>
+        <QuestionLabel>Will this insurance replace any existing life policies and/or annuities, or are you, the Policy Owner, considering using funds from existing policies or annuities to pay premiums on the new policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES44>
+      <JHCCARRQUES5>
+        <QuestionLabel>Will any policy issued as a result of this application replace a policy that has been sold, assigned or settled to or with a settlement or viatical company or any other person or entity?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES5>
+      <JHCCARRQUES6>
+        <QuestionLabel>Will the premiums, now or in the future, be funded by a loan or other means from someone other than the Proposed Insured or the Proposed Insured’s employer?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES6>
+      <JHCCARRQUES7>
+        <QuestionLabel>Will any entity other than a life insurance company be medically evaluating the Proposed Insured(s) to determine life expectancy
+or to otherwise obtain financing?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES7>
+      <JHCCARRQUES8>
+        <QuestionLabel>Have you personally met the Proposed Insured(s)?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES8>
+      <JHCCARRQUES9>
+        <QuestionLabel>Describe how the application was solicited and completed.</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES9>
+    </Data>
+  </QuestionData>
+</txn>
+2024-03-19 16:55:50 INFO  Keywords:122 - InputText is called
+2024-03-19 16:55:50 INFO  Keywords:280 - Waiting for webElement...gateway.username
+2024-03-19 16:55:50 INFO  Keywords:283 - Element found...gateway.username
+2024-03-19 16:55:50 INFO  Keywords:494 - ClearText is called
+2024-03-19 16:55:50 INFO  Keywords:280 - Waiting for webElement...gateway.password
+2024-03-19 16:55:50 INFO  Keywords:283 - Element found...gateway.password
+2024-03-19 16:55:50 INFO  Keywords:498 - <?xml version="1.0" encoding="utf-16"?>
+<txn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <txnDetails>
+    <txnID>JHC000000525549</txnID>
+    <CreationDate>March 14, 2024</CreationDate>
+    <GAName>HIGHLAND</GAName>
+    <SolicitationState>Kentucky</SolicitationState>
+    <SolicitationStateCode>KY</SolicitationStateCode>
+    <TransactionStatus>Draft</TransactionStatus>
+    <ICCState />
+    <IsNaicState>True</IsNaicState>
+    <ECI>0006098121</ECI>
+    <SolicitationCity>Saint Paul</SolicitationCity>
+    <PrBeneCount>1</PrBeneCount>
+    <ContBeneCount>2</ContBeneCount>
+    <ISMMLCCARRQUES169>false</ISMMLCCARRQUES169>
+    <Sole>False</Sole>
+    <Other>True</Other>
+    <IsRep>false</IsRep>
+    <IsWetSign>False</IsWetSign>
+    <IsEsign>False</IsEsign>
+    <HasInvestmentExpriece>True</HasInvestmentExpriece>
+    <InsOwnerPrefferedPhoneNumber>882-698-4188</InsOwnerPrefferedPhoneNumber>
+    <SignatureProcess xsi:nil="true" />
+    <FormGroups>
+      <Code>NIT</Code>
+    </FormGroups>
+    <OverFlowData>Proposed Insured: Mukesh JO Test
+
+Product: John Hancock Protection Term
+
+Contingent Beneficiaries: Shantanu M Randels,Son,50% / Anju L Randels,Son,50%
+
+</OverFlowData>
+    <DateSubmitted>03/14/2024</DateSubmitted>
+    <DateOfApplication>03/14/2024</DateOfApplication>
+    <IsExchange1035>false</IsExchange1035>
+    <IsReplacingJPMCD>false</IsReplacingJPMCD>
+    <OwnerCityStateZipMGMA>PEORIA Arizona 85383-4620</OwnerCityStateZipMGMA>
+    <FormDetails>
+      <TransactionForms>
+        <TransactionForm>
+          <FormID>38290</FormID>
+          <SourceFileName>41013sup_A v1_0.pdf</SourceFileName>
+          <Description>Life Insurance Replacement Client Acknowledgement</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38288</FormID>
+          <SourceFileName>41028_LI v4.2 flat.pdf</SourceFileName>
+          <Description>Life Insurance Authorization Form</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38291</FormID>
+          <SourceFileName>41027_LI v2 Flat.pdf</SourceFileName>
+          <Description>Life Insurance Authorization Disclosure Document (Non-NY Non-Variable IADD)</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38294</FormID>
+          <SourceFileName>33500_A LI v3 (Flat).pdf</SourceFileName>
+          <Description>Trusted Contact Person Authorization Form</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38298</FormID>
+          <SourceFileName>33600_A v1_0.pdf</SourceFileName>
+          <Description>Foreign Language Affirmation For Insurance Products</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38394</FormID>
+          <SourceFileName>41030_A v2 flat.pdf</SourceFileName>
+          <Description>Suitability Detail Important Consideration Sheet</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38300</FormID>
+          <SourceFileName>ICC21 NB5025.pdf</SourceFileName>
+          <Description>HIPAA Compliant Authorization | ICC21 NB5025</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38308</FormID>
+          <SourceFileName>NB5011US.pdf</SourceFileName>
+          <Description>Important Notice:Replacement of Life Insurance or Annuities | NB5011US</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38336</FormID>
+          <SourceFileName>NB5075US_052021.pdf</SourceFileName>
+          <Description>Agent Report | NB5075US_052021</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38344</FormID>
+          <SourceFileName>NB1081US_092020.pdf</SourceFileName>
+          <Description>Illustration Certification  | NB1081US_092020</Description>
+        </TransactionForm>
+        <TransactionForm>
+          <FormID>38408</FormID>
+          <SourceFileName>ICC16 NB6002.pdf</SourceFileName>
+          <Description>Authorization to Obtain Information | ICC16 NB6002</Description>
+        </TransactionForm>
+      </TransactionForms>
+    </FormDetails>
+  </txnDetails>
+  <Distributor>
+    <Name>JP Morgan Chase Distributor</Name>
+    <DistributorCode>JPMCD</DistributorCode>
+    <CaseManager />
+    <ClientAcctNum>FRLAN</ClientAcctNum>
+    <EdjdReplacementDetails>
+      <Replacements />
+      <FiduciaryWorkflowID />
+      <ReplacedTermCount>0</ReplacedTermCount>
+    </EdjdReplacementDetails>
+  </Distributor>
+  <Agent>
+    <FirstName>Yash</FirstName>
+    <MiddleName>L</MiddleName>
+    <LastName>GUSTAFSON JR.</LastName>
+    <FullName>Yash L GUSTAFSON JR.</FullName>
+    <ID>F111111</ID>
+    <Commission />
+    <GovtID>
+      <Formatted>677-77-7762</Formatted>
+      <Unformatted>677777762</Unformatted>
+    </GovtID>
+    <WorkPhone>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </WorkPhone>
+    <Email>shantanu.upadhyay@ebix.com</Email>
+    <Attestations>
+      <Illustration />
+    </Attestations>
+    <Relationship>
+      <FinanciallyResponsible>false</FinanciallyResponsible>
+      <Related>false</Related>
+      <PayorOrOwner>false</PayorOrOwner>
+    </Relationship>
+    <Requirements>
+      <Ordered />
+      <ParamedService xsi:nil="true" />
+    </Requirements>
+    <ApplicationSignature />
+    <HomeAddress>
+      <Line1>495 Bhangel Street </Line1>
+      <Line3 />
+      <City>CINCINNATI</City>
+      <State>Ohio</State>
+      <StateAbbr>OH</StateAbbr>
+      <Country>US</Country>
+      <Zip>
+        <Formatted>45202</Formatted>
+        <Unformatted>45202</Unformatted>
+      </Zip>
+      <CompleteAddress>495 Bhangel Street , CINCINNATI, 45202, Ohio, US</CompleteAddress>
+    </HomeAddress>
+    <BranchAddress>
+      <Line1>495 Bhangel Street </Line1>
+      <Line3 />
+      <City>CINCINNATI</City>
+      <State>Ohio</State>
+      <StateAbbr>OH</StateAbbr>
+      <Country>US</Country>
+    </BranchAddress>
+    <BranchCode>OD37</BranchCode>
+    <BranchName>Cincinnati Downtown</BranchName>
+    <BranchAddressLine1>495 Bhangel Street </BranchAddressLine1>
+    <BranchAddressCountry>US</BranchAddressCountry>
+    <BranchAddressState>OH</BranchAddressState>
+    <BranchAddressCity>CINCINNATI</BranchAddressCity>
+    <BranchAddressZipCode>45202</BranchAddressZipCode>
+    <RepID>F111111</RepID>
+    <NPN>13022464</NPN>
+    <CarrierQuestion />
+    <BGAName>HIGHLAND</BGAName>
+    <BGAPersonFirstName>Yashi</BGAPersonFirstName>
+    <BGAPersonLastName>Agrawal</BGAPersonLastName>
+    <BGAPersonPhone>821-882-8905</BGAPersonPhone>
+    <BGAPersonEmail>yashi.agrawal@ebix.com</BGAPersonEmail>
+    <producerCertificate />
+  </Agent>
+  <Carrier>
+    <Name>John Hancock Carrier</Name>
+    <CarrierCode>JHC</CarrierCode>
+  </Carrier>
+  <Policy>
+    <Name>John Hancock Protection Term</Name>
+    <Type>Term Insurance</Type>
+    <ProductCode>JHT19_JPMCD</ProductCode>
+    <CusipNum>47804V472</CusipNum>
+    <SaveAge>No</SaveAge>
+    <Purpose>
+      <Desc>(Income_Replacement)</Desc>
+      <Option tc="(Income_Replacement)">
+        <Selected>true</Selected>
+      </Option>
+    </Purpose>
+    <OwnerEntityType>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Name>Individual/Person</Name>
+        <Selected>true</Selected>
+      </Option>
+    </OwnerEntityType>
+    <ContingentOwnerEntityType>
+      <Desc />
+      <Option tc="">
+        <Selected>true</Selected>
+      </Option>
+    </ContingentOwnerEntityType>
+    <OwnerSameAsPrimaryInsured>True</OwnerSameAsPrimaryInsured>
+    <PACProductName />
+    <OwnerIsBeneficiary>False</OwnerIsBeneficiary>
+    <PayorSameAs>
+      <Desc>2</Desc>
+      <Option tc="2">
+        <Name>Primary Insured</Name>
+        <Selected>true</Selected>
+      </Option>
+    </PayorSameAs>
+    <BaseCoverage>
+      <isFAover30lakhs>N</isFAover30lakhs>
+      <FaceAmt>
+        <Unformatted>27000.00</Unformatted>
+        <Formatted>$27,000.00</Formatted>
+      </FaceAmt>
+      <CoverageOption>
+        <ProductCode>TDW</ProductCode>
+        <PlanName>Total Disability Waiver</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>ABR</ProductCode>
+        <PlanName>Accelerated Benefit Rider</PlanName>
+        <Selected>true</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>UP</ProductCode>
+        <PlanName>Unemployment Protection Rider</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <CoverageOption>
+        <ProductCode>HE</ProductCode>
+        <PlanName>Healthy Engagement Rider</PlanName>
+        <Selected>false</Selected>
+        <FaceAmt>
+          <Unformatted>0.00</Unformatted>
+          <Formatted>$</Formatted>
+        </FaceAmt>
+        <CoverageUnitType>4</CoverageUnitType>
+      </CoverageOption>
+      <Term>
+        <Desc>20</Desc>
+        <Option tc="20">
+          <Name>20</Name>
+          <Selected>true</Selected>
+        </Option>
+      </Term>
+      <IsFAover30lakhs>N</IsFAover30lakhs>
+    </BaseCoverage>
+    <SupplementalCoverage>
+      <ProductCode>BASE</ProductCode>
+      <PlanName>JOHN HANCOCK TERM</PlanName>
+      <Selected>true</Selected>
+      <NumInsured>1</NumInsured>
+      <CoverageUnitType>1</CoverageUnitType>
+    </SupplementalCoverage>
+    <SpecialPolicyDate />
+    <IsJointOwner>False</IsJointOwner>
+    <ltcplanInfo />
+    <IsPurposeOfPolicyEvalRedFlag>False</IsPurposeOfPolicyEvalRedFlag>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+    <JPMCProductType>Term</JPMCProductType>
+    <XMLData>
+      <Data>
+        <Extensions>
+          <Extension Id="clientData">
+            <User>
+              <Ids>
+                <Id>
+                  <PartyId>JPMC</PartyId>
+                  <IdValue>Yashi</IdValue>
+                </Id>
+              </Ids>
+              <TaxIds>
+                <TaxId>
+                  <Type>SOCIAL_SECURITY_NUMBER</Type>
+                  <Value>123456789</Value>
+                </TaxId>
+                <OtherIdentifier>
+                  <Type>NATIONAL_PRODUCER_NUMBER</Type>
+                  <Value>114649</Value>
+                </OtherIdentifier>
+              </TaxIds>
+              <EmailAddress>yashi.agrawal@ebix.com</EmailAddress>
+              <Role>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>SU</IdValue>
+                  </Id>
+                </Ids>
+              </Role>
+              <PersonName>
+                <FirstName>Yashi</FirstName>
+                <MName />
+                <LastName>Agrawal</LastName>
+              </PersonName>
+              <BusinessUnitLinks>
+                <BusinessUnitLink>
+                  <Ids>
+                    <Id>
+                      <PartyId>JPMC</PartyId>
+                      <IdValue>Abc</IdValue>
+                    </Id>
+                  </Ids>
+                </BusinessUnitLink>
+              </BusinessUnitLinks>
+              <Telephones>
+                <Telephone>
+                  <Number>6395138537</Number>
+                  <Type>Work</Type>
+                </Telephone>
+              </Telephones>
+            </User>
+            <BusinessUnits>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Ids>
+                <Name>JPMORGAN CHASE</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 1</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>CWM</IdValue>
+                  </Id>
+                </Ids>
+                <Name>LOB</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 2</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>JPMC</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>OD37</IdValue>
+                  </Id>
+                </Ids>
+                <Name>Cincinnati Downtown</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 3</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>CWM OR JPMS OR USPB</IdValue>
+                  </Id>
+                </Parent>
+                <Address>
+                  <Line1>495 Bhangel Street </Line1>
+                  <City>CINCINNATI</City>
+                  <State>OH</State>
+                  <PostalCode>45202</PostalCode>
+                  <Country>US</Country>
+                </Address>
+              </BusinessUnit>
+              <BusinessUnit>
+                <Ids>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>E914649</IdValue>
+                  </Id>
+                </Ids>
+                <Name>SupportFn M SupportLn</Name>
+                <Class>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>Level 4</IdValue>
+                  </Id>
+                </Class>
+                <Parent>
+                  <Id>
+                    <PartyId>JPMC</PartyId>
+                    <IdValue>OD37</IdValue>
+                  </Id>
+                </Parent>
+              </BusinessUnit>
+            </BusinessUnits>
+            <Product>
+              <Ids>
+                <Id>
+                  <PartyId>JPMC</PartyId>
+                  <IdValue>4660</IdValue>
+                </Id>
+              </Ids>
+              <Names>
+                <Name>
+                  <TYPE>DISPLAY</TYPE>
+                  <VALUE>Eclipse Survivor II IUL</VALUE>
+                </Name>
+              </Names>
+              <CUSIP>47804V472</CUSIP>
+              <Type>
+                <LineOfBusiness>LIFE</LineOfBusiness>
+              </Type>
+              <Parameters>
+                <Parameter>
+                  <Name>ProductCode</Name>
+                  <Value>JHT20</Value>
+                </Parameter>
+                <Parameter>
+                  <Name>CarrierCode</Name>
+                  <Value>65838</Value>
+                </Parameter>
+              </Parameters>
+            </Product>
+            <Parameters>
+              <Parameter>
+                <Name>ClientAccountNumber</Name>
+                <Value>FRLAN</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SolicitationCity</Name>
+                <Value>Saint Paul</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SolicitationState</Name>
+                <Value>KY</Value>
+              </Parameter>
+              <Parameter>
+                <Name>ExternalTransactionId</Name>
+                <Value>8da14197-6V93-4674-8620-5aa78a4a81b0</Value>
+              </Parameter>
+              <Parameter>
+                <Name>JPMCInternalTxnId</Name>
+                <Value>3987403</Value>
+              </Parameter>
+              <Parameter>
+                <Name>SessionJourneyToContinue</Name>
+                <Value>true</Value>
+              </Parameter>
+              <Parameter>
+                <Name>TipSheetURL</Name>
+                <Value>https://go/life.term.tipSheetUrl</Value>
+              </Parameter>
+              <Parameter>
+                <Name>OfferBGAHelp</Name>
+                <Value>NA</Value>
+              </Parameter>
+              <Parameter>
+                <Name>InternalServiceCall</Name>
+                <Value>true</Value>
+              </Parameter>
+              <Parameter>
+                <Name>QuoteOrIllustrationReference</Name>
+                <Value>d7897d57-2402-4108-bd7d-3203f20f652f</Value>
+              </Parameter>
+              <Parameter>
+                <Name>QuoteOrIllustrationObjectId</Name>
+                <Value>ProposalTracking.4.8164</Value>
+              </Parameter>
+              <Parameter>
+                <Name>OffLineCarrierApp</Name>
+                <Value>No</Value>
+              </Parameter>
+              <Parameter>
+                <Name>InformalPolicyNumber</Name>
+                <Value>Test</Value>
+              </Parameter>
+            </Parameters>
+          </Extension>
+        </Extensions>
+      </Data>
+    </XMLData>
+  </Policy>
+  <Authorization xsi:nil="true" />
+  <Insured>
+    <IsOwnerSameAsInsured>true</IsOwnerSameAsInsured>
+    <IsMallingSameAsHome>false</IsMallingSameAsHome>
+    <Type>PrIn</Type>
+    <Prefix />
+    <OtherPrefix />
+    <FirstName>Mukesh</FirstName>
+    <MiddleName>JO</MiddleName>
+    <LastName>Test</LastName>
+    <Suffix />
+    <FullName>Mukesh JO Test</FullName>
+    <RateClass>
+      <Desc>21859</Desc>
+      <Option id="21859">
+        <Name>Standard Smoker</Name>
+        <Selected>true</Selected>
+        <UnderwritingID>1</UnderwritingID>
+        <TobaccoPremiumID>2</TobaccoPremiumID>
+      </Option>
+    </RateClass>
+    <GovtIDType>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Selected>true</Selected>
+      </Option>
+    </GovtIDType>
+    <GovtID>
+      <Formatted>677-77-7777</Formatted>
+      <Unformatted>677777777</Unformatted>
+    </GovtID>
+    <Gender>
+      <Desc>2</Desc>
+      <Option tc="2">
+        <Name>Female</Name>
+        <Selected>true</Selected>
+      </Option>
+    </Gender>
+    <MaritalStatus>
+      <Desc>1</Desc>
+      <Option tc="1">
+        <Name>Married</Name>
+        <Selected>true</Selected>
+      </Option>
+    </MaritalStatus>
+    <NumDependents>2</NumDependents>
+    <Birthdate>08/08/1981</Birthdate>
+    <CalcAge>43</CalcAge>
+    <Icul_CalcAge>43</Icul_CalcAge>
+    <StateOfBirth>Alabama</StateOfBirth>
+    <BirthCity>Montogomary</BirthCity>
+    <Citizenship>United States</Citizenship>
+    <BirthCountry>United States</BirthCountry>
+    <BirthStateCountry>United States</BirthStateCountry>
+    <StateCode>AL</StateCode>
+    <BirthStateProvince>Alabama</BirthStateProvince>
+    <HomeAddress>
+      <Line1>test</Line1>
+      <City>PEORIA</City>
+      <State>Arizona</State>
+      <StateAbbr>AZ</StateAbbr>
+      <Country>United States</Country>
+      <Zip>
+        <Formatted>85383-4620</Formatted>
+        <Unformatted>85383-4620</Unformatted>
+      </Zip>
+      <CompleteAddress>test, PEORIA, Arizona, 85383-4620, United States</CompleteAddress>
+      <ShortAddress>test</ShortAddress>
+    </HomeAddress>
+    <MailingAddress>
+      <Line1>test</Line1>
+      <City>PEORIA</City>
+      <State>Arizona</State>
+      <StateAbbr>AZ</StateAbbr>
+      <Country>US</Country>
+      <Zip>
+        <Formatted>85383-4620</Formatted>
+        <Unformatted>85383-4620</Unformatted>
+      </Zip>
+      <CompleteAddress>test, PEORIA, Arizona, 85383-4620, US</CompleteAddress>
+      <ShortAddress>test</ShortAddress>
+    </MailingAddress>
+    <AltBillingAddress>
+      <Zip />
+    </AltBillingAddress>
+    <HomePhone />
+    <SecondaryPhone>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </SecondaryPhone>
+    <WorkPhone />
+    <FaxNumber />
+    <InternationalNumber />
+    <InsuredPrefferedNumber>
+      <Formatted>882-698-4188</Formatted>
+      <Unformatted>882-698-4188</Unformatted>
+    </InsuredPrefferedNumber>
+    <PrefferedPhone>
+      <Desc>Mobile</Desc>
+      <Option tc="Mobile">
+        <Name>Mobile</Name>
+        <Selected>true</Selected>
+      </Option>
+    </PrefferedPhone>
+    <WorkPhoneExt />
+    <Email>yashk.gupta@ebix.com</Email>
+    <OtherInsurance>
+      <PrevDeclines>
+        <Explanation />
+      </PrevDeclines>
+      <Existing />
+      <NAICReadAloud>False</NAICReadAloud>
+    </OtherInsurance>
+    <DriversLicense>
+      <State>AL</State>
+    </DriversLicense>
+    <MovingViolation />
+    <Conviction />
+    <IDVerification />
+    <NicotineUse />
+    <Travel />
+    <TravelFuture />
+    <HazardousSports>
+      <Racing />
+      <SkyDiving />
+      <MountainClimbing />
+      <HangGliding />
+      <SCUBA />
+      <Unspecified />
+    </HazardousSports>
+    <Financial>
+      <Personal>
+        <GrossIncome />
+      </Personal>
+      <TaxStatus xsi:nil="true" />
+      <Household xsi:nil="true" />
+      <Corporate xsi:nil="true" />
+    </Financial>
+    <WeightChange />
+    <IsTIA_AGE_FLAG>N</IsTIA_AGE_FLAG>
+    <TimeToCall>
+      <StartTimeAMPM />
+      <EndTimeAMPM />
+    </TimeToCall>
+    <DaytimePhone />
+    <Beneficiary>
+      <Type>Pr</Type>
+      <EqualPercentage>100.00</EqualPercentage>
+      <FirstName>Test</FirstName>
+      <LastName>Test</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Test Test</FullName>
+      <Birthdate>09/29/1973</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7778</Formatted>
+        <Unformatted>677777778</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Husband</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>100.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Beneficiary>
+      <Type>Co</Type>
+      <EqualPercentage>50.00</EqualPercentage>
+      <FirstName>Shantanu</FirstName>
+      <MiddleName>M</MiddleName>
+      <LastName>Randels</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Shantanu M Randels</FullName>
+      <Birthdate>01/25/2004</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7767</Formatted>
+        <Unformatted>677777767</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Son</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>50.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Beneficiary>
+      <Type>Co</Type>
+      <EqualPercentage>50.00</EqualPercentage>
+      <FirstName>Anju</FirstName>
+      <MiddleName>L</MiddleName>
+      <LastName>Randels</LastName>
+      <CitizenshipCountryCode>United States</CitizenshipCountryCode>
+      <FullName>Anju L Randels</FullName>
+      <Birthdate>10/18/2006</Birthdate>
+      <Phone>882-698-4188</Phone>
+      <GovtID>
+        <Formatted>677-77-7763</Formatted>
+        <Unformatted>677777763</Unformatted>
+      </GovtID>
+      <RelationshipToInsured>Son</RelationshipToInsured>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+      <Email />
+      <Percentage>50.00</Percentage>
+      <GovtIDType>1</GovtIDType>
+      <BeneType>Person</BeneType>
+      <AddressLine1>test</AddressLine1>
+      <City>Peoria</City>
+      <State>Arizona</State>
+      <AddressCountry>US</AddressCountry>
+      <Zip>85383</Zip>
+      <StateAbbr>AZ</StateAbbr>
+      <HomePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </HomePhone>
+      <WorkPhone />
+      <MobilePhone />
+      <TrustRevocable>False</TrustRevocable>
+    </Beneficiary>
+    <Guardian />
+    <MedicaTransfer />
+    <FinanciallyDependent />
+    <BeneficiaryInfo>
+      <CarrierData>
+        <CarrierQuestion />
+      </CarrierData>
+    </BeneficiaryInfo>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+  </Insured>
+  <NotificationAlternate>
+    <Phone />
+    <HomeAddress>
+      <Zip>
+        <Formatted />
+      </Zip>
+    </HomeAddress>
+  </NotificationAlternate>
+  <Payments>
+    <Scheduled>
+      <Method>2<Option tc="2"><Name>Direct Billing</Name><Selected>true</Selected></Option></Method>
+      <Premium>
+        <Unformatted>110.12</Unformatted>
+        <Formatted>$110.12</Formatted>
+      </Premium>
+      <Mode>1<Option tc="1"><Name>Annual or Annually</Name><Selected>true</Selected></Option></Mode>
+      <MoneySourceTC>
+        <Desc>1</Desc>
+        <Option tc="1">
+          <Selected>true</Selected>
+        </Option>
+      </MoneySourceTC>
+    </Scheduled>
+    <Initial>
+      <EFTInfo>
+        <IsUseOfEFT>false</IsUseOfEFT>
+        <IsActOwnrSameAsPolicyOwnr>false</IsActOwnrSameAsPolicyOwnr>
+      </EFTInfo>
+      <MoneySourceTC>
+        <Desc>1</Desc>
+        <Option tc="1">
+          <Selected>true</Selected>
+        </Option>
+      </MoneySourceTC>
+    </Initial>
+    <Payor>
+      <PayorType>
+        <Desc>Person</Desc>
+        <Option tc="Person">
+          <Selected>true</Selected>
+        </Option>
+      </PayorType>
+      <FirstName>Mukesh</FirstName>
+      <MiddleName>JO</MiddleName>
+      <LastName>Test</LastName>
+      <RelationPrimaryInsured>
+        <Desc>Self</Desc>
+        <Option tc="Self">
+          <Selected>true</Selected>
+        </Option>
+      </RelationPrimaryInsured>
+      <OtherRelation>Self</OtherRelation>
+      <Birthdate>08/08/1981</Birthdate>
+      <Occupation />
+      <EmailID>yashk.gupta@ebix.com</EmailID>
+      <GovtID>
+        <Formatted>677-77-7777</Formatted>
+        <Unformatted>677777777</Unformatted>
+      </GovtID>
+      <HomeAddress>
+        <Line1>test</Line1>
+        <City>PEORIA</City>
+        <State>Arizona</State>
+        <StateAbbr>AZ</StateAbbr>
+        <Country>United States</Country>
+        <Zip>
+          <Formatted>85383-4620</Formatted>
+          <Unformatted>85383-4620</Unformatted>
+        </Zip>
+        <CompleteAddress>test, PEORIA, Arizona, United States, 85383-4620</CompleteAddress>
+        <ShortAddress>test</ShortAddress>
+      </HomeAddress>
+      <HomePhone>
+        <Formatted />
+      </HomePhone>
+      <MobilePhone>
+        <Formatted>882-698-4188</Formatted>
+        <Unformatted>882-698-4188</Unformatted>
+      </MobilePhone>
+      <FullName>Mukesh JO Test</FullName>
+    </Payor>
+    <premiumPmntOption />
+    <CalculatedPremium>
+      <Premium>110.12</Premium>
+    </CalculatedPremium>
+    <CarrierData>
+      <CarrierQuestion />
+    </CarrierData>
+  </Payments>
+  <Payor xsi:nil="true" />
+  <Branch>
+    <CostCenter />
+    <Phone>
+      <Formatted />
+      <Unformatted />
+    </Phone>
+    <ManagerEmail />
+  </Branch>
+  <FormInstance id="FINQES">
+    <FormInstanceCategory>Financial Details</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>FINQES1</QuestionName>
+      <Answer>(Income_from_employment_Business_Ownership)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES3</QuestionName>
+      <Answer>(Variable_Annuity)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES12</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES14</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES17</QuestionName>
+      <Answer>2</Answer>
+      <AnswerText>1-15%</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES18</QuestionName>
+      <Answer>Moderate</Answer>
+      <AnswerText>Moderate</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES19</QuestionName>
+      <Answer>(Tax_Advantages)(Income)</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES20</QuestionName>
+      <Answer>Hold_Until_Dealth</Answer>
+      <AnswerText>Hold Until Death</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES47</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES56</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES49</QuestionName>
+      <Answer>77.00</Answer>
+      <UnformattedAnswer>77</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES57</QuestionName>
+      <Answer>7,777.00</Answer>
+      <UnformattedAnswer>7777</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES50</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES58</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES51</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES59</QuestionName>
+      <Answer>4.00</Answer>
+      <UnformattedAnswer>4</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES52</QuestionName>
+      <Answer>3.00</Answer>
+      <UnformattedAnswer>3</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES60</QuestionName>
+      <Answer>7,789.00</Answer>
+      <UnformattedAnswer>7789</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES53</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES61</QuestionName>
+      <Answer>93,468.00</Answer>
+      <UnformattedAnswer>93468</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES54</QuestionName>
+      <Answer>97.00</Answer>
+      <UnformattedAnswer>97</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES69</QuestionName>
+      <Answer>9.00</Answer>
+      <UnformattedAnswer>9</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES73</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES70</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES68</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES75</QuestionName>
+      <Answer>6.00</Answer>
+      <UnformattedAnswer>6</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES65</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES66</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES63</QuestionName>
+      <Answer>7.00</Answer>
+      <UnformattedAnswer>7</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES67</QuestionName>
+      <Answer>8.00</Answer>
+      <UnformattedAnswer>8</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES71</QuestionName>
+      <Answer>3.00</Answer>
+      <UnformattedAnswer>3</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES76</QuestionName>
+      <Answer>2.00</Answer>
+      <UnformattedAnswer>2.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES64</QuestionName>
+      <Answer>1.00</Answer>
+      <UnformattedAnswer>1</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES74</QuestionName>
+      <Answer>65.00</Answer>
+      <UnformattedAnswer>65</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES72</QuestionName>
+      <Answer>57.00</Answer>
+      <UnformattedAnswer>57</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES77</QuestionName>
+      <Answer>9.00</Answer>
+      <UnformattedAnswer>9.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES78</QuestionName>
+      <Answer>11.00</Answer>
+      <UnformattedAnswer>11.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES79</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES81</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>FINQES82</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="JHCEXINSQ">
+    <FormInstanceCategory>Existing Insurance Information</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>EXISINSQES1</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES2</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES5</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES6</QuestionName>
+      <Answer>111</Answer>
+      <AnswerText>20th Century Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES7</QuestionName>
+      <Answer>Product 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES69</QuestionName>
+      <Answer>Insured 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES70</QuestionName>
+      <Answer>Owner 1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES8</QuestionName>
+      <Answer>11/06/2013</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES9</QuestionName>
+      <Answer>4,500.00</Answer>
+      <UnformattedAnswer>4500</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES10</QuestionName>
+      <Answer>Individual</Answer>
+      <AnswerText>Individual</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES11</QuestionName>
+      <Answer>Life</Answer>
+      <AnswerText>Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES253</QuestionName>
+      <Answer>1</Answer>
+      <AnswerText>Whole Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES13</QuestionName>
+      <Answer>23,000.00</Answer>
+      <UnformattedAnswer>23000</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES12</QuestionName>
+      <Answer>PL9067878989</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES254</QuestionName>
+      <Answer>Personal</Answer>
+      <AnswerText>Other Personal Needs</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES96</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES15</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES74</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES75</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES16</QuestionName>
+      <Answer>g</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES17</QuestionName>
+      <Answer>Full_Surrender</Answer>
+      <AnswerText>Full Surrender</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES77</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES18</QuestionName>
+      <Answer>340</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES19</QuestionName>
+      <Answer>1,200.00</Answer>
+      <UnformattedAnswer>1200</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES20</QuestionName>
+      <Answer>6700</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES21</QuestionName>
+      <Answer>2,600.00</Answer>
+      <UnformattedAnswer>2600</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES22</QuestionName>
+      <Answer>5,900.00</Answer>
+      <UnformattedAnswer>5900</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES23</QuestionName>
+      <Answer>1,800.00</Answer>
+      <UnformattedAnswer>1800</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES24</QuestionName>
+      <Answer>Alabama</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES78</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES79</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES80</QuestionName>
+      <Answer>r</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES81</QuestionName>
+      <Answer>q</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES82</QuestionName>
+      <Answer>Annuity</Answer>
+      <AnswerText>Annuity</AnswerText>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES83</QuestionName>
+      <Answer>r</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES84</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES85</QuestionName>
+      <Answer>12.00</Answer>
+      <UnformattedAnswer>12</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES86</QuestionName>
+      <Answer>12,000.00</Answer>
+      <UnformattedAnswer>12000</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES89</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES90</QuestionName>
+      <Answer>d</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES91</QuestionName>
+      <Answer>Pl98</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES92</QuestionName>
+      <Answer>3,400.00</Answer>
+      <UnformattedAnswer>3400</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES93</QuestionName>
+      <Answer>04/01/2023</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES94</QuestionName>
+      <Answer>03/01/2024</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES6</QuestionName>
+      <Answer>14</Answer>
+      <AnswerText>Aetna</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES7</QuestionName>
+      <Answer>Product 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES69</QuestionName>
+      <Answer>Insured 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES70</QuestionName>
+      <Answer>Owner 2</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES8</QuestionName>
+      <Answer>06/07/2022</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES9</QuestionName>
+      <Answer>23,000.00</Answer>
+      <UnformattedAnswer>23000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES10</QuestionName>
+      <Answer>Individual</Answer>
+      <AnswerText>Individual</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES11</QuestionName>
+      <Answer>Life</Answer>
+      <AnswerText>Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES253</QuestionName>
+      <Answer>1</Answer>
+      <AnswerText>Whole Life</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES13</QuestionName>
+      <Answer>1,500.00</Answer>
+      <UnformattedAnswer>1500.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES12</QuestionName>
+      <Answer>PL900</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES254</QuestionName>
+      <Answer>Personal</Answer>
+      <AnswerText>Other Personal Needs</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES96</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES15</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES74</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES75</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES16</QuestionName>
+      <Answer>RL90</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES17</QuestionName>
+      <Answer>Full_Surrender</Answer>
+      <AnswerText>Full Surrender</AnswerText>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES77</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES18</QuestionName>
+      <Answer>76</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES19</QuestionName>
+      <Answer>7,200.00</Answer>
+      <UnformattedAnswer>7200.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES20</QuestionName>
+      <Answer>8900</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES21</QuestionName>
+      <Answer>12,000.00</Answer>
+      <UnformattedAnswer>12000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES22</QuestionName>
+      <Answer>56,000.00</Answer>
+      <UnformattedAnswer>56000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES23</QuestionName>
+      <Answer>14,000.00</Answer>
+      <UnformattedAnswer>14000.00</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>EXISINSQES24</QuestionName>
+      <Answer>Alabama</Answer>
+      <DependentValue />
+      <Indexvalue>2</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="ACQUES">
+    <FormInstanceCategory>Additional Client Questions</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>LargePercentofExpensesComparedtoIncome</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>ExpensesGreaterThanIncome</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>LowCashEmployed</QuestionName>
+      <Answer>N</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <FormInstance id="JHCCARRQUES">
+    <FormInstanceCategory>Carrier Additional Information</FormInstanceCategory>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES43</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES44</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES2</QuestionName>
+      <Answer>6,700.00</Answer>
+      <UnformattedAnswer>6700</UnformattedAnswer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES3</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES5</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES6</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES7</QuestionName>
+      <Answer>1</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES8</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES9</QuestionName>
+      <Answer>f</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES10</QuestionName>
+      <Answer>0</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES16</QuestionName>
+      <Answer>h</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+    <FormResponse>
+      <QuestionName>JHCCARRQUES18</QuestionName>
+      <Answer>the</Answer>
+      <DependentValue />
+      <Indexvalue>1</Indexvalue>
+    </FormResponse>
+  </FormInstance>
+  <PrucCarrierData xsi:nil="true" />
+  <RBCCarrierData xsi:nil="true" />
+  <EpsInformation />
+  <SignerEPS />
+  <SignerAgent />
+  <AepsInformation xsi:nil="true" />
+  <SIQES4>N/A: Applied and Recommended Death Benefit are the same</SIQES4>
+  <Owner_JointOwner_Name>Mukesh JO Test</Owner_JointOwner_Name>
+  <CustomizedCarrierData>
+    <CustomizedQuestionXML id="FINQES">
+      <TotalSocialSecAndOther>12.00</TotalSocialSecAndOther>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES1</Code>
+        <AnswerText>Income from employment/Business Ownership</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES17</Code>
+        <AnswerText>1-15%</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES18</Code>
+        <AnswerText>Moderate</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES19</Code>
+        <AnswerText>Income,Tax Advantages</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES2</Code>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES20</Code>
+        <AnswerText>Hold Until Death</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES3</Code>
+        <AnswerText>Variable Annuity</AnswerText>
+      </CustomizedQuestionAnswer>
+      <CustomizedQuestionAnswer>
+        <Code>FINQES4</Code>
+      </CustomizedQuestionAnswer>
+    </CustomizedQuestionXML>
+  </CustomizedCarrierData>
+  <PassThroughData>
+    <PrimaryInsured>
+      <IDVerification>
+        <IDType>Driver's License with photo (US)</IDType>
+        <IdentificationNumber>A00111111</IdentificationNumber>
+        <IDIssueBy>AZ</IDIssueBy>
+        <IDIssueDate>07/29/2019</IDIssueDate>
+        <IDExpDate>03/15/2038</IDExpDate>
+        <IDIssuePlace>AZ</IDIssuePlace>
+      </IDVerification>
+      <EmpDetails>
+        <EmpStatus>Employed</EmpStatus>
+        <EmpOccupation>Service</EmpOccupation>
+        <EmployerName>Crossroad Services</EmployerName>
+        <IsEmployerRegBrokerDealer>NO</IsEmployerRegBrokerDealer>
+        <EmpAddressLine1>Test</EmpAddressLine1>
+        <EmpAddressLine2>Test</EmpAddressLine2>
+        <EmpAddressState>AZ</EmpAddressState>
+        <EmpAddressCity>Phoenix</EmpAddressCity>
+        <EmpAddressZip>85085</EmpAddressZip>
+      </EmpDetails>
+    </PrimaryInsured>
+    <NaturalOwner>
+      <IDVerification>
+        <IDType>Driver's License with photo (US)</IDType>
+        <IdentificationNumber>A00111111</IdentificationNumber>
+        <IDIssueBy>AZ</IDIssueBy>
+        <IDIssueDate>07/29/2019</IDIssueDate>
+        <IDExpDate>03/15/2038</IDExpDate>
+        <IDIssuePlace>AZ</IDIssuePlace>
+      </IDVerification>
+      <EmpDetails>
+        <EmpStatus>Employed</EmpStatus>
+        <EmpOccupation>Service</EmpOccupation>
+        <EmployerName>Crossroad Services</EmployerName>
+        <IsEmployerRegBrokerDealer>NO</IsEmployerRegBrokerDealer>
+        <EmpAddressLine1>Test</EmpAddressLine1>
+        <EmpAddressLine2>Test</EmpAddressLine2>
+        <EmpAddressState>AZ</EmpAddressState>
+        <EmpAddressCity>Phoenix</EmpAddressCity>
+        <EmpAddressZip>85085</EmpAddressZip>
+      </EmpDetails>
+    </NaturalOwner>
+    <Trustee />
+    <AgentReport>
+      <NonEngBusinessLang>Yes</NonEngBusinessLang>
+      <AffirmationRecordedOn />
+    </AgentReport>
+    <Trusted_Contact_Person />
+  </PassThroughData>
+  <SupervisionFlag>
+    <Flags>
+      <Flag>
+        <FlagID>313</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>LargePercentofExpensesComparedtoIncome</FieldName>
+        <Description>Based on the information provided, the client's monthly expenses appear to be a large percentage of the client's montly income.  Please detail how your client would meet any unexpected financials needs considering their income to expense ratio.</Description>
+        <Answer>N</Answer>
+      </Flag>
+      <Flag>
+        <FlagID>315</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>ExpensesGreaterThanIncome</FieldName>
+        <Description>Based on the information provided your client's total household income is less than his/her household annual expenses. Please detail how your client is prepared to cover annual expenses which would include the premiums associated with the proposed insurance applied for.</Description>
+        <Answer>N</Answer>
+      </Flag>
+      <Flag>
+        <FlagID>316</FlagID>
+        <FlagColor>Yellow</FlagColor>
+        <FieldName>LowCashEmployed</FieldName>
+        <Description>Your client is listed as Employed but appears to have less than 6 months’ worth of expenses in cash. Based on information provided, this purchase may leave your client with inadequate cash reserves to meet unexpected financial needs that may occur. Please detail how the client will meet any unexpected financial needs.</Description>
+        <Answer>N</Answer>
+      </Flag>
+    </Flags>
+  </SupervisionFlag>
+  <QuestionData>
+    <Data>
+      <FINQES1>
+        <QuestionLabel>Source of Wealth (Select All that Apply)</QuestionLabel>
+        <Answer>(Income_from_employment_Business_Ownership)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES1>
+      <FINQES12>
+        <QuestionLabel>Was any Surrender Charge or Penalty incurred for any indicated Source of Funds?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES12>
+      <FINQES14>
+        <QuestionLabel>Do you envision taking a loan on this life insurance policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES14>
+      <FINQES17>
+        <QuestionLabel>Federal Tax Bracket</QuestionLabel>
+        <Answer>2</Answer>
+        <UnformattedAnswer />
+        <AnswerText>1-15%</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES17>
+      <FINQES18>
+        <QuestionLabel>Risk Tolerance for this Policy</QuestionLabel>
+        <Answer>Moderate</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Moderate</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES18>
+      <FINQES19>
+        <QuestionLabel>Investment Objectives (Select all that apply)</QuestionLabel>
+        <Answer>(Tax_Advantages)(Income)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES19>
+      <FINQES20>
+        <QuestionLabel>Time Horizon</QuestionLabel>
+        <Answer>Hold_Until_Dealth</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Hold Until Death</AnswerText>
+        <IndexValue>1</IndexValue>
+      </FINQES20>
+      <FINQES3>
+        <QuestionLabel>Source of Funds (Select All that Apply)</QuestionLabel>
+        <Answer>(Variable_Annuity)</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES3>
+      <FINQES47>
+        <QuestionLabel>Wages</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES47>
+      <FINQES49>
+        <QuestionLabel>Personal Investment</QuestionLabel>
+        <Answer>77.00</Answer>
+        <UnformattedAnswer>77</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES49>
+      <FINQES50>
+        <QuestionLabel>Rental Income</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES50>
+      <FINQES51>
+        <QuestionLabel>Pension</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES51>
+      <FINQES52>
+        <QuestionLabel>Social Security</QuestionLabel>
+        <Answer>3.00</Answer>
+        <UnformattedAnswer>3</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES52>
+      <FINQES53>
+        <QuestionLabel>Other (Alimony, Unemployment Income etc)</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES53>
+      <FINQES54>
+        <QuestionLabel>&lt;b&gt;Total Annual Income&lt;/b&gt;</QuestionLabel>
+        <Answer>97.00</Answer>
+        <UnformattedAnswer>97</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES54>
+      <FINQES56>
+        <QuestionLabel>Living Expenses (e.g. Food, medical, gasoline, insurance, property, taxes etc)</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES56>
+      <FINQES57>
+        <QuestionLabel>Fixed debt expenses (e.g. car loans, mortage, otherfixed loans)</QuestionLabel>
+        <Answer>7,777.00</Answer>
+        <UnformattedAnswer>7777</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES57>
+      <FINQES58>
+        <QuestionLabel>Variable debt expenses (e.g. Credit cards, line of credits)</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES58>
+      <FINQES59>
+        <QuestionLabel>Discretionary Expenses (e.g clothes, entertainment)</QuestionLabel>
+        <Answer>4.00</Answer>
+        <UnformattedAnswer>4</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES59>
+      <FINQES60>
+        <QuestionLabel>&lt;b&gt;Total Monthly Expenses&lt;/b&gt;</QuestionLabel>
+        <Answer>7,789.00</Answer>
+        <UnformattedAnswer>7789</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES60>
+      <FINQES61>
+        <QuestionLabel>&lt;b&gt;Total Annual Expenses&lt;/b&gt;</QuestionLabel>
+        <Answer>93,468.00</Answer>
+        <UnformattedAnswer>93468</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES61>
+      <FINQES63>
+        <QuestionLabel>Liquid Net worth (e.g cash, checking, savings, money market)</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES63>
+      <FINQES64>
+        <QuestionLabel>Variable Annuity</QuestionLabel>
+        <Answer>1.00</Answer>
+        <UnformattedAnswer>1</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES64>
+      <FINQES65>
+        <QuestionLabel>Fixed Annuity</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES65>
+      <FINQES66>
+        <QuestionLabel>Index Annuity</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES66>
+      <FINQES67>
+        <QuestionLabel>Mutual Funds</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES67>
+      <FINQES68>
+        <QuestionLabel>Equities</QuestionLabel>
+        <Answer>7.00</Answer>
+        <UnformattedAnswer>7</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES68>
+      <FINQES69>
+        <QuestionLabel>Bonds, CDs&gt;1year</QuestionLabel>
+        <Answer>9.00</Answer>
+        <UnformattedAnswer>9</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES69>
+      <FINQES70>
+        <QuestionLabel>Employer Sponsored Retirement Plan</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES70>
+      <FINQES71>
+        <QuestionLabel>Other Brokerage (e.g. options, commodities, alternate investments, etc.)</QuestionLabel>
+        <Answer>3.00</Answer>
+        <UnformattedAnswer>3</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES71>
+      <FINQES72>
+        <QuestionLabel>&lt;b&gt;Total Investable Assets&lt;/b&gt;</QuestionLabel>
+        <Answer>57.00</Answer>
+        <UnformattedAnswer>57</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES72>
+      <FINQES73>
+        <QuestionLabel>Business, Trust, Real Estate, Other</QuestionLabel>
+        <Answer>8.00</Answer>
+        <UnformattedAnswer>8</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES73>
+      <FINQES74>
+        <QuestionLabel>&lt;b&gt;Total Net Worth&lt;/b&gt;</QuestionLabel>
+        <Answer>65.00</Answer>
+        <UnformattedAnswer>65</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES74>
+      <FINQES75>
+        <QuestionLabel>Face Value of any permanent Life Insurance</QuestionLabel>
+        <Answer>6.00</Answer>
+        <UnformattedAnswer>6</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES75>
+      <FINQES76>
+        <QuestionLabel>&lt;b&gt;Premium for this Policy (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>2.00</Answer>
+        <UnformattedAnswer>2.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES76>
+      <FINQES77>
+        <QuestionLabel>&lt;b&gt;Total Premiums on all in-force life insurance policies (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>9.00</Answer>
+        <UnformattedAnswer>9.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES77>
+      <FINQES78>
+        <QuestionLabel>&lt;b&gt;Proposed total life insurance premium (ANNUAL)&lt;/b&gt;</QuestionLabel>
+        <Answer>11.00</Answer>
+        <UnformattedAnswer>11.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES78>
+      <FINQES79>
+        <QuestionLabel>Do you anticipate any changes to your financial situation, including income, debt, expenses or life events, during the holding period of this policy that would impact the intended purpose of this product?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES79>
+      <FINQES81>
+        <QuestionLabel>Are you willing to accept non-guaranteed elements in this life insurance policy, including variability in purchase payment, cash value, death benefit or fees</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES81>
+      <FINQES82>
+        <QuestionLabel>Does client have a reverse mortgage?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </FINQES82>
+      <EXISINSQES1>
+        <QuestionLabel>Are you considering using or borrowing funds from your existing policies or annuities to pay premiums due on the new or applied for policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES1>
+      <EXISINSQES10>
+        <QuestionLabel>Existing Insurance Type</QuestionLabel>
+        <Answer>Individual</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Individual</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES10>
+      <EXISINSQES11>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Life</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES11>
+      <EXISINSQES12>
+        <QuestionLabel>Policy No</QuestionLabel>
+        <Answer>PL9067878989</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES12>
+      <EXISINSQES13>
+        <QuestionLabel>Benefit Amount</QuestionLabel>
+        <Answer>23,000.00</Answer>
+        <UnformattedAnswer>23000</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES13>
+      <EXISINSQES16>
+        <QuestionLabel>Reason Of Replacement</QuestionLabel>
+        <Answer>g</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES16>
+      <EXISINSQES17>
+        <QuestionLabel>Replacement Type</QuestionLabel>
+        <Answer>Full_Surrender</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Full Surrender</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES17>
+      <EXISINSQES15>
+        <QuestionLabel>Are you Replacing this Policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES15>
+      <EXISINSQES18>
+        <QuestionLabel>Number of Years policy was held</QuestionLabel>
+        <Answer>340</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES18>
+      <EXISINSQES19>
+        <QuestionLabel>Premium Payment of the Existing Life Contract</QuestionLabel>
+        <Answer>1,200.00</Answer>
+        <UnformattedAnswer>1200</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES19>
+      <EXISINSQES2>
+        <QuestionLabel>Are you, owner, considering discontinuing making premium payments, surrendering, forfeiting, assigning to the insurer, or otherwise terminating an existing life policy or annuity contract?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES2>
+      <EXISINSQES20>
+        <QuestionLabel>Frequency of Premium Payment</QuestionLabel>
+        <Answer>6700</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES20>
+      <EXISINSQES21>
+        <QuestionLabel>Amount Being Exchanged</QuestionLabel>
+        <Answer>2,600.00</Answer>
+        <UnformattedAnswer>2600</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES21>
+      <EXISINSQES22>
+        <QuestionLabel>Surrender charge on Amount Exchanged</QuestionLabel>
+        <Answer>5,900.00</Answer>
+        <UnformattedAnswer>5900</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES22>
+      <EXISINSQES23>
+        <QuestionLabel>Death Benefit</QuestionLabel>
+        <Answer>1,800.00</Answer>
+        <UnformattedAnswer>1800</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES23>
+      <EXISINSQES24>
+        <QuestionLabel>Special Features or Riders (Provide name and type of feature/rider. State "None" if no special feature or rider is on the insurance.)</QuestionLabel>
+        <Answer>Alabama</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES24>
+      <EXISINSQES253>
+        <QuestionLabel>Life Product Type</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Whole Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES253>
+      <EXISINSQES254>
+        <QuestionLabel>What is the purpose of the Policy?</QuestionLabel>
+        <Answer>Personal</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Other Personal Needs</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES254>
+      <EXISINSQES5>
+        <QuestionLabel>Does the proposed insured have existing life insurance, disability policies or annuity contracts, including those with Long-Term Care coverage currently in force?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES5>
+      <EXISINSQES6>
+        <QuestionLabel>Insurance Company Name</QuestionLabel>
+        <Answer>111</Answer>
+        <UnformattedAnswer />
+        <AnswerText>20th Century Life</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES6>
+      <EXISINSQES69>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>Insured 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES69>
+      <EXISINSQES7>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>Product 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES7>
+      <EXISINSQES70>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>Owner 1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES70>
+      <EXISINSQES74>
+        <QuestionLabel>Survivorship</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES74>
+      <EXISINSQES80>
+        <QuestionLabel>Policy/Certificate Number</QuestionLabel>
+        <Answer>r</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES80>
+      <EXISINSQES81>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>q</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES81>
+      <EXISINSQES82>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Annuity</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Annuity</AnswerText>
+        <IndexValue>1</IndexValue>
+      </EXISINSQES82>
+      <EXISINSQES83>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>r</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES83>
+      <EXISINSQES84>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES84>
+      <EXISINSQES85>
+        <QuestionLabel>Long-Term Care Maximum Daily Benefit</QuestionLabel>
+        <Answer>12.00</Answer>
+        <UnformattedAnswer>12</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES85>
+      <EXISINSQES86>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>12,000.00</Answer>
+        <UnformattedAnswer>12000</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES86>
+      <EXISINSQES89>
+        <QuestionLabel>Has any Long-Term Care insurance contract or rider lapsed, been surrendered or otherwise terminated in the past 24 months?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES89>
+      <EXISINSQES9>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>4,500.00</Answer>
+        <UnformattedAnswer>4500</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES9>
+      <EXISINSQES77>
+        <QuestionLabel>Is this a 1035 Exchange?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES77>
+      <EXISINSQES78>
+        <QuestionLabel>Currently, or within the past 12 months, have you had any Long-Term Care policies, a chronic illness rider or a Long-Term Care rider including a health care service contract or health maintenance organization contract on either a life insurance policy or annuity contract pending?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES78>
+      <EXISINSQES79>
+        <QuestionLabel>Insurance Company</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES79>
+      <EXISINSQES8>
+        <QuestionLabel>Date Issued</QuestionLabel>
+        <Answer>11/06/2013</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES8>
+      <EXISINSQES90>
+        <QuestionLabel>Insurance Company</QuestionLabel>
+        <Answer>d</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES90>
+      <EXISINSQES91>
+        <QuestionLabel>Policy/Certificate Number</QuestionLabel>
+        <Answer>Pl98</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES91>
+      <EXISINSQES92>
+        <QuestionLabel>Long-Term Care Maximum Daily Benefit</QuestionLabel>
+        <Answer>3,400.00</Answer>
+        <UnformattedAnswer>3400</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES92>
+      <EXISINSQES93>
+        <QuestionLabel>Issue Date</QuestionLabel>
+        <Answer>04/01/2023</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES93>
+      <EXISINSQES94>
+        <QuestionLabel>Date of lapse, surrender, or termination</QuestionLabel>
+        <Answer>03/01/2024</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES94>
+      <EXISINSQES96>
+        <QuestionLabel>Are you using funds from this policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES96>
+      <EXISINSQES75>
+        <QuestionLabel>Sold, Assigned Transferred or Settled</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </EXISINSQES75>
+      <EXISINSQES75>
+        <QuestionLabel>Sold, Assigned Transferred or Settled</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES75>
+      <EXISINSQES77>
+        <QuestionLabel>Is this a 1035 Exchange?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES77>
+      <EXISINSQES96>
+        <QuestionLabel>Are you using funds from this policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES96>
+      <EXISINSQES8>
+        <QuestionLabel>Date Issued</QuestionLabel>
+        <Answer>06/07/2022</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES8>
+      <EXISINSQES9>
+        <QuestionLabel>Amount of Insurance</QuestionLabel>
+        <Answer>23,000.00</Answer>
+        <UnformattedAnswer>23000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES9>
+      <EXISINSQES74>
+        <QuestionLabel>Survivorship</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES74>
+      <EXISINSQES70>
+        <QuestionLabel>Owner</QuestionLabel>
+        <Answer>Owner 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES70>
+      <EXISINSQES7>
+        <QuestionLabel>Product Name</QuestionLabel>
+        <Answer>Product 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES7>
+      <EXISINSQES69>
+        <QuestionLabel>Insured/Annuitant</QuestionLabel>
+        <Answer>Insured 2</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES69>
+      <EXISINSQES6>
+        <QuestionLabel>Insurance Company Name</QuestionLabel>
+        <Answer>14</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Aetna</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES6>
+      <EXISINSQES254>
+        <QuestionLabel>What is the purpose of the Policy?</QuestionLabel>
+        <Answer>Personal</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Other Personal Needs</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES254>
+      <EXISINSQES253>
+        <QuestionLabel>Life Product Type</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Whole Life</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES253>
+      <EXISINSQES24>
+        <QuestionLabel>Special Features or Riders (Provide name and type of feature/rider. State "None" if no special feature or rider is on the insurance.)</QuestionLabel>
+        <Answer>Alabama</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES24>
+      <EXISINSQES22>
+        <QuestionLabel>Surrender charge on Amount Exchanged</QuestionLabel>
+        <Answer>56,000.00</Answer>
+        <UnformattedAnswer>56000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES22>
+      <EXISINSQES23>
+        <QuestionLabel>Death Benefit</QuestionLabel>
+        <Answer>14,000.00</Answer>
+        <UnformattedAnswer>14000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES23>
+      <EXISINSQES20>
+        <QuestionLabel>Frequency of Premium Payment</QuestionLabel>
+        <Answer>8900</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES20>
+      <EXISINSQES21>
+        <QuestionLabel>Amount Being Exchanged</QuestionLabel>
+        <Answer>12,000.00</Answer>
+        <UnformattedAnswer>12000.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES21>
+      <EXISINSQES19>
+        <QuestionLabel>Premium Payment of the Existing Life Contract</QuestionLabel>
+        <Answer>7,200.00</Answer>
+        <UnformattedAnswer>7200.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES19>
+      <EXISINSQES15>
+        <QuestionLabel>Are you Replacing this Policy to buy this new Insurance Policy?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES15>
+      <EXISINSQES16>
+        <QuestionLabel>Reason Of Replacement</QuestionLabel>
+        <Answer>RL90</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES16>
+      <EXISINSQES17>
+        <QuestionLabel>Replacement Type</QuestionLabel>
+        <Answer>Full_Surrender</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Full Surrender</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES17>
+      <EXISINSQES18>
+        <QuestionLabel>Number of Years policy was held</QuestionLabel>
+        <Answer>76</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES18>
+      <EXISINSQES13>
+        <QuestionLabel>Benefit Amount</QuestionLabel>
+        <Answer>1,500.00</Answer>
+        <UnformattedAnswer>1500.00</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES13>
+      <EXISINSQES12>
+        <QuestionLabel>Policy No</QuestionLabel>
+        <Answer>PL900</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>2</IndexValue>
+      </EXISINSQES12>
+      <EXISINSQES11>
+        <QuestionLabel>Product Type</QuestionLabel>
+        <Answer>Life</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Life</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES11>
+      <EXISINSQES10>
+        <QuestionLabel>Existing Insurance Type</QuestionLabel>
+        <Answer>Individual</Answer>
+        <UnformattedAnswer />
+        <AnswerText>Individual</AnswerText>
+        <IndexValue>2</IndexValue>
+      </EXISINSQES10>
+      <ExpensesGreaterThanIncome>
+        <QuestionLabel>Based on the information provided your client's total household income is less than his/her household annual expenses. Please detail how your client is prepared to cover annual expenses which would include the premiums associated with the proposed insurance applied for.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </ExpensesGreaterThanIncome>
+      <LargePercentofExpensesComparedtoIncome>
+        <QuestionLabel>Based on the information provided, the client's monthly expenses appear to be a large percentage of the client's monthly income.  Please detail how your client would meet any unexpected financials needs considering their income to expense ratio.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </LargePercentofExpensesComparedtoIncome>
+      <LowCashEmployed>
+        <QuestionLabel>Your client is listed as Employed but appears to have less than 6 months’ worth of expenses in cash. Based on information provided, this purchase may leave your client with inadequate cash reserves to meet unexpected financial needs that may occur. Please detail how the client will meet any unexpected financial needs.</QuestionLabel>
+        <Answer>N</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </LowCashEmployed>
+      <JHCCARRQUES10>
+        <QuestionLabel>Will this policy be owned by the employer of the Proposed Insured(s)?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES10>
+      <JHCCARRQUES16>
+        <QuestionLabel>Name of Wholesaler (if applicable)</QuestionLabel>
+        <Answer>h</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES16>
+      <JHCCARRQUES18>
+        <QuestionLabel>The existing policy or contract is being replaced because</QuestionLabel>
+        <Answer>the</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES18>
+      <JHCCARRQUES2>
+        <QuestionLabel>Total Premium Collected</QuestionLabel>
+        <Answer>6,700.00</Answer>
+        <UnformattedAnswer>6700</UnformattedAnswer>
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES2>
+      <JHCCARRQUES3>
+        <QuestionLabel>Does or will any person or entity (other than the Owner, Proposed Insured(s) and beneficiaries specified in the application) have any right, title or interest in any policy issued as a result of the application? For example, an arrangement where the Owner has or will have an option to sell an interest in the policy to a third party.</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES3>
+      <JHCCARRQUES43>
+        <QuestionLabel>Does the Policy Owner have any existing life insurance and/or annuities with this or any other company?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES43>
+      <JHCCARRQUES44>
+        <QuestionLabel>Will this insurance replace any existing life policies and/or annuities, or are you, the Policy Owner, considering using funds from existing policies or annuities to pay premiums on the new policy?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES44>
+      <JHCCARRQUES5>
+        <QuestionLabel>Will any policy issued as a result of this application replace a policy that has been sold, assigned or settled to or with a settlement or viatical company or any other person or entity?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES5>
+      <JHCCARRQUES6>
+        <QuestionLabel>Will the premiums, now or in the future, be funded by a loan or other means from someone other than the Proposed Insured or the Proposed Insured’s employer?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES6>
+      <JHCCARRQUES7>
+        <QuestionLabel>Will any entity other than a life insurance company be medically evaluating the Proposed Insured(s) to determine life expectancy
+or to otherwise obtain financing?</QuestionLabel>
+        <Answer>1</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES7>
+      <JHCCARRQUES8>
+        <QuestionLabel>Have you personally met the Proposed Insured(s)?</QuestionLabel>
+        <Answer>0</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES8>
+      <JHCCARRQUES9>
+        <QuestionLabel>Describe how the application was solicited and completed.</QuestionLabel>
+        <Answer>f</Answer>
+        <UnformattedAnswer />
+        <AnswerText />
+        <IndexValue>1</IndexValue>
+      </JHCCARRQUES9>
+    </Data>
+  </QuestionData>
+</txn>
+2024-03-19 16:55:50 INFO  Keywords:122 - InputText is called
+2024-03-19 16:55:50 INFO  Keywords:280 - Waiting for webElement...gateway.password
+2024-03-19 16:55:50 INFO  Keywords:283 - Element found...gateway.password
+2024-03-19 16:55:50 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:55:50 INFO  Keywords:280 - Waiting for webElement...gateway.login
+2024-03-19 16:55:50 INFO  Keywords:283 - Element found...gateway.login
+2024-03-19 16:56:11 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:56:11 INFO  Keywords:280 - Waiting for webElement...management
+2024-03-19 16:56:11 INFO  Keywords:283 - Element found...management
+2024-03-19 16:56:11 INFO  Keywords:280 - Waiting for webElement...managementTools
+2024-03-19 16:56:11 INFO  Keywords:283 - Element found...managementTools
+2024-03-19 16:56:13 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:56:13 INFO  Keywords:280 - Waiting for webElement...feedManagement
+2024-03-19 16:56:13 INFO  Keywords:283 - Element found...feedManagement
+2024-03-19 16:56:29 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:56:29 INFO  Keywords:280 - Waiting for webElement...Search1Bar
+2024-03-19 16:56:29 INFO  Keywords:283 - Element found...Search1Bar
+2024-03-19 16:56:45 INFO  Keywords:280 - Waiting for webElement...TrID
+2024-03-19 16:56:45 INFO  Keywords:283 - Element found...TrID
+2024-03-19 16:56:46 INFO  Keywords:122 - InputText is called
+2024-03-19 16:56:46 INFO  Keywords:280 - Waiting for webElement...Search2Bar
+2024-03-19 16:56:46 INFO  Keywords:283 - Element found...Search2Bar
+2024-03-19 16:56:46 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:56:46 INFO  Keywords:280 - Waiting for webElement...SearchButton3
+2024-03-19 16:56:46 INFO  Keywords:283 - Element found...SearchButton3
+2024-03-19 16:57:02 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:57:02 INFO  Keywords:280 - Waiting for webElement...transactionSearchmyResult
+2024-03-19 16:57:02 INFO  Keywords:283 - Element found...transactionSearchmyResult
+2024-03-19 16:57:18 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:57:18 INFO  Keywords:280 - Waiting for webElement...TransXMLButton
+2024-03-19 16:57:18 INFO  Keywords:283 - Element found...TransXMLButton
+2024-03-19 16:57:35 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:57:35 INFO  Keywords:280 - Waiting for webElement...TransResponseXML
+2024-03-19 16:57:35 INFO  Keywords:283 - Element found...TransResponseXML
+2024-03-19 16:57:35 INFO  Keywords:280 - Waiting for webElement...TransResponseXML
+2024-03-19 16:57:35 INFO  Keywords:283 - Element found...TransResponseXML
+2024-03-19 16:58:07 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:58:07 INFO  Keywords:280 - Waiting for webElement...PrintSignButton
+2024-03-19 16:58:07 INFO  Keywords:283 - Element found...PrintSignButton
+2024-03-19 16:58:40 INFO  Keywords:133 - ClickOnLink is called
+2024-03-19 16:58:40 INFO  Keywords:280 - Waiting for webElement...DisclosureForm

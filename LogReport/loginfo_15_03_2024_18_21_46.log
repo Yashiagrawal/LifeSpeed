@@ -1,0 +1,49 @@
+2024-03-15 18:21:58 INFO  Keywords:95 - Navigate is called
+2024-03-15 18:22:00 INFO  Keywords:534 - ClearText is called
+2024-03-15 18:22:00 INFO  Keywords:289 - Waiting for webElement...gateway.username
+2024-03-15 18:22:01 INFO  Keywords:292 - Element found...gateway.username
+2024-03-15 18:22:01 INFO  Keywords:538 - 
+2024-03-15 18:22:01 INFO  Keywords:123 - InputText is called
+2024-03-15 18:22:01 INFO  Keywords:289 - Waiting for webElement...gateway.username
+2024-03-15 18:22:01 INFO  Keywords:292 - Element found...gateway.username
+2024-03-15 18:22:01 INFO  Keywords:534 - ClearText is called
+2024-03-15 18:22:01 INFO  Keywords:289 - Waiting for webElement...gateway.password
+2024-03-15 18:22:01 INFO  Keywords:292 - Element found...gateway.password
+2024-03-15 18:22:01 INFO  Keywords:538 - 
+2024-03-15 18:22:01 INFO  Keywords:123 - InputText is called
+2024-03-15 18:22:01 INFO  Keywords:289 - Waiting for webElement...gateway.password
+2024-03-15 18:22:01 INFO  Keywords:292 - Element found...gateway.password
+2024-03-15 18:22:01 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:22:01 INFO  Keywords:289 - Waiting for webElement...gateway.login
+2024-03-15 18:22:01 INFO  Keywords:292 - Element found...gateway.login
+2024-03-15 18:22:22 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:22:22 INFO  Keywords:289 - Waiting for webElement...management
+2024-03-15 18:22:22 INFO  Keywords:292 - Element found...management
+2024-03-15 18:22:22 INFO  Keywords:289 - Waiting for webElement...managementTools
+2024-03-15 18:22:22 INFO  Keywords:292 - Element found...managementTools
+2024-03-15 18:22:24 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:22:24 INFO  Keywords:289 - Waiting for webElement...feedManagement
+2024-03-15 18:22:24 INFO  Keywords:292 - Element found...feedManagement
+2024-03-15 18:22:40 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:22:40 INFO  Keywords:289 - Waiting for webElement...Search1Bar
+2024-03-15 18:22:40 INFO  Keywords:292 - Element found...Search1Bar
+2024-03-15 18:22:56 INFO  Keywords:289 - Waiting for webElement...TrID
+2024-03-15 18:22:56 INFO  Keywords:292 - Element found...TrID
+2024-03-15 18:22:57 INFO  Keywords:123 - InputText is called
+2024-03-15 18:22:57 INFO  Keywords:289 - Waiting for webElement...Search2Bar
+2024-03-15 18:22:57 INFO  Keywords:292 - Element found...Search2Bar
+2024-03-15 18:22:57 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:22:57 INFO  Keywords:289 - Waiting for webElement...SearchButton3
+2024-03-15 18:22:57 INFO  Keywords:292 - Element found...SearchButton3
+2024-03-15 18:23:13 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:23:13 INFO  Keywords:289 - Waiting for webElement...transactionSearchmyResult
+2024-03-15 18:23:13 INFO  Keywords:292 - Element found...transactionSearchmyResult
+2024-03-15 18:23:29 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:23:29 INFO  Keywords:289 - Waiting for webElement...TransXMLButton
+2024-03-15 18:23:29 INFO  Keywords:292 - Element found...TransXMLButton
+2024-03-15 18:23:46 INFO  Keywords:136 - ClickOnLink is called
+2024-03-15 18:23:46 INFO  Keywords:289 - Waiting for webElement...TransResponseXML
+2024-03-15 18:23:46 INFO  Keywords:292 - Element found...TransResponseXML
+2024-03-15 18:23:46 INFO  Keywords:289 - Waiting for webElement...TransResponseXML
+2024-03-15 18:23:46 INFO  Keywords:292 - Element found...TransResponseXML
+2024-03-15 18:24:03 INFO  Keywords:289 - Waiting for webElement...WebElement

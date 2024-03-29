@@ -1,0 +1,33 @@
+2024-02-16 15:16:04 INFO  Keywords:94 - Navigate is called
+2024-02-16 15:16:06 INFO  Keywords:533 - ClearText is called
+2024-02-16 15:16:06 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-02-16 15:16:07 INFO  Keywords:291 - Element found...gateway.username
+2024-02-16 15:16:07 INFO  Keywords:537 - 
+2024-02-16 15:16:07 INFO  Keywords:122 - InputText is called
+2024-02-16 15:16:07 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-02-16 15:16:07 INFO  Keywords:291 - Element found...gateway.username
+2024-02-16 15:16:07 INFO  Keywords:533 - ClearText is called
+2024-02-16 15:16:07 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-02-16 15:16:07 INFO  Keywords:291 - Element found...gateway.password
+2024-02-16 15:16:07 INFO  Keywords:537 - 
+2024-02-16 15:16:07 INFO  Keywords:122 - InputText is called
+2024-02-16 15:16:07 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-02-16 15:16:07 INFO  Keywords:291 - Element found...gateway.password
+2024-02-16 15:16:07 INFO  Keywords:135 - ClickOnLink is called
+2024-02-16 15:16:07 INFO  Keywords:288 - Waiting for webElement...gateway.login
+2024-02-16 15:16:07 INFO  Keywords:291 - Element found...gateway.login
+2024-02-16 15:16:28 INFO  Keywords:135 - ClickOnLink is called
+2024-02-16 15:16:28 INFO  Keywords:288 - Waiting for webElement...management
+2024-02-16 15:16:28 INFO  Keywords:291 - Element found...management
+2024-02-16 15:16:28 INFO  Keywords:288 - Waiting for webElement...managementTools
+2024-02-16 15:16:28 INFO  Keywords:291 - Element found...managementTools
+2024-02-16 15:16:29 INFO  Keywords:135 - ClickOnLink is called
+2024-02-16 15:16:29 INFO  Keywords:288 - Waiting for webElement...ViewNBFL
+2024-02-16 15:16:29 INFO  Keywords:291 - Element found...ViewNBFL
+2024-02-16 15:16:46 INFO  Keywords:122 - InputText is called
+2024-02-16 15:16:46 INFO  Keywords:288 - Waiting for webElement...NBFLid
+2024-02-16 15:16:56 INFO  Keywords:288 - Waiting for webElement...TransXML
+2024-02-16 15:17:47 INFO  Keywords:135 - ClickOnLink is called
+2024-02-16 15:17:47 INFO  Keywords:288 - Waiting for webElement...GetXML
+2024-02-16 15:18:13 INFO  Keywords:135 - ClickOnLink is called
+2024-02-16 15:18:13 INFO  Keywords:288 - Waiting for webElement...NBFLmyResult

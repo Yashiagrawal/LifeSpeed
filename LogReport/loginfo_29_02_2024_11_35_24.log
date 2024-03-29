@@ -1,0 +1,30 @@
+2024-02-29 11:35:32 INFO  Keywords:94 - Navigate is called
+2024-02-29 11:35:35 INFO  Keywords:533 - ClearText is called
+2024-02-29 11:35:35 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-02-29 11:35:35 INFO  Keywords:291 - Element found...gateway.username
+2024-02-29 11:35:35 INFO  Keywords:537 - 
+2024-02-29 11:35:35 INFO  Keywords:122 - InputText is called
+2024-02-29 11:35:35 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-02-29 11:35:35 INFO  Keywords:291 - Element found...gateway.username
+2024-02-29 11:35:35 INFO  Keywords:533 - ClearText is called
+2024-02-29 11:35:35 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-02-29 11:35:35 INFO  Keywords:291 - Element found...gateway.password
+2024-02-29 11:35:35 INFO  Keywords:537 - 
+2024-02-29 11:35:35 INFO  Keywords:122 - InputText is called
+2024-02-29 11:35:35 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-02-29 11:35:35 INFO  Keywords:291 - Element found...gateway.password
+2024-02-29 11:35:35 INFO  Keywords:135 - ClickOnLink is called
+2024-02-29 11:35:35 INFO  Keywords:288 - Waiting for webElement...gateway.login
+2024-02-29 11:35:36 INFO  Keywords:291 - Element found...gateway.login
+2024-02-29 11:35:56 INFO  Keywords:135 - ClickOnLink is called
+2024-02-29 11:35:56 INFO  Keywords:288 - Waiting for webElement...management
+2024-02-29 11:35:56 INFO  Keywords:291 - Element found...management
+2024-02-29 11:35:57 INFO  Keywords:288 - Waiting for webElement...managementTools
+2024-02-29 11:35:57 INFO  Keywords:291 - Element found...managementTools
+2024-02-29 11:35:58 INFO  Keywords:135 - ClickOnLink is called
+2024-02-29 11:35:58 INFO  Keywords:288 - Waiting for webElement...feedManagement
+2024-02-29 11:35:58 INFO  Keywords:291 - Element found...feedManagement
+2024-02-29 11:36:14 INFO  Keywords:135 - ClickOnLink is called
+2024-02-29 11:36:14 INFO  Keywords:288 - Waiting for webElement...Search1Bar
+2024-02-29 11:36:30 INFO  Keywords:288 - Waiting for webElement...TrID
+2024-02-29 11:36:33 INFO  Keywords:291 - Element found...TrID

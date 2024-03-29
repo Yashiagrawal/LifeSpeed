@@ -1,0 +1,21 @@
+2024-03-12 18:50:58 INFO  Keywords:94 - Navigate is called
+2024-03-12 18:51:01 INFO  Keywords:533 - ClearText is called
+2024-03-12 18:51:01 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-03-12 18:51:01 INFO  Keywords:291 - Element found...gateway.username
+2024-03-12 18:51:01 INFO  Keywords:537 - 
+2024-03-12 18:51:01 INFO  Keywords:122 - InputText is called
+2024-03-12 18:51:01 INFO  Keywords:288 - Waiting for webElement...gateway.username
+2024-03-12 18:51:02 INFO  Keywords:291 - Element found...gateway.username
+2024-03-12 18:51:02 INFO  Keywords:533 - ClearText is called
+2024-03-12 18:51:02 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-03-12 18:51:02 INFO  Keywords:291 - Element found...gateway.password
+2024-03-12 18:51:02 INFO  Keywords:537 - 
+2024-03-12 18:51:02 INFO  Keywords:122 - InputText is called
+2024-03-12 18:51:02 INFO  Keywords:288 - Waiting for webElement...gateway.password
+2024-03-12 18:51:02 INFO  Keywords:291 - Element found...gateway.password
+2024-03-12 18:51:02 INFO  Keywords:135 - ClickOnLink is called
+2024-03-12 18:51:02 INFO  Keywords:288 - Waiting for webElement...gateway.login
+2024-03-12 18:51:02 INFO  Keywords:291 - Element found...gateway.login
+2024-03-12 18:51:22 INFO  Keywords:135 - ClickOnLink is called
+2024-03-12 18:51:22 INFO  Keywords:288 - Waiting for webElement...management
+2024-03-12 18:51:23 INFO  Keywords:288 - Waiting for webElement...managementTools

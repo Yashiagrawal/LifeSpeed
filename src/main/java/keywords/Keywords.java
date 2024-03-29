@@ -57,6 +57,10 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import excelReader.ExcelReader;
+import formsAppearance.DisclosureForms;
+import formsAppearance.EntityForm;
+import formsAppearance.FormAppearingTrust;
+import formsAppearance.LangForm;
 import samlUtility.Base64Encode;
 import samlUtility.ProductAndCarrierCodeUtils;
 import samlUtility.Product_Name_Utils;
@@ -67,10 +71,11 @@ import testBase.TestBase;
 import testBase.Wait;
 import testController.TestController;
 
-public class Keywords extends TestBase{
+public class Keywords extends TestBase {
 
 	private final static Logger logger = LoggerHelper.getLogger(Keywords.class);
-	private final static ExcelReader reader=new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\java\\testData\\TestSuite1Data.xlsx");
+	private final static ExcelReader reader = new ExcelReader(
+			System.getProperty("user.dir") + "\\src\\test\\java\\testData\\TestSuite1Data.xlsx");
 
 	static String parentWindowHandle;
 	static String QueryStatus;
@@ -78,17 +83,16 @@ public class Keywords extends TestBase{
 
 	public static String SAML_Content;
 
-
-	public static WebElement getWebElement(String locator) throws Exception{
-		//logger.info("locator data:-"+locator+"is---"+Repository.getProperty(locator));
+	public static WebElement getWebElement(String locator) throws Exception {
+		// logger.info("locator
+		// data:-"+locator+"is---"+Repository.getProperty(locator));
 		String keywordValue = Repository.getProperty(locator);
 		return getLocator(keywordValue);
 	}
 
-	public static List<WebElement> getWebElements(String locator) throws Exception{
+	public static List<WebElement> getWebElements(String locator) throws Exception {
 		return getLocators(Repository.getProperty(locator));
 	}
-
 
 	public static String navigate() {
 		logger.info("Navigate is called");
@@ -100,45 +104,41 @@ public class Keywords extends TestBase{
 		try {
 			expliciteWait();
 			getWebElement(webElement).click();
-		}catch (Throwable t) {
-			return "Failed - Element not found "+webElement;
+		} catch (Throwable t) {
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
-
 
 	public static String clickCheckBox() {
 		try {
 			expliciteWait();
 			getWebElement(webElement).click();
-		}catch (Throwable t) {
-			return "Failed - Element not found "+webElement;
+		} catch (Throwable t) {
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
-
 
 	public static String inputText() {
 		logger.info("InputText is called");
 		try {
 			expliciteWait();
 			getWebElement(webElement).sendKeys(TestData);
-		}catch (Throwable t) {
-			return "Failed - Element not found "+webElement;
+		} catch (Throwable t) {
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
-
-
 
 	public static String clickOnLink() {
 		logger.info("ClickOnLink is called");
 		try {
 			expliciteWait();
 			getWebElement(webElement).click();
-		}catch (Throwable t) {
+		} catch (Throwable t) {
 			t.printStackTrace();
-			return "Failed - Element not found "+webElement;
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
@@ -147,13 +147,13 @@ public class Keywords extends TestBase{
 		logger.info("VerifyText is called");
 		try {
 			expliciteWait();
-			String ActualText= getWebElement(webElement).getText();
+			String ActualText = getWebElement(webElement).getText();
 			logger.info(ActualText);
-			if(!ActualText.equals(TestData)) {
-				return "Failed - Actual text "+ActualText+" is not equal to to expected text "+TestData;
+			if (!ActualText.equals(TestData)) {
+				return "Failed - Actual text " + ActualText + " is not equal to to expected text " + TestData;
 			}
-		}catch (Throwable t) {
-			return "Failed - Element not found "+webElement;
+		} catch (Throwable t) {
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
@@ -162,18 +162,18 @@ public class Keywords extends TestBase{
 		logger.info("VerifyText is called");
 		try {
 			expliciteWait();
-			String ActualText= getWebElement(webElement).getText();
-			if(!ActualText.equals(AppText.getProperty(webElement))) {
-				return "Failed - Actual text "+ActualText+" is not equal to to expected text "+AppText.getProperty(webElement);
+			String ActualText = getWebElement(webElement).getText();
+			if (!ActualText.equals(AppText.getProperty(webElement))) {
+				return "Failed - Actual text " + ActualText + " is not equal to to expected text "
+						+ AppText.getProperty(webElement);
 			}
-		}catch (Throwable t) {
-			return "Failed - Element not found "+webElement;
+		} catch (Throwable t) {
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
 
-
-	public static String mouseOver(){
+	public static String mouseOver() {
 		try {
 			expliciteWait();
 			WebElement element = getWebElement(webElement);
@@ -181,53 +181,53 @@ public class Keywords extends TestBase{
 			action.moveToElement(element).build().perform();
 			Thread.sleep(1000);
 		} catch (Exception e) {
-			return "Failed - Element not found "+webElement;
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
 
-	public static String selectByValue(){
+	public static String selectByValue() {
 		try {
 			expliciteWait();
 			WebElement element = getWebElement(webElement);
-			Select select = new  Select(element);
+			Select select = new Select(element);
 			select.selectByValue(TestData);
 		} catch (Exception e) {
-			return "Failed - Element not found "+webElement;
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
 
-	public static String selectByVisibleText(){
+	public static String selectByVisibleText() {
 		try {
 			expliciteWait();
 			WebElement element = getWebElement(webElement);
-			Select select = new  Select(element);
+			Select select = new Select(element);
 			select.selectByVisibleText(TestData);
 		} catch (Exception e) {
-			return "Failed - Element not found "+webElement;
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
 
-	public static String selectByIndex(){
+	public static String selectByIndex() {
 		try {
 			WebElement element = getWebElement(webElement);
-			Select select = new  Select(element);
+			Select select = new Select(element);
 			select.selectByIndex(Integer.parseInt(TestData));
 		} catch (Exception e) {
-			return "Failed - Element not found "+webElement;
+			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
 
-
-   /**
-    * This Method will return web element.
-    * @param locator
-    * @return
-    * @throws Exception
-    */
+	/**
+	 * This Method will return web element.
+	 * 
+	 * @param locator
+	 * @return
+	 * @throws Exception
+	 */
 	public static WebElement getLocator(String locator) throws Exception {
 		String[] split = locator.split(":");
 		String locatorType = split[0];
@@ -277,21 +277,18 @@ public class Keywords extends TestBase{
 			throw new Exception("Unknown locator type '" + locatorType + "'");
 	}
 
-
 	public static void expliciteWait() throws Exception {
 		try {
-			logger.info("Waiting for webElement..."+webElement.toString());
+			logger.info("Waiting for webElement..." + webElement.toString());
 			WebDriverWait wait = new WebDriverWait(driver, Integer.parseInt(Wait.getExplicitWait()));
 			wait.until(ExpectedConditions.visibilityOf(getWebElement(webElement)));
-			logger.info("Element found..."+webElement.toString());
+			logger.info("Element found..." + webElement.toString());
 		} catch (Throwable e) {
 			throw new TimeoutException(webElement, e);
 
 		}
 
 	}
-
-
 
 	private WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
 		logger.debug("");
@@ -310,17 +307,15 @@ public class Keywords extends TestBase{
 		wait.until(ExpectedConditions.visibilityOf(locator));
 	}
 
-	
-	public static String implicitlyWait(){
-     try {
-		//Thread.sleep(5000);
-		driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), TimeUnit.SECONDS);
-	} catch (Exception e) {
-		return "Failed - unable to load the page";
+	public static String implicitlyWait() {
+		try {
+			// Thread.sleep(5000);
+			driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), TimeUnit.SECONDS);
+		} catch (Exception e) {
+			return "Failed - unable to load the page";
+		}
+		return "Pass";
 	}
-     return "Pass";
-	}
-	
 
 	public static String clickWhenReady(By locator, int timeout) {
 		WebElement element = null;
@@ -331,8 +326,6 @@ public class Keywords extends TestBase{
 
 	}
 
-
-
 	public static String waitFor() throws InterruptedException {
 		try {
 			Thread.sleep(16000);
@@ -341,7 +334,6 @@ public class Keywords extends TestBase{
 		}
 		return "Pass";
 	}
-
 
 	public static String waitForDocumentsToGenerate() throws InterruptedException {
 		try {
@@ -352,62 +344,50 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-	public static String openNewWindowTab()
-	{
+	public static String openNewWindowTab() {
 		String windowTab = "window.open('about:blank','_blank');";
 		((JavascriptExecutor) driver).executeScript(windowTab);
 		return "Pass";
 	}
 
-
-	
-	public static String encripted_SAML()
-	{
+	public static String encripted_SAML() {
 		Base64Encode.SAML_base64Encode();
 		return "Pass";
 	}
-	
+
 	public static String decripted_SAML() {
 		Base64Encode.SAML_base64Decode();
 		return "Pass";
 	}
 
-	
+	public static String read_SAML_DATA_XMLFile() throws InterruptedException {
 
-	public static String read_SAML_DATA_XMLFile() throws InterruptedException
-	{
+		driver.get(System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
-		driver.get(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-
-       SAML_Content = driver.findElement(By.id("folder0")).getText();
+		SAML_Content = driver.findElement(By.id("folder0")).getText();
 
 		return "Pass";
 	}
 
-
-	public static String read_PM_Approve_SAML_DATA_XMLFile() throws InterruptedException
-	{
+	public static String read_PM_Approve_SAML_DATA_XMLFile() throws InterruptedException {
 
 		driver.get("E:\\AN4\\PM_APPROVE_SANDEEPPM.xml");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
-       SAML_Content = driver.findElement(By.id("folder0")).getText();
+		SAML_Content = driver.findElement(By.id("folder0")).getText();
 
 		return "Pass";
 	}
 
-	public static String paste_SAML()
-	{
+	public static String paste_SAML() {
 		driver.findElement(By.id("SAMLResponse")).sendKeys(SAML_Content);
 		return "Pass";
 	}
 
-	public static String getParentWindowhandle()
-	{
+	public static String getParentWindowhandle() {
 		parentWindowHandle = driver.getWindowHandle();
 		System.out.println("Parent window's handle -> " + parentWindowHandle);
 		return "Pass";
@@ -417,16 +397,14 @@ public class Keywords extends TestBase{
 	public static String switchToWindow() {
 		Set<String> allWindowHandles = driver.getWindowHandles();
 
-		for (String handle : allWindowHandles)
-		{
+		for (String handle : allWindowHandles) {
 			System.out.println("Window handle - > " + handle);
 			driver.switchTo().window(handle);
 			driver.manage().window().maximize();
 		}
 		return "Pass";
 	}
-	
-	
+
 	public static String switchToParticuarWindow() {
 		logger.info("switching to particular window...");
 		// driver.switchTo().defaultContent();
@@ -448,73 +426,64 @@ public class Keywords extends TestBase{
 
 	public static String switchToParentWindow() {
 		logger.info("switching to parent window...");
-		//driver.switchTo().defaultContent();
+		// driver.switchTo().defaultContent();
 
 		driver.switchTo().window(parentWindowHandle);
 		return "Pass";
 	}
 
-
-	public static String resizeBroserWindow()
-	{
-		Dimension d = new Dimension(1250,870);
-	    //Resize the current window to the given dimension
-	    driver.manage().window().setSize(d);
-	    return "Pass";
+	public static String resizeBroserWindow() {
+		Dimension d = new Dimension(1250, 870);
+		// Resize the current window to the given dimension
+		driver.manage().window().setSize(d);
+		return "Pass";
 	}
 
-
-	public static Object executeScript(String script){
-		JavascriptExecutor exe = (JavascriptExecutor)driver;
+	public static Object executeScript(String script) {
+		JavascriptExecutor exe = (JavascriptExecutor) driver;
 		return exe.executeScript(script);
 	}
 
-	public static String scrollDownVertically()
-	{
+	public static String scrollDownVertically() {
 		executeScript("window.scrollTo(0,document.body.scrollHeight)");
 		return "Pass";
 	}
 
-	public static String scrollTopVertically()
-	{
+	public static String scrollTopVertically() {
 		executeScript("window.scrollTo(document.body.scrollHeight, 0)");
 		return "Pass";
 	}
 
-	public static String scrollDownVerticallyByPixel()
-	{
+	public static String scrollDownVerticallyByPixel() {
 		executeScript("window.scrollBy(0,550)");
 		return "Pass";
 	}
 
-	public static String acceptPopUpMessage()
-	{
+	public static String acceptPopUpMessage() {
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 		return "Pass";
 	}
 
-	public void switchToFrame() throws Exception{
+	public void switchToFrame() throws Exception {
 		WebElement element = getWebElement(webElement);
 		driver.switchTo().frame(element);
-		logger.info("switched to frame "+element.toString());
+		logger.info("switched to frame " + element.toString());
 	}
 
-
-	public static String switchToDialog() throws Exception
-	{
+	public static String switchToDialog() throws Exception {
 		getWebElement(webElement);
 		return "Pass";
 	}
+
 	static String transactionid;
 
-	public static String getText()
-	{
+	public static String getText() {
 		logger.info("GetText is called");
 		try {
 			expliciteWait();
-			ActualText= getWebElement(webElement).getText();
-             logger.info(ActualText);
+			ActualText = getWebElement(webElement).getText();
+			logger.info(ActualText);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -523,8 +492,7 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-	public static String clearText()
-	{
+	public static String clearText() {
 		logger.info("ClearText is called");
 		try {
 			expliciteWait();
@@ -536,160 +504,146 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-	public static String getDistributerName()
-	{
+	public static String getDistributerName() {
 		getText();
 		reader.setCellData("Status", "Distributor", 2, ActualText);
 		return "Pass";
 	}
 
-	public static String getCarrierName()
-	{
+	public static String getCarrierName() {
 		getText();
 		reader.setCellData("Status", "Carrier", 2, ActualText);
 		return "Pass";
 	}
 
-
-	public static String getTxnStatus()
-	{
+	public static String getTxnStatus() {
 		getText();
 		reader.setCellData("Status", "Txn_Status", 2, ActualText);
 		return "Pass";
 	}
 
-	public static String getEbixTxnID()
-	{
+	public static String getEbixTxnID() {
 		getText();
 		String[] result = ActualText.split(" ");
-	    transactionid = result[1];
-	    System.out.println(result[0]+","+result[1]);
+		transactionid = result[1];
+		System.out.println(result[0] + "," + result[1]);
 		logger.info(ActualText);
 		TestStepData.setCellData(TestController.TestCaseID, "Ebix_Txn_Id", 2, transactionid);
 		return "Pass";
-		
-		
+
 	}
 
 	LocalDate time = LocalDate.now();
-	public static String getCurrentTime()
-	{
+
+	public static String getCurrentTime() {
 		getText();
 		Date date = Calendar.getInstance().getTime();
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
-        String strDate = dateFormat.format(date);
+		DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+		String strDate = dateFormat.format(date);
 		reader.setCellData("Status", "Date", 2, strDate);
 		return "Pass";
 	}
 
-
-
-	public static String change_External_Internal_TxnId() throws Exception
-	{
+	public static String change_External_Internal_TxnId() throws Exception {
 		// --------- LOAD XML
-        DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document DataDoc = db.parse(new InputSource(new StringReader(Saml_Util.getXMLString())));
+		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		Document DataDoc = db.parse(new InputSource(new StringReader(Saml_Util.getXMLString())));
 
-        // --------- PROCESS
-        String cdata = Saml_Util.getCData(DataDoc);
-        //System.out.println(cdata);
-        Document docWithCDataPlaceholder = Saml_Util.getDataDocWithCDataPlaceHolder(DataDoc);
+		// --------- PROCESS
+		String cdata = Saml_Util.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = Saml_Util.getDataDocWithCDataPlaceHolder(DataDoc);
 
-        // --------- LOAD CDATA XML
-        Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
-        Document modifiedCData = Saml_Util.getModifiedCData(cDataDoc);
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = Saml_Util.getModifiedCData(cDataDoc);
 
-        // --------- OUTPUT
-        String finalcData = Saml_Util.convertXMLDocumentToString(modifiedCData, true);
-        String finalXML = Saml_Util.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+		// --------- OUTPUT
+		String finalcData = Saml_Util.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = Saml_Util.convertXMLDocumentToString(docWithCDataPlaceholder, false);
 
-        finalcData = "<![CDATA[" + finalcData + "]]>";
-        finalXML = finalXML.replace("C_DATA", finalcData);
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
 
-        final String xmlStr = new String(finalXML);
-        Document DataDocFinal = Saml_Util.convertStringToDocument(xmlStr);
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = Saml_Util.convertStringToDocument(xmlStr);
 
-        FileOutputStream output = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
 
-        Saml_Util.writeXml(DataDocFinal, output);
+		Saml_Util.writeXml(DataDocFinal, output);
 		return "Pass";
 	}
 
-
-
-	public static String Change_Product_Name() throws Exception
-	{
+	public static String Change_Product_Name() throws Exception {
 		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document DataDoc = db.parse(new InputSource(new StringReader(Product_Name_Utils.getXMLString())));
+		Document DataDoc = db.parse(new InputSource(new StringReader(Product_Name_Utils.getXMLString())));
 
-        // --------- PROCESS
-        String cdata = Product_Name_Utils.getCData(DataDoc);
-        //System.out.println(cdata);
-        Document docWithCDataPlaceholder = Product_Name_Utils.getDataDocWithCDataPlaceHolder(DataDoc);
+		// --------- PROCESS
+		String cdata = Product_Name_Utils.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = Product_Name_Utils.getDataDocWithCDataPlaceHolder(DataDoc);
 
-        // --------- LOAD CDATA XML
-        Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
-        Document modifiedCData = Product_Name_Utils.getModifiedCDataProductName(cDataDoc);
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = Product_Name_Utils.getModifiedCDataProductName(cDataDoc);
 
+		// --------- OUTPUT
+		String finalcData = Product_Name_Utils.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = Product_Name_Utils.convertXMLDocumentToString(docWithCDataPlaceholder, false);
 
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
 
-        // --------- OUTPUT
-        String finalcData = Product_Name_Utils.convertXMLDocumentToString(modifiedCData, true);
-        String finalXML = Product_Name_Utils.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = Product_Name_Utils.convertStringToDocument(xmlStr);
 
-        finalcData = "<![CDATA[" + finalcData + "]]>";
-        finalXML = finalXML.replace("C_DATA", finalcData);
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
 
-        final String xmlStr = new String(finalXML);
-        Document DataDocFinal = Product_Name_Utils.convertStringToDocument(xmlStr);
-
-        FileOutputStream output = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
-
-        Product_Name_Utils.writeXml(DataDocFinal, output);
+		Product_Name_Utils.writeXml(DataDocFinal, output);
 
 		return "Pass";
 	}
 
-	public static String Change_Product_Code() throws Exception
-	{
+	public static String Change_Product_Code() throws Exception {
 		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document DataDoc = db.parse(new InputSource(new StringReader(ProductAndCarrierCodeUtils.getXMLString())));
+		Document DataDoc = db.parse(new InputSource(new StringReader(ProductAndCarrierCodeUtils.getXMLString())));
 
-        // --------- PROCESS
-        String cdata = ProductAndCarrierCodeUtils.getCData(DataDoc);
-        //System.out.println(cdata);
-        Document docWithCDataPlaceholder = ProductAndCarrierCodeUtils.getDataDocWithCDataPlaceHolder(DataDoc);
+		// --------- PROCESS
+		String cdata = ProductAndCarrierCodeUtils.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = ProductAndCarrierCodeUtils.getDataDocWithCDataPlaceHolder(DataDoc);
 
-        // --------- LOAD CDATA XML
-        Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
-        Document modifiedCData = ProductAndCarrierCodeUtils.getModifiedCDataProductCodeCarrier(cDataDoc);
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = ProductAndCarrierCodeUtils.getModifiedCDataProductCodeCarrier(cDataDoc);
 
+		// --------- OUTPUT
+		String finalcData = ProductAndCarrierCodeUtils.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = ProductAndCarrierCodeUtils.convertXMLDocumentToString(docWithCDataPlaceholder, false);
 
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
 
-        // --------- OUTPUT
-        String finalcData = ProductAndCarrierCodeUtils.convertXMLDocumentToString(modifiedCData, true);
-        String finalXML = ProductAndCarrierCodeUtils.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = ProductAndCarrierCodeUtils.convertStringToDocument(xmlStr);
 
-        finalcData = "<![CDATA[" + finalcData + "]]>";
-        finalXML = finalXML.replace("C_DATA", finalcData);
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
 
-        final String xmlStr = new String(finalXML);
-        Document DataDocFinal = ProductAndCarrierCodeUtils.convertStringToDocument(xmlStr);
-
-        FileOutputStream output = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
-
-        ProductAndCarrierCodeUtils.writeXml(DataDocFinal, output);
+		ProductAndCarrierCodeUtils.writeXml(DataDocFinal, output);
 
 		return "Pass";
 	}
 
 	public static String Change_CUSIP() throws ParserConfigurationException, SAXException, IOException,
-	TransformerConfigurationException, TransformerFactoryConfigurationError, TransformerException
-	{
+			TransformerConfigurationException, TransformerFactoryConfigurationError, TransformerException {
 
-		File fXmlFile = new File(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
-	//	Xls_Reader reader = new Xls_Reader(System.getProperty("user.dir")+"\\src\\test\\java\\data\\UAT_Stability_Status.xlsx");
+		File fXmlFile = new File(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+		// Xls_Reader reader = new
+		// Xls_Reader(System.getProperty("user.dir")+"\\src\\test\\java\\data\\UAT_Stability_Status.xlsx");
 		DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 		Document doc = builder.parse(fXmlFile);
 		doc.getDocumentElement().normalize();
@@ -698,27 +652,23 @@ public class Keywords extends TestBase{
 		NodeList nList = doc.getElementsByTagName("saml2:Attribute");
 
 		// System.out.println("----------------------------");
-		for (int temp = 0; temp < nList.getLength(); temp++)
-		{
+		for (int temp = 0; temp < nList.getLength(); temp++) {
 			Element element = (Element) nList.item(temp);
 			NodeList name = element.getElementsByTagName("saml2:AttributeValue");
 			Element line = (Element) name.item(0);
 			NodeList list = line.getChildNodes();
 			String data;
 			// System.out.println(list.getLength());
-			for (int index = 0; index < list.getLength(); index++)
-			{
+			for (int index = 0; index < list.getLength(); index++) {
 				String updatedCUSIP = null;
-				if (list.item(index) instanceof CharacterData)
-				{
+				if (list.item(index) instanceof CharacterData) {
 					CharacterData child = (CharacterData) list.item(index);
 					data = child.getData();
 					if (data != null && data.trim().length() > 0)
-						if (data.contains("<Data>"))
-						{
+						if (data.contains("<Data>")) {
 							// System.out.println(data);
-							String lValue= data.substring(data.indexOf("<CUSIP>") + 1);
-							String valuecuspi=lValue.substring(6, lValue.indexOf("</CUSIP>"));
+							String lValue = data.substring(data.indexOf("<CUSIP>") + 1);
+							String valuecuspi = lValue.substring(6, lValue.indexOf("</CUSIP>"));
 							System.out.println(valuecuspi);
 							String excelCUSIP = reader.getCellData(TestController.TestCaseID, "CUSIP", 2);
 							System.out.println(excelCUSIP);
@@ -733,38 +683,34 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
 	private static void writeXMLFile(Document doc)
-			throws TransformerFactoryConfigurationError, TransformerConfigurationException, TransformerException
-	{
+			throws TransformerFactoryConfigurationError, TransformerConfigurationException, TransformerException {
 		doc.getDocumentElement().normalize();
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 		Transformer transformer = transformerFactory.newTransformer();
 		DOMSource source = new DOMSource(doc);
-		StreamResult result = new StreamResult(new File(System.getProperty("user.dir")+"\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml"));
+		StreamResult result = new StreamResult(
+				new File(System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml"));
 		transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
 		transformer.transform(source, result);
 		System.out.println("XML file updated successfully");
 	}
 
-
-	public static String getFlagsText()
-	{
+	public static String getFlagsText() {
 		logger.info("Get Flag Text is called");
 		try {
 			expliciteWait();
 			List<WebElement> elements = getWebElements(webElement);
 			flaglist = new ArrayList<>();
-			for( int i = 0; i< elements.size(); i++)
-			{
+			for (int i = 0; i < elements.size(); i++) {
 				String flagNumber = elements.get(i).getText();
 				String[] actualNumber = flagNumber.split("_");
-				//reader.setCellData("Flags", "FlagNumber", i+2, actualNumber[0]);
-			//	int columns = reader.getColumnCount("TC05");
+				// reader.setCellData("Flags", "FlagNumber", i+2, actualNumber[0]);
+				// int columns = reader.getColumnCount("TC05");
 
 				flaglist.add(actualNumber[0]);
 				reader.setCellData("Flags", i, 1, actualNumber[0]);
-				logger.info("Flag Number :- "+ actualNumber[0]);
+				logger.info("Flag Number :- " + actualNumber[0]);
 			}
 			System.out.println(flaglist);
 		} catch (Exception e) {
@@ -773,14 +719,11 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-
-	public static String getTransactXML()
-	{
+	public static String getTransactXML() {
 		logger.info("GetText is called");
 		try {
 			expliciteWait();
-			ActualText= getWebElement(webElement).getText();
+			ActualText = getWebElement(webElement).getText();
 			System.out.println(ActualText);
 			logger.info(ActualText);
 		} catch (Exception e) {
@@ -789,26 +732,24 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-	public static String getPopupText()
-	{
+	public static String getPopupText() {
 		try {
 			expliciteWait();
-			ActualText= getWebElement(webElement).getAttribute("value");
-	        File path = new File(System.getProperty("user.dir")+"\\FeedDetails\\FeedStatus.xml");
+			ActualText = getWebElement(webElement).getAttribute("value");
+			File path = new File(System.getProperty("user.dir") + "\\FeedDetails\\FeedStatus.xml");
 
-	      //passing file instance in filewriter
-	        FileWriter wr = new FileWriter(path);
+			// passing file instance in filewriter
+			FileWriter wr = new FileWriter(path);
 
-	        //calling writer.write() method with the string
-	        wr.write(ActualText);
+			// calling writer.write() method with the string
+			wr.write(ActualText);
 
-	        //flushing the writer
-	        wr.flush();
+			// flushing the writer
+			wr.flush();
 
-	        //closing the writer
-	        wr.close();
-
+			// closing the writer
+			wr.close();
+			System.out.println("Data written to the file successfully");
 
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -817,11 +758,12 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-	public static String transactXMLParse()
-	{
+	public static String transactXMLParse() {
 		try {
-			//File file = new File("C:\\Users\\suneel.kumar\\Desktop\\New_folder\\tran.xml");
-			FileInputStream fis = new FileInputStream(new File(System.getProperty("user.dir")+"\\FeedDetails\\FeedStatus.xml"));
+			// File file = new
+			// File("C:\\Users\\suneel.kumar\\Desktop\\New_folder\\tran.xml");
+			FileInputStream fis = new FileInputStream(
+					new File(System.getProperty("user.dir") + "\\FeedDetails\\FeedStatus.xml"));
 
 			DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = builderFactory.newDocumentBuilder();
@@ -836,15 +778,13 @@ public class Keywords extends TestBase{
 			NodeList nodeListValue = (NodeList) xPath.compile(expressionValue).evaluate(xmlDocument,
 					XPathConstants.NODESET);
 			transactXMLflagsList = new ArrayList<>();
-			for (int i = 0; i < nodeList.getLength(); i++)
-			{
+			for (int i = 0; i < nodeList.getLength(); i++) {
 				String flagName = nodeList.item(i).getFirstChild().getNodeValue();
 				String flagValue = nodeListValue.item(i).getFirstChild().getNodeValue();
 				boolean flagNameStatus = flagName.contains("YELLOW_FLAGS");
 				boolean flagValueStatus = flagValue.contains("Yes");
-				if (flagNameStatus && flagValueStatus)
-				{
-					String [] actualFlagNumber = flagName.split("_");
+				if (flagNameStatus && flagValueStatus) {
+					String[] actualFlagNumber = flagName.split("_");
 
 					transactXMLflagsList.add(actualFlagNumber[0]);
 					System.out.println(actualFlagNumber[0]);
@@ -868,15 +808,12 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-
-
 	public static ArrayList<String> flaglist;
 	public static ArrayList<String> transactXMLflagsList;
 
-	public static String validatFlags()
-	{
+	public static String validatFlags() {
 
-		System.out.println("Flags in Last Screen of Application"+ flaglist);
+		System.out.println("Flags in Last Screen of Application" + flaglist);
 		System.out.println("Flags in Transact XML" + transactXMLflagsList);
 
 		System.out.println("Un-common Flags of the Last Screen");
@@ -886,49 +823,107 @@ public class Keywords extends TestBase{
 		return "Pass";
 	}
 
-	public static String properWait()
-	{
-		
+	public static String properWait() {
+
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return "Pass";
 	}
-	
-	public static String verify_103Status()
-	{
+
+	public static String verify_103Status() {
 		Transaction_Status.status_103();
 		return "Pass";
 	}
 
-	
-	public static String verify_RTSMStatus()
-	{
-		Transaction_Status.status_RTSM();;
+	public static String verify_RTSMStatus() {
+		Transaction_Status.status_RTSM();
 		return "Pass";
 	}
+
 	/*
-	public static String selectDaysInDropDown() throws Exception{
-		RegistrationPage reg = new RegistrationPage();
-		String status = reg.selectDaysInDropDown();
-		return status;
-	}
-
-	public static String selectMonthInDropDown() throws Exception{
-		RegistrationPage reg = new RegistrationPage();
-		return reg.selectMonthInDropDown();
-	}
-
-	public static String selectYearInDropDown() throws Exception{
-		RegistrationPage reg = new RegistrationPage();
-		return reg.selectYearInDropDown();
-	}
-
-	public static String selectYourAddressCountry() throws Exception{
-		RegistrationPage reg = new RegistrationPage();
-		return reg.selectYourAddressCountry();
-	}
-	*/
-	public static void closeBrowser(){
+	 * public static String selectDaysInDropDown() throws Exception{
+	 * RegistrationPage reg = new RegistrationPage(); String status =
+	 * reg.selectDaysInDropDown(); return status; }
+	 * 
+	 * public static String selectMonthInDropDown() throws Exception{
+	 * RegistrationPage reg = new RegistrationPage(); return
+	 * reg.selectMonthInDropDown(); }
+	 * 
+	 * public static String selectYearInDropDown() throws Exception{
+	 * RegistrationPage reg = new RegistrationPage(); return
+	 * reg.selectYearInDropDown(); }
+	 * 
+	 * public static String selectYourAddressCountry() throws Exception{
+	 * RegistrationPage reg = new RegistrationPage(); return
+	 * reg.selectYourAddressCountry(); }
+	 */
+	public static void closeBrowser() {
 		driver.quit();
+	}
+
+	public static String verify_Transtatus() {
+
+		LangForm.status_TransXML();
+		return "Pass";
+	}
+
+	public static String verify_formsApp() {
+
+		LangForm.CompareformforeignContect();
+
+		// TODO: handle exception
+
+		return "Pass";
+	}
+
+	public static String verify_Disclosure() {
+
+		DisclosureForms.FormNYDD();
+		FormAppearingTrust.CompareformTrust();
+		FormAppearingTrust.OwnerTrustEntity();
+		EntityForm.FormTrustteEntity();
+		// TODO: handle exception
+
+		return "Pass";
+	}
+
+	public static String Cond_Disclosure() {
+
+		DisclosureForms.Disc();
+		FormAppearingTrust.TrustEntityForms();
+		EntityForm.EntityOwnerForm();
+		// TODO: handle exception
+
+		return "Pass";
+	}
+
+	public static String getPopupTransText() {
+		try {
+			expliciteWait();
+
+			ActualText = getWebElement(webElement).getAttribute("value");
+			File path = new File(System.getProperty("user.dir") + "\\FeedDetails\\FeedStatus.xml");
+
+			// passing file instance in filewriter
+			FileWriter wr = new FileWriter(path);
+			// FileOutputStream wr=new FileOutputStream(path);
+
+			// calling writer.write() method with the string
+
+			wr.write(ActualText);
+			System.out.println(ActualText);
+
+			// flushing the writer
+			wr.flush();
+
+			// closing the writer
+			wr.close();
+			System.out.println("Data written to the file successfully");
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+		return "Pass";
 	}
 
 }
