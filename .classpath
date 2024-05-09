@@ -50,5 +50,14 @@
 			<attribute name="maven.scope" value="test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/yashi.agrawal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar" sourcepath="C:/Users/yashi.agrawal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-support"/>
+			<attribute name="maven.version" value="3.141.59"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

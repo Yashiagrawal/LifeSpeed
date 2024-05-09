@@ -1,7 +1,0 @@
-2023-06-06 17:07:49 INFO  Keywords:90 - Navigate is called
-2023-06-06 17:07:52 INFO  Keywords:118 - InputText is called
-2023-06-06 17:07:52 INFO  Keywords:279 - Waiting for webElement...gateway.username
-2023-06-06 17:07:53 INFO  Keywords:118 - InputText is called
-2023-06-06 17:07:53 INFO  Keywords:279 - Waiting for webElement...gateway.password
-2023-06-06 17:07:53 INFO  Keywords:131 - ClickOnLink is called
-2023-06-06 17:07:53 INFO  Keywords:279 - Waiting for webElement...gateway.login

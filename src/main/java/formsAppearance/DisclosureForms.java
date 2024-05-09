@@ -1,6 +1,5 @@
 package formsAppearance;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
@@ -14,10 +13,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
-import testBase.TestBase;
+import keywords.Keywords;
 import testController.TestController;
 
-public class DisclosureForms extends TestBase{
+public class DisclosureForms  extends Keywords {
 
 	public static String State;
 	public static String ProductType;
@@ -101,23 +100,37 @@ public class DisclosureForms extends TestBase{
 		if (ProductType != "VUL" && State != "NY") {
 
 			System.out.println("Life Insurance Authorization Disclosure Document (Non-NY Non-Variable IADD)");
+			
 
 		} else if (ProductType == "VUL" && State != "NY") {
 			System.out.println("Insurance Authorization Disclosure Document (Non-NY Variable IADD)");
+
 
 		} else if (ProductType != "VUL" && State == "NY") {
 
 			System.out.println("New York Insurance Authorization Disclosure Document (NY Non-Variable IADD)");
 
+
 		} else if (ProductType == "VUL" && State == "NY") {
 
 			System.out.println("New York Insurance Authorization Disclosure Document  (NY Variable IADD)");
 
+
 		} else {
 
 			System.out.println("No Disclosure form");
+
 		}
 
+	}
+	
+	
+	public static void CheckForms() {
+		
+		
+		
+		
+		
 	}
 
 }
