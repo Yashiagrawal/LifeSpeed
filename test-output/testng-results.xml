@@ -5,60 +5,69 @@
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_19_30.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_19_30.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_23_05_2024_05_58_37.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_23_05_2024_05_58_37.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_20_26.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_20_26.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_47.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_47.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]DateSelection_22_05_2024_06_22_39.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]DateSelection_22_05_2024_06_22_39.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_57.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_57.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_24_14.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_24_14.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_25_05.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_25_05.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]verifyText_22_05_2024_06_27_49.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]verifyText_22_05_2024_06_27_49.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-22T18:16:10 IST" name="Default suite" finished-at="2024-05-22T18:34:18 IST" duration-ms="1087984">
+  <suite started-at="2024-05-23T17:56:47 IST" name="Default suite" finished-at="2024-05-23T17:59:00 IST" duration-ms="132824">
     <groups>
     </groups>
-    <test started-at="2024-05-22T18:16:10 IST" name="Default test" finished-at="2024-05-22T18:34:18 IST" duration-ms="1087984">
+    <test started-at="2024-05-23T17:56:47 IST" name="Default test" finished-at="2024-05-23T17:59:00 IST" duration-ms="132824">
       <class name="testController.TestController">
-        <test-method is-config="true" signature="setLog4j()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-22T18:16:10 IST" name="setLog4j" finished-at="2024-05-22T18:16:10 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-23T17:56:47 IST" name="setLog4j" finished-at="2024-05-23T17:56:47 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLog4j -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-22T18:16:10 IST" name="initBrowser" finished-at="2024-05-22T18:16:11 IST" duration-ms="1277" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-23T17:56:47 IST" name="initBrowser" finished-at="2024-05-23T17:56:48 IST" duration-ms="1328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="TestCaseController()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-22T18:16:11 IST" name="TestCaseController" finished-at="2024-05-22T18:34:18 IST" duration-ms="1086650" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="TestCaseController()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-23T17:56:48 IST" name="TestCaseController" finished-at="2024-05-23T17:58:58 IST" duration-ms="129878" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "TSStatus" is null]]>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NOIANJUACER', ip: '10.9.60.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17016, moz:profile: C:\Users\YASHI~1.AGR\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2bb40e37-136a-4902-aa42-58a4467bc503]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "TSStatus" is null
-at testController.TestController.TestCaseController(TestController.java:92)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NOIANJUACER', ip: '10.9.60.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17016, moz:profile: C:\Users\YASHI~1.AGR\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2bb40e37-136a-4902-aa42-58a4467bc503
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at testBase.TestBase.getScreenShot(TestBase.java:152)
+at testController.TestController.TestCaseController(TestController.java:97)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,47 +98,32 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_19_30.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_19_30.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_23_05_2024_05_58_37.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_23_05_2024_05_58_37.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_20_26.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_20_26.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_47.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_47.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]DateSelection_22_05_2024_06_22_39.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]DateSelection_22_05_2024_06_22_39.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_57.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]clickRadioButton_23_05_2024_05_58_57.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_24_14.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_24_14.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_25_05.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]inputText_22_05_2024_06_25_05.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]verifyText_22_05_2024_06_27_49.png'><img src='C:\Users\yashi.agrawal\Downloads\LifeSpeed_Stability (1)\LifeSpeed_Stability\src\test\java\screenshot\TC01[1]verifyText_22_05_2024_06_27_49.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCaseController -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-22T18:34:18 IST" name="quitBrowser" finished-at="2024-05-22T18:34:18 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testController.TestController@3c77d488]" started-at="2024-05-23T17:58:58 IST" name="quitBrowser" finished-at="2024-05-23T17:59:00 IST" duration-ms="1570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

@@ -58,10 +58,12 @@ public class TestController extends TestBase {
 				// loop through test data
 				for (int TD = 2; TD <= rows; TD++) {
 					
+					//this will read runmodedata for test data
+					String RunModeData = TestStepData.getCellData(TestCaseID, "RunModeData", TD).trim();
 					
-					if(RunMode.equals("Y")) {
-						
-					
+					if(RunModeData.equals("Y")) {
+
+
 
 					if (driver == null) {
 						driver = TestBase.selectBrowser(Browsers.FIREFOX.name());
