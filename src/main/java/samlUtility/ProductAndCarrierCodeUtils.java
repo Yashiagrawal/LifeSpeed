@@ -61,7 +61,7 @@ public class ProductAndCarrierCodeUtils {
             for (int i = 0; i < customerNodes1.getLength(); i++) {
                 NodeList children1 = customerNodes1.item(i).getChildNodes();
                 for (int j = 0; j < children1.getLength(); j++) {
-                    String childAttributeNode1 = children1.item(j).getNodeName();
+                  //  String childAttributeNode1 = children1.item(j).getNodeName();
                     cdata = children1.item(j).getTextContent();
                 }
             }
@@ -80,7 +80,7 @@ public class ProductAndCarrierCodeUtils {
             for (int i = 0; i < customerNodes1.getLength(); i++) {
                 NodeList children1 = customerNodes1.item(i).getChildNodes();
                 for (int j = 0; j < children1.getLength(); j++) {
-                    String childAttributeNode = children1.item(j).getNodeName();
+             //       String childAttributeNode = children1.item(j).getNodeName();
                     //System.out.println("**************" + childAttributeNode);
                     System.out.println("\n");
                     children1.item(j).setTextContent(String.valueOf("C_DATA"));
@@ -93,7 +93,7 @@ public class ProductAndCarrierCodeUtils {
     }
 
     public static Document getModifiedCDataProductCodeCarrier(Document xmlDoc) {
-    	String SystemTime = TimeStamp("yyhhmmss");
+    	//String SystemTime = TimeStamp("yyhhmmss");
         try {
             XPath xPath = XPathFactory.newInstance().newXPath();
             String cDataExpression = "/Data/Extensions/Extension/Product/Parameters/Parameter";
@@ -102,7 +102,7 @@ public class ProductAndCarrierCodeUtils {
             for (int i = 0; i < customerNodes.getLength(); i++) {
                 NodeList children = customerNodes.item(i).getChildNodes();
                 for (int j = 0; j < children.getLength(); j++) {
-                    String childAttributeNode = children.item(j).getNodeName();
+           //         String childAttributeNode = children.item(j).getNodeName();
                     String childValueNode = children.item(j).getTextContent();
 
                     if (childValueNode.equalsIgnoreCase("ProductCode")) {

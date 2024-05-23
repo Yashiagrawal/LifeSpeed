@@ -86,7 +86,7 @@ public class ReportUtil {
 
 			out.write("<tr>\n");
 			// out.newLine();
-			String END_TIME = TestBase.now("dd.MMMMM.yyyy").toString();
+		//	String END_TIME = TestBase.now("dd.MMMMM.yyyy").toString();
 			out.write("<td width=150 align= left  bgcolor=#153E7E><FONT COLOR=#E0E0E0 FACE= Arial  SIZE=2.75><b>Run EndTime</b></td>\n");
 			out.write("<td width=150 align= left ><FONT COLOR=#153E7E FACE= Arial  SIZE=2.75><b>END_TIME</b></td>\n");
 			out.write("</tr>\n");

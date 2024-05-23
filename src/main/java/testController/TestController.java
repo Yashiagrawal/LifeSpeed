@@ -57,6 +57,11 @@ public class TestController extends TestBase {
 
 				// loop through test data
 				for (int TD = 2; TD <= rows; TD++) {
+					
+					
+					if(RunMode.equals("Y")) {
+						
+					
 
 					if (driver == null) {
 						driver = TestBase.selectBrowser(Browsers.FIREFOX.name());
@@ -102,7 +107,7 @@ public class TestController extends TestBase {
 					}
 					ReportUtil.addTestCase(TestCaseID, startTime, TestBase.now("dd.MMMM.yyyy hh.mm.ss aaa"), TCStatus);
 					driver.quit();
-
+				}
 				}
 			} else {
 				// skip the test case

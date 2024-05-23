@@ -293,7 +293,7 @@ public class Keywords extends TestBase {
 	private WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
 		logger.debug("");
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-		wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.MILLISECONDS);
+		//wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.MILLISECONDS);
 		wait.ignoring(NoSuchElementException.class);
 		wait.ignoring(ElementNotVisibleException.class);
 		wait.ignoring(StaleElementReferenceException.class);
@@ -874,6 +874,26 @@ public class Keywords extends TestBase {
 
 		return "Pass";
 	}
+	
+	public static String DateSelection() {
+		try {
+			expliciteWait();
+			
+			
+			JavascriptExecutor executor8 = (JavascriptExecutor)driver;
+			
+			executor8.executeScript("document.webElement.style.display='block';");
+			WebElement element = getWebElement(webElement);
+			Select select8 = new Select(element);
+			select8.selectByVisibleText(TestData);
+			
+		} catch (Exception e) {
+			return "Failed - Element not found " + webElement;
+		}
+		return "Pass";
+	}
+	
+	
 
 	public static String verify_Disclosure() {
 
@@ -896,10 +916,8 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 	
-	
-	
-	
 
+	
 
 	public static String getPopupTransText() {
 		try {
