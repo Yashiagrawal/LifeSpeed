@@ -62,7 +62,7 @@ public class TestController extends TestBase {
 					String RunModeData = TestStepData.getCellData(TestCaseID, "RunModeData", TD).trim();
 					
 					if(RunModeData.equals("Y")) {
-
+						String TCStaus = "Pass";
 
 
 					if (driver == null) {
@@ -114,9 +114,9 @@ public class TestController extends TestBase {
 			} else {
 				// skip the test case
 				ReportUtil.addTestCase(TestCaseID, startTime, TestBase.now("dd.MMMM.yyyy hh.mm.ss aaa"), "Skipped");
-				if (driver != null) {
-					driver.quit();
-				}
+		if (driver != null) {
+				driver.quit();
+		}
 
 			}
 		}
