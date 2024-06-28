@@ -9,77 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">895,611</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">755,982</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testController.TestController</td><td><a href="#m0">quitBrowser</a></td><td rowspan="1">1719568235030</td><td rowspan="1">19</td></tr><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testController.TestController</td><td><a href="#m1">TestCaseController</a></td><td rowspan="1">1719567340722</td><td rowspan="1">894304</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testController.TestController</td><td><a href="#m0">TestCaseController</a></td><td rowspan="1">1719570238479</td><td rowspan="1">753829</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testController.TestController#quitBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: JdkWebSocket initial request execution error
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:250)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:87)
-	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:335)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:427)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
-	at testController.TestController.quitBrowser(TestController.java:142)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.nio.channels.ClosedChannelException
-	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
-	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
-	... 9 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testController.TestController#TestCaseController</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_08_48.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_08_48.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_09_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_09_38.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_11_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_11_20.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_12_10.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_12_10.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]clickOnLink_28_06_2024_03_13_00.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]clickOnLink_28_06_2024_03_13_00.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_13_50.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_13_50.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_14_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_14_41.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_16_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_16_34.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_17_25.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_17_25.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_17_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_17_56.png'height='100' width='100'/></a><br/>captureScreen method called</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+<h2>Default test</h2><h3 id="m0">testController.TestController#TestCaseController</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_57_05.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_57_05.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_57_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_03_57_55.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_59_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_03_59_36.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_00_26.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_00_26.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]clickOnLink_28_06_2024_04_01_17.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]clickOnLink_28_06_2024_04_01_17.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_02_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_02_07.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_04_02_57.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]selectByVisibleText_28_06_2024_04_02_57.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_04_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_04_51.png'height='100' width='100'/></a><br/>captureScreen method called<br/><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_05_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC12[1]inputText_28_06_2024_04_05_41.png'height='100' width='100'/></a><br/>captureScreen method called</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2daa5516-be0e-4025-9a6b-cb9e8f60a2c3, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:29884, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17604, moz:profile: C:\Users\agraway\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29884/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2daa5516-be0e-4025-9a6b-cb9e8f60a2c3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+Command: [76c7db4b-39ca-4543-be03-121a98670c66, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:28070, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7628, moz:profile: C:\Users\agraway\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:28070/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 76c7db4b-39ca-4543-be03-121a98670c66
+	at jdk.internal.reflect.GeneratedConstructorAccessor42.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
