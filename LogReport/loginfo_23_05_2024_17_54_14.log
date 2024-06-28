@@ -1,0 +1,22 @@
+2024-05-23 17:54:24 INFO  Keywords:98 - Navigate is called
+2024-05-23 17:54:30 INFO  Keywords:124 - InputText is called
+2024-05-23 17:54:30 INFO  Keywords:282 - Waiting for webElement...gateway.username
+2024-05-23 17:54:31 INFO  Keywords:285 - Element found...gateway.username
+2024-05-23 17:54:31 INFO  Keywords:124 - InputText is called
+2024-05-23 17:54:31 INFO  Keywords:282 - Waiting for webElement...gateway.password
+2024-05-23 17:54:31 INFO  Keywords:285 - Element found...gateway.password
+2024-05-23 17:54:31 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 17:54:31 INFO  Keywords:282 - Waiting for webElement...gateway.login
+2024-05-23 17:54:31 INFO  Keywords:285 - Element found...gateway.login
+2024-05-23 17:55:15 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 17:55:15 INFO  Keywords:282 - Waiting for webElement...postsamldata
+2024-05-23 17:55:16 INFO  Keywords:285 - Element found...postsamldata
+2024-05-23 17:55:32 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 17:55:32 INFO  Keywords:282 - Waiting for webElement...next
+2024-05-23 17:55:32 INFO  Keywords:285 - Element found...next
+2024-05-23 17:55:57 INFO  Keywords:124 - InputText is called
+2024-05-23 17:55:57 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-05-23 17:56:08 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.LTC
+2024-05-23 17:56:18 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.Benefit
+2024-05-23 17:56:28 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.payors
+2024-05-23 17:56:38 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.purposeofpolicy

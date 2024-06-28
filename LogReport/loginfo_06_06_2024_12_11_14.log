@@ -1,0 +1,67 @@
+2024-06-06 12:11:23 INFO  Keywords:98 - Navigate is called
+2024-06-06 12:11:25 INFO  Keywords:124 - InputText is called
+2024-06-06 12:11:25 INFO  Keywords:282 - Waiting for webElement...gateway.username
+2024-06-06 12:11:25 INFO  Keywords:285 - Element found...gateway.username
+2024-06-06 12:11:25 INFO  Keywords:124 - InputText is called
+2024-06-06 12:11:25 INFO  Keywords:282 - Waiting for webElement...gateway.password
+2024-06-06 12:11:25 INFO  Keywords:285 - Element found...gateway.password
+2024-06-06 12:11:25 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:11:25 INFO  Keywords:282 - Waiting for webElement...gateway.login
+2024-06-06 12:11:25 INFO  Keywords:285 - Element found...gateway.login
+2024-06-06 12:12:02 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:12:02 INFO  Keywords:282 - Waiting for webElement...postsamldata
+2024-06-06 12:12:02 INFO  Keywords:285 - Element found...postsamldata
+2024-06-06 12:12:18 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:12:18 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:12:18 INFO  Keywords:285 - Element found...next
+2024-06-06 12:12:37 INFO  Keywords:124 - InputText is called
+2024-06-06 12:12:37 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-06-06 12:12:37 INFO  Keywords:285 - Element found...policyConfiguration.insuranceamount
+2024-06-06 12:12:37 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.LTC
+2024-06-06 12:12:37 INFO  Keywords:285 - Element found...policyConfiguration.LTC
+2024-06-06 12:12:38 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.payors
+2024-06-06 12:12:38 INFO  Keywords:285 - Element found...policyConfiguration.payors
+2024-06-06 12:12:38 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-06-06 12:12:38 INFO  Keywords:285 - Element found...policyConfiguration.purposeofpolicy
+2024-06-06 12:12:38 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:12:38 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:12:38 INFO  Keywords:285 - Element found...next
+2024-06-06 12:12:59 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthcountry
+2024-06-06 12:12:59 INFO  Keywords:285 - Element found...primaryinsured.birthcountry
+2024-06-06 12:13:00 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthstate
+2024-06-06 12:13:00 INFO  Keywords:285 - Element found...primaryinsured.birthstate
+2024-06-06 12:13:00 INFO  Keywords:124 - InputText is called
+2024-06-06 12:13:00 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthcity
+2024-06-06 12:13:10 INFO  Keywords:282 - Waiting for webElement...primaryinsured.drivinglicense
+2024-06-06 12:14:01 INFO  Keywords:124 - InputText is called
+2024-06-06 12:14:01 INFO  Keywords:282 - Waiting for webElement...primaryinsured.dlnumber
+2024-06-06 12:15:07 INFO  Keywords:282 - Waiting for webElement...primaryinsured.dlissuestateAL
+2024-06-06 12:15:57 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:15:57 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:15:57 INFO  Keywords:285 - Element found...next
+2024-06-06 12:16:03 INFO  Keywords:282 - Waiting for webElement...PrimaryTrustIrr
+2024-06-06 12:16:54 INFO  Keywords:282 - Waiting for webElement...PrimaryTrustIrr2
+2024-06-06 12:17:36 INFO  Keywords:282 - Waiting for webElement...ContingentTrustIrr
+2024-06-06 12:18:26 INFO  Keywords:282 - Waiting for webElement...ContingentTrustIrr2
+2024-06-06 12:19:16 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:19:16 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:19:16 INFO  Keywords:285 - Element found...next
+2024-06-06 12:19:38 INFO  Keywords:282 - Waiting for webElement...jointInsured.birthCountry
+2024-06-06 12:19:48 INFO  Keywords:282 - Waiting for webElement...jointInsured.birthState
+2024-06-06 12:19:58 INFO  Keywords:124 - InputText is called
+2024-06-06 12:19:58 INFO  Keywords:282 - Waiting for webElement...jointInsured.birthCity
+2024-06-06 12:20:08 INFO  Keywords:282 - Waiting for webElement...DL.NO
+2024-06-06 12:20:18 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:20:18 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:20:18 INFO  Keywords:285 - Element found...next
+2024-06-06 12:20:38 INFO  Keywords:282 - Waiting for webElement...Trust_Relationship
+2024-06-06 12:20:48 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:20:48 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:20:48 INFO  Keywords:285 - Element found...next
+2024-06-06 12:21:07 INFO  Keywords:135 - ClickOnLink is called
+2024-06-06 12:21:07 INFO  Keywords:282 - Waiting for webElement...next
+2024-06-06 12:21:07 INFO  Keywords:285 - Element found...next
+2024-06-06 12:21:26 INFO  Keywords:282 - Waiting for webElement...financialDetails.SourceOfWealthLI
+2024-06-06 12:21:36 INFO  Keywords:282 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-06-06 12:21:46 INFO  Keywords:282 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-06-06 12:21:56 INFO  Keywords:282 - Waiting for webElement...financialDetails.envisiontaking

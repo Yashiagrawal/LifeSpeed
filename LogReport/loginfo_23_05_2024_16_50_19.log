@@ -1,0 +1,34 @@
+2024-05-23 16:50:29 INFO  Keywords:98 - Navigate is called
+2024-05-23 16:50:33 INFO  Keywords:124 - InputText is called
+2024-05-23 16:50:33 INFO  Keywords:282 - Waiting for webElement...gateway.username
+2024-05-23 16:50:33 INFO  Keywords:285 - Element found...gateway.username
+2024-05-23 16:50:33 INFO  Keywords:124 - InputText is called
+2024-05-23 16:50:33 INFO  Keywords:282 - Waiting for webElement...gateway.password
+2024-05-23 16:50:33 INFO  Keywords:285 - Element found...gateway.password
+2024-05-23 16:50:33 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:50:33 INFO  Keywords:282 - Waiting for webElement...gateway.login
+2024-05-23 16:50:33 INFO  Keywords:285 - Element found...gateway.login
+2024-05-23 16:51:13 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:51:13 INFO  Keywords:282 - Waiting for webElement...postsamldata
+2024-05-23 16:51:13 INFO  Keywords:285 - Element found...postsamldata
+2024-05-23 16:51:29 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:51:29 INFO  Keywords:282 - Waiting for webElement...next
+2024-05-23 16:51:41 INFO  Keywords:285 - Element found...next
+2024-05-23 16:52:04 INFO  Keywords:124 - InputText is called
+2024-05-23 16:52:04 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-05-23 16:52:14 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.LTC
+2024-05-23 16:52:24 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.Benefit
+2024-05-23 16:52:34 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.payors
+2024-05-23 16:52:44 INFO  Keywords:282 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-05-23 16:52:54 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:52:54 INFO  Keywords:282 - Waiting for webElement...next
+2024-05-23 16:52:54 INFO  Keywords:285 - Element found...next
+2024-05-23 16:54:24 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthcountry
+2024-05-23 16:54:35 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthstate
+2024-05-23 16:54:45 INFO  Keywords:124 - InputText is called
+2024-05-23 16:54:45 INFO  Keywords:282 - Waiting for webElement...primaryinsured.birthcity
+2024-05-23 16:54:55 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:54:55 INFO  Keywords:282 - Waiting for webElement...next
+2024-05-23 16:54:55 INFO  Keywords:285 - Element found...next
+2024-05-23 16:55:11 INFO  Keywords:135 - ClickOnLink is called
+2024-05-23 16:55:11 INFO  Keywords:282 - Waiting for webElement...next
