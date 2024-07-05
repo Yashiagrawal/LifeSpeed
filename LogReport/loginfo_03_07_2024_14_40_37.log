@@ -1,0 +1,363 @@
+2024-07-03 14:40:43 INFO  Keywords:99 - Navigate is called
+2024-07-03 14:40:46 INFO  Keywords:125 - InputText is called
+2024-07-03 14:40:46 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-07-03 14:40:46 INFO  Keywords:286 - Element found...gateway.username
+2024-07-03 14:40:46 INFO  Keywords:125 - InputText is called
+2024-07-03 14:40:46 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-07-03 14:40:46 INFO  Keywords:286 - Element found...gateway.password
+2024-07-03 14:40:46 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:40:46 INFO  Keywords:283 - Waiting for webElement...gateway.login
+2024-07-03 14:40:46 INFO  Keywords:286 - Element found...gateway.login
+2024-07-03 14:41:23 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:41:23 INFO  Keywords:283 - Waiting for webElement...postsamldata
+2024-07-03 14:41:23 INFO  Keywords:286 - Element found...postsamldata
+2024-07-03 14:41:39 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:41:39 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:41:39 INFO  Keywords:286 - Element found...next
+2024-07-03 14:42:00 INFO  Keywords:125 - InputText is called
+2024-07-03 14:42:00 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-07-03 14:42:00 INFO  Keywords:286 - Element found...policyConfiguration.insuranceamount
+2024-07-03 14:42:00 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.LTC
+2024-07-03 14:42:00 INFO  Keywords:286 - Element found...policyConfiguration.LTC
+2024-07-03 14:42:01 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.Benefit
+2024-07-03 14:42:51 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.payors
+2024-07-03 14:42:51 INFO  Keywords:286 - Element found...policyConfiguration.payors
+2024-07-03 14:42:52 INFO  Keywords:283 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-07-03 14:42:52 INFO  Keywords:286 - Element found...policyConfiguration.purposeofpolicy
+2024-07-03 14:42:52 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:42:52 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:42:52 INFO  Keywords:286 - Element found...next
+2024-07-03 14:44:27 INFO  Keywords:283 - Waiting for webElement...primaryinsured.birthcountry
+2024-07-03 14:44:27 INFO  Keywords:286 - Element found...primaryinsured.birthcountry
+2024-07-03 14:44:27 INFO  Keywords:283 - Waiting for webElement...primaryinsured.birthstate
+2024-07-03 14:44:27 INFO  Keywords:286 - Element found...primaryinsured.birthstate
+2024-07-03 14:44:28 INFO  Keywords:125 - InputText is called
+2024-07-03 14:44:28 INFO  Keywords:283 - Waiting for webElement...primaryinsured.birthcity
+2024-07-03 14:44:38 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:44:38 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:44:38 INFO  Keywords:286 - Element found...next
+2024-07-03 14:44:59 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:44:59 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:44:59 INFO  Keywords:286 - Element found...next
+2024-07-03 14:45:20 INFO  Keywords:283 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-07-03 14:45:21 INFO  Keywords:286 - Element found...naturalOwner.relationwithInsured
+2024-07-03 14:45:21 INFO  Keywords:283 - Waiting for webElement...naturalOwner.relationwithJointInsured
+2024-07-03 14:46:11 INFO  Keywords:283 - Waiting for webElement...naturalOwner.PermamentResidentCard
+2024-07-03 14:46:11 INFO  Keywords:286 - Element found...naturalOwner.PermamentResidentCard
+2024-07-03 14:46:11 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:11 INFO  Keywords:283 - Waiting for webElement...naturalOwner.ResidentCardIssueDAte
+2024-07-03 14:46:12 INFO  Keywords:286 - Element found...naturalOwner.ResidentCardIssueDAte
+2024-07-03 14:46:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:12 INFO  Keywords:283 - Waiting for webElement...naturalOwner.ResidentCardExpireationDAte
+2024-07-03 14:46:12 INFO  Keywords:286 - Element found...naturalOwner.ResidentCardExpireationDAte
+2024-07-03 14:46:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:12 INFO  Keywords:283 - Waiting for webElement...naturalOwner.USLivingYrs
+2024-07-03 14:46:12 INFO  Keywords:286 - Element found...naturalOwner.USLivingYrs
+2024-07-03 14:46:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:12 INFO  Keywords:283 - Waiting for webElement...naturalOwner.USLivingMonths
+2024-07-03 14:46:12 INFO  Keywords:286 - Element found...naturalOwner.USLivingMonths
+2024-07-03 14:46:12 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:46:12 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:46:12 INFO  Keywords:286 - Element found...next
+2024-07-03 14:46:31 INFO  Keywords:283 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-07-03 14:46:31 INFO  Keywords:286 - Element found...financialDetails.SourceOfFundsLI
+2024-07-03 14:46:32 INFO  Keywords:283 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-07-03 14:46:32 INFO  Keywords:286 - Element found...financialDetails.SurrenderChargeSOFLI
+2024-07-03 14:46:32 INFO  Keywords:283 - Waiting for webElement...financialDetails.envisiontaking
+2024-07-03 14:46:32 INFO  Keywords:286 - Element found...financialDetails.envisiontaking
+2024-07-03 14:46:32 INFO  Keywords:283 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-07-03 14:46:32 INFO  Keywords:286 - Element found...financialDetails.federalfaxbracket
+2024-07-03 14:46:32 INFO  Keywords:283 - Waiting for webElement...financialDetails.riskTolerance
+2024-07-03 14:46:32 INFO  Keywords:286 - Element found...financialDetails.riskTolerance
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialDetails.Investmentobjectives
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialDetails.Investmentobjectives
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialDetails.timehorizon
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialDetails.timehorizon
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialDetails.investmentexperienceFA
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialDetails.investmentexperienceFA
+2024-07-03 14:46:33 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialDetails.investmentstartyear
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialDetails.investmentstartyear
+2024-07-03 14:46:33 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialdetails.wages
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialdetails.wages
+2024-07-03 14:46:33 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialdetails.livingexpenses
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialdetails.livingexpenses
+2024-07-03 14:46:33 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:33 INFO  Keywords:283 - Waiting for webElement...financialdetails.personalinvestment
+2024-07-03 14:46:33 INFO  Keywords:286 - Element found...financialdetails.personalinvestment
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.fixeddebtexpenses
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.fixeddebtexpenses
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.rentalincome
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.rentalincome
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.variabledebtexpenses
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.variabledebtexpenses
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.incomepension
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.incomepension
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.discretionaryexpenses
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.discretionaryexpenses
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.socialsecurityincome
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.socialsecurityincome
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.otherincome
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.otherincome
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.bonds
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.bonds
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.businessTrustRealstate
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.businessTrustRealstate
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.retirementplan
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.retirementplan
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.equities
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.equities
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.facevalueilfeinsurance
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.facevalueilfeinsurance
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.fixedannuity
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.fixedannuity
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.indexannuity
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.indexannuity
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.liquidnetworth
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.liquidnetworth
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.mutualfund
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.mutualfund
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.otherbrokerage
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.otherbrokerage
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.policypremium
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.policypremium
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.variableannuity
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.variableannuity
+2024-07-03 14:46:34 INFO  Keywords:125 - InputText is called
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.totalpremium
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.totalpremium
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.anticipatedchanges
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.anticipatedchanges
+2024-07-03 14:46:34 INFO  Keywords:283 - Waiting for webElement...financialdetails.nonguaranteedelementYes
+2024-07-03 14:46:34 INFO  Keywords:286 - Element found...financialdetails.nonguaranteedelementYes
+2024-07-03 14:46:35 INFO  Keywords:283 - Waiting for webElement...financialdetails.reversemortgage
+2024-07-03 14:46:35 INFO  Keywords:286 - Element found...financialdetails.reversemortgage
+2024-07-03 14:46:35 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:46:35 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:46:35 INFO  Keywords:286 - Element found...next
+2024-07-03 14:46:55 INFO  Keywords:283 - Waiting for webElement...payment.modal
+2024-07-03 14:46:55 INFO  Keywords:286 - Element found...payment.modal
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...payment.method
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...payment.method
+2024-07-03 14:47:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...payment.premium
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...payment.premium
+2024-07-03 14:47:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...payment.bankRouting
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...payment.bankRouting
+2024-07-03 14:47:12 INFO  Keywords:125 - InputText is called
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...payment.bankAccountNumber
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...payment.bankAccountNumber
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...payment.AccountType
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...payment.AccountType
+2024-07-03 14:47:12 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:47:12 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:47:12 INFO  Keywords:286 - Element found...next
+2024-07-03 14:47:32 INFO  Keywords:283 - Waiting for webElement...existinginsurance.borrowingfunds
+2024-07-03 14:47:32 INFO  Keywords:286 - Element found...existinginsurance.borrowingfunds
+2024-07-03 14:47:33 INFO  Keywords:283 - Waiting for webElement...existinginsurance.terminatingexistinglifepolicyNo
+2024-07-03 14:47:33 INFO  Keywords:286 - Element found...existinginsurance.terminatingexistinglifepolicyNo
+2024-07-03 14:47:33 INFO  Keywords:283 - Waiting for webElement...existinginsurance.DisabilityPoliciesNo
+2024-07-03 14:47:33 INFO  Keywords:286 - Element found...existinginsurance.DisabilityPoliciesNo
+2024-07-03 14:47:33 INFO  Keywords:283 - Waiting for webElement...existinginsurance.longtermpolicyNo
+2024-07-03 14:47:33 INFO  Keywords:286 - Element found...existinginsurance.longtermpolicyNo
+2024-07-03 14:47:33 INFO  Keywords:283 - Waiting for webElement...existinglongterminsurance.NO
+2024-07-03 14:47:33 INFO  Keywords:286 - Element found...existinglongterminsurance.NO
+2024-07-03 14:47:34 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:47:34 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:47:34 INFO  Keywords:286 - Element found...next
+2024-07-03 14:47:53 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:47:53 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:47:53 INFO  Keywords:286 - Element found...next
+2024-07-03 14:48:13 INFO  Keywords:125 - InputText is called
+2024-07-03 14:48:13 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q1
+2024-07-03 14:48:13 INFO  Keywords:286 - Element found...additionalclientquestion.q1
+2024-07-03 14:48:13 INFO  Keywords:125 - InputText is called
+2024-07-03 14:48:13 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q2
+2024-07-03 14:48:13 INFO  Keywords:286 - Element found...additionalclientquestion.q2
+2024-07-03 14:48:13 INFO  Keywords:125 - InputText is called
+2024-07-03 14:48:13 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q3
+2024-07-03 14:48:13 INFO  Keywords:286 - Element found...additionalclientquestion.q3
+2024-07-03 14:48:13 INFO  Keywords:125 - InputText is called
+2024-07-03 14:48:13 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q4
+2024-07-03 14:49:03 INFO  Keywords:125 - InputText is called
+2024-07-03 14:49:03 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q5
+2024-07-03 14:49:54 INFO  Keywords:125 - InputText is called
+2024-07-03 14:49:54 INFO  Keywords:283 - Waiting for webElement...additionalclientquestion.q9
+2024-07-03 14:49:54 INFO  Keywords:286 - Element found...additionalclientquestion.q9
+2024-07-03 14:49:54 INFO  Keywords:484 - GetText is called
+2024-07-03 14:49:54 INFO  Keywords:283 - Waiting for webElement...ebixTxnID
+2024-07-03 14:49:54 INFO  Keywords:286 - Element found...ebixTxnID
+2024-07-03 14:49:54 INFO  Keywords:488 - LinkId: 532393
+2024-07-03 14:49:54 INFO  Keywords:532 - LinkId: 532393
+2024-07-03 14:49:54 INFO  Keywords:484 - GetText is called
+2024-07-03 14:49:54 INFO  Keywords:283 - Waiting for webElement...ebixTxnID
+2024-07-03 14:49:54 INFO  Keywords:286 - Element found...ebixTxnID
+2024-07-03 14:49:54 INFO  Keywords:488 - LinkId: 532393
+2024-07-03 14:49:54 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:49:54 INFO  Keywords:283 - Waiting for webElement...attachment
+2024-07-03 14:49:54 INFO  Keywords:286 - Element found...attachment
+2024-07-03 14:49:55 INFO  Keywords:283 - Waiting for webElement...attachment.documenttype
+2024-07-03 14:49:56 INFO  Keywords:286 - Element found...attachment.documenttype
+2024-07-03 14:49:56 INFO  Keywords:125 - InputText is called
+2024-07-03 14:49:56 INFO  Keywords:283 - Waiting for webElement...attachment.choosefile
+2024-07-03 14:49:56 INFO  Keywords:286 - Element found...attachment.choosefile
+2024-07-03 14:49:57 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:49:57 INFO  Keywords:283 - Waiting for webElement...attachment.upload
+2024-07-03 14:49:57 INFO  Keywords:286 - Element found...attachment.upload
+2024-07-03 14:51:28 INFO  Keywords:411 - switching to particular window...
+2024-07-03 14:51:28 INFO  Keywords:484 - GetText is called
+2024-07-03 14:51:28 INFO  Keywords:283 - Waiting for webElement...ebixTxnID
+2024-07-03 14:51:28 INFO  Keywords:286 - Element found...ebixTxnID
+2024-07-03 14:51:28 INFO  Keywords:488 - LinkId: 532393
+2024-07-03 14:51:28 INFO  Keywords:532 - LinkId: 532393
+2024-07-03 14:51:28 INFO  Keywords:484 - GetText is called
+2024-07-03 14:51:28 INFO  Keywords:283 - Waiting for webElement...ebixTxnID
+2024-07-03 14:51:28 INFO  Keywords:286 - Element found...ebixTxnID
+2024-07-03 14:51:28 INFO  Keywords:488 - LinkId: 532393
+2024-07-03 14:51:28 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:51:28 INFO  Keywords:283 - Waiting for webElement...next
+2024-07-03 14:51:28 INFO  Keywords:286 - Element found...next
+2024-07-03 14:51:47 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:51:47 INFO  Keywords:283 - Waiting for webElement...validate.button
+2024-07-03 14:52:29 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:52:29 INFO  Keywords:283 - Waiting for webElement...notification.continue
+2024-07-03 14:52:55 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:52:55 INFO  Keywords:283 - Waiting for webElement...esignature.optout
+2024-07-03 14:54:36 INFO  Keywords:148 - VerifyText is called
+2024-07-03 14:54:36 INFO  Keywords:283 - Waiting for webElement...WebElement
+2024-07-03 14:54:36 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:54:36 INFO  Keywords:283 - Waiting for webElement...attachment
+2024-07-03 14:54:36 INFO  Keywords:286 - Element found...attachment
+2024-07-03 14:54:36 INFO  Keywords:283 - Waiting for webElement...attachment.documenttype
+2024-07-03 14:54:36 INFO  Keywords:286 - Element found...attachment.documenttype
+2024-07-03 14:54:36 INFO  Keywords:125 - InputText is called
+2024-07-03 14:54:36 INFO  Keywords:283 - Waiting for webElement...attachment.choosefile
+2024-07-03 14:54:36 INFO  Keywords:286 - Element found...attachment.choosefile
+2024-07-03 14:54:36 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:54:36 INFO  Keywords:283 - Waiting for webElement...attachment.upload
+2024-07-03 14:54:36 INFO  Keywords:286 - Element found...attachment.upload
+2024-07-03 14:54:55 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:54:55 INFO  Keywords:283 - Waiting for webElement...RequestSignatures
+2024-07-03 14:55:21 INFO  Keywords:283 - Waiting for webElement...attachment.documenttype
+2024-07-03 14:55:21 INFO  Keywords:286 - Element found...attachment.documenttype
+2024-07-03 14:55:21 INFO  Keywords:125 - InputText is called
+2024-07-03 14:55:21 INFO  Keywords:283 - Waiting for webElement...attachment.choosefile
+2024-07-03 14:55:21 INFO  Keywords:286 - Element found...attachment.choosefile
+2024-07-03 14:55:21 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:55:21 INFO  Keywords:283 - Waiting for webElement...attachment.upload
+2024-07-03 14:55:22 INFO  Keywords:286 - Element found...attachment.upload
+2024-07-03 14:55:40 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:55:40 INFO  Keywords:283 - Waiting for webElement...SubmitButton
+2024-07-03 14:57:20 INFO  Keywords:430 - switching to parent window...
+2024-07-03 14:57:20 INFO  Keywords:99 - Navigate is called
+2024-07-03 14:57:20 INFO  Keywords:498 - ClearText is called
+2024-07-03 14:57:20 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-07-03 14:57:20 INFO  Keywords:286 - Element found...gateway.username
+2024-07-03 14:57:20 INFO  Keywords:502 - LinkId: 532393
+2024-07-03 14:57:20 INFO  Keywords:125 - InputText is called
+2024-07-03 14:57:20 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-07-03 14:57:20 INFO  Keywords:286 - Element found...gateway.username
+2024-07-03 14:57:20 INFO  Keywords:498 - ClearText is called
+2024-07-03 14:57:20 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-07-03 14:57:20 INFO  Keywords:286 - Element found...gateway.password
+2024-07-03 14:57:20 INFO  Keywords:502 - LinkId: 532393
+2024-07-03 14:57:20 INFO  Keywords:125 - InputText is called
+2024-07-03 14:57:20 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-07-03 14:57:20 INFO  Keywords:286 - Element found...gateway.password
+2024-07-03 14:57:20 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:57:20 INFO  Keywords:283 - Waiting for webElement...gateway.login
+2024-07-03 14:57:20 INFO  Keywords:286 - Element found...gateway.login
+2024-07-03 14:57:38 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:57:38 INFO  Keywords:283 - Waiting for webElement...management
+2024-07-03 14:57:38 INFO  Keywords:286 - Element found...management
+2024-07-03 14:57:38 INFO  Keywords:283 - Waiting for webElement...managementTools
+2024-07-03 14:57:38 INFO  Keywords:286 - Element found...managementTools
+2024-07-03 14:57:39 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:57:39 INFO  Keywords:283 - Waiting for webElement...feedManagement
+2024-07-03 14:57:39 INFO  Keywords:286 - Element found...feedManagement
+2024-07-03 14:57:55 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:57:55 INFO  Keywords:283 - Waiting for webElement...searchPanel
+2024-07-03 14:57:55 INFO  Keywords:286 - Element found...searchPanel
+2024-07-03 14:57:56 INFO  Keywords:283 - Waiting for webElement...selectTransactionID
+2024-07-03 14:57:56 INFO  Keywords:286 - Element found...selectTransactionID
+2024-07-03 14:57:56 INFO  Keywords:125 - InputText is called
+2024-07-03 14:57:56 INFO  Keywords:283 - Waiting for webElement...enterTransactioID
+2024-07-03 14:57:56 INFO  Keywords:286 - Element found...enterTransactioID
+2024-07-03 14:57:56 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:57:56 INFO  Keywords:283 - Waiting for webElement...searchbutton
+2024-07-03 14:57:56 INFO  Keywords:286 - Element found...searchbutton
+2024-07-03 14:58:12 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:58:12 INFO  Keywords:283 - Waiting for webElement...transactionSearchmyResult
+2024-07-03 14:58:12 INFO  Keywords:286 - Element found...transactionSearchmyResult
+2024-07-03 14:58:28 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:58:28 INFO  Keywords:283 - Waiting for webElement...onenotThree
+2024-07-03 14:58:28 INFO  Keywords:286 - Element found...onenotThree
+2024-07-03 14:58:45 INFO  Keywords:283 - Waiting for webElement...103ResponseXML
+2024-07-03 14:58:45 INFO  Keywords:286 - Element found...103ResponseXML
+2024-07-03 14:59:17 INFO  Keywords:430 - switching to parent window...
+2024-07-03 14:59:17 INFO  Keywords:99 - Navigate is called
+2024-07-03 14:59:17 INFO  Keywords:498 - ClearText is called
+2024-07-03 14:59:17 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-07-03 14:59:17 INFO  Keywords:286 - Element found...gateway.username
+2024-07-03 14:59:17 INFO  Keywords:502 - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:acord="http://ACORD.org/Standards/Life/2" xmlns:finetre="www.finetre.com/webservices" xmlns:user="http://www.annuitynet.com/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Header><Header xmlns="www.finetre.com/webservices"><SessionId/><TransactionType>TransactionXML</TransactionType><ServiceVersion>1</ServiceVersion><RequestorId/><RequestorKey xsi:nil="true"/><ResponderId>SO</ResponderId><ResponderKey xsi:nil="true"/><RequestGUID>CB9A7BF6-ED10-49FF-AC69-F77F5C9B772C</RequestGUID><RequestSentDateTime/><RequestReceivedDateTime>2024-7-3T9:13:0</RequestReceivedDateTime><ResponseSentDateTime>2024-7-3T9:13:0</ResponseSentDateTime><ResponseReceivedDateTime>0001-01-01T00:00:00.0000000-05:00</ResponseReceivedDateTime><Extensions xsi:nil="true"/></Header></soap:Header><soap:Body><UploadResponse xmlns="www.finetre.com/webservices"><Data><Status>Success</Status><Errors xsi:nil="false"/><Extensions xsi:nil="true"/></Data></UploadResponse></soap:Body></soap:Envelope>
+2024-07-03 14:59:17 INFO  Keywords:125 - InputText is called
+2024-07-03 14:59:17 INFO  Keywords:283 - Waiting for webElement...gateway.username
+2024-07-03 14:59:17 INFO  Keywords:286 - Element found...gateway.username
+2024-07-03 14:59:17 INFO  Keywords:498 - ClearText is called
+2024-07-03 14:59:17 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-07-03 14:59:17 INFO  Keywords:286 - Element found...gateway.password
+2024-07-03 14:59:17 INFO  Keywords:502 - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:acord="http://ACORD.org/Standards/Life/2" xmlns:finetre="www.finetre.com/webservices" xmlns:user="http://www.annuitynet.com/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Header><Header xmlns="www.finetre.com/webservices"><SessionId/><TransactionType>TransactionXML</TransactionType><ServiceVersion>1</ServiceVersion><RequestorId/><RequestorKey xsi:nil="true"/><ResponderId>SO</ResponderId><ResponderKey xsi:nil="true"/><RequestGUID>CB9A7BF6-ED10-49FF-AC69-F77F5C9B772C</RequestGUID><RequestSentDateTime/><RequestReceivedDateTime>2024-7-3T9:13:0</RequestReceivedDateTime><ResponseSentDateTime>2024-7-3T9:13:0</ResponseSentDateTime><ResponseReceivedDateTime>0001-01-01T00:00:00.0000000-05:00</ResponseReceivedDateTime><Extensions xsi:nil="true"/></Header></soap:Header><soap:Body><UploadResponse xmlns="www.finetre.com/webservices"><Data><Status>Success</Status><Errors xsi:nil="false"/><Extensions xsi:nil="true"/></Data></UploadResponse></soap:Body></soap:Envelope>
+2024-07-03 14:59:17 INFO  Keywords:125 - InputText is called
+2024-07-03 14:59:17 INFO  Keywords:283 - Waiting for webElement...gateway.password
+2024-07-03 14:59:17 INFO  Keywords:286 - Element found...gateway.password
+2024-07-03 14:59:17 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:59:17 INFO  Keywords:283 - Waiting for webElement...gateway.login
+2024-07-03 14:59:17 INFO  Keywords:286 - Element found...gateway.login
+2024-07-03 14:59:34 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:59:34 INFO  Keywords:283 - Waiting for webElement...management
+2024-07-03 14:59:34 INFO  Keywords:286 - Element found...management
+2024-07-03 14:59:35 INFO  Keywords:283 - Waiting for webElement...managementTools
+2024-07-03 14:59:35 INFO  Keywords:286 - Element found...managementTools
+2024-07-03 14:59:36 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:59:36 INFO  Keywords:283 - Waiting for webElement...feedManagement
+2024-07-03 14:59:36 INFO  Keywords:286 - Element found...feedManagement
+2024-07-03 14:59:52 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:59:52 INFO  Keywords:283 - Waiting for webElement...searchPanel
+2024-07-03 14:59:52 INFO  Keywords:286 - Element found...searchPanel
+2024-07-03 14:59:52 INFO  Keywords:283 - Waiting for webElement...selectTransactionID
+2024-07-03 14:59:52 INFO  Keywords:286 - Element found...selectTransactionID
+2024-07-03 14:59:53 INFO  Keywords:125 - InputText is called
+2024-07-03 14:59:53 INFO  Keywords:283 - Waiting for webElement...enterTransactioID
+2024-07-03 14:59:53 INFO  Keywords:286 - Element found...enterTransactioID
+2024-07-03 14:59:53 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 14:59:53 INFO  Keywords:283 - Waiting for webElement...searchbutton
+2024-07-03 14:59:53 INFO  Keywords:286 - Element found...searchbutton
+2024-07-03 15:00:09 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 15:00:09 INFO  Keywords:283 - Waiting for webElement...transactionSearchmyResult
+2024-07-03 15:00:09 INFO  Keywords:286 - Element found...transactionSearchmyResult
+2024-07-03 15:00:25 INFO  Keywords:136 - ClickOnLink is called
+2024-07-03 15:00:25 INFO  Keywords:283 - Waiting for webElement...RTSMButton
+2024-07-03 15:00:25 INFO  Keywords:286 - Element found...RTSMButton
+2024-07-03 15:00:41 INFO  Keywords:283 - Waiting for webElement...RTSMResponseXML

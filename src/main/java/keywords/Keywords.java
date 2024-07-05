@@ -67,6 +67,9 @@ import samlUtility.ProductAndCarrierCodeUtils;
 import samlUtility.Product_Name_Utils;
 import samlUtility.Saml_Util;
 import samlUtility.Transaction_Status;
+import samlUtility.UserEmail;
+
+import samlUtility.UserName;
 import testBase.LoggerHelper;
 import testBase.TestBase;
 import testBase.Wait;
@@ -281,7 +284,8 @@ public class Keywords extends TestBase {
 	public static void expliciteWait() throws Exception {
 		try {
 			logger.info("Waiting for webElement..." + webElement.toString());
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(Wait.getExplicitWait())));
+			WebDriverWait wait = new WebDriverWait(driver,
+					Duration.ofSeconds(Integer.parseInt(Wait.getExplicitWait())));
 			wait.until(ExpectedConditions.visibilityOf(getWebElement(webElement)));
 			logger.info("Element found..." + webElement.toString());
 		} catch (Throwable e) {
@@ -294,9 +298,9 @@ public class Keywords extends TestBase {
 	private WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec) {
 		logger.debug("");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
-		//wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.MILLISECONDS);
+		// wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.MILLISECONDS);
 		wait.ignoring(NoSuchElementException.class);
-	//	wait.ignoring(ElementNotVisibleException.class);
+		// wait.ignoring(ElementNotVisibleException.class);
 		wait.ignoring(StaleElementReferenceException.class);
 		wait.ignoring(NoSuchFrameException.class);
 		return wait;
@@ -311,7 +315,8 @@ public class Keywords extends TestBase {
 	public static String implicitlyWait() {
 		try {
 			// Thread.sleep(5000);
-			//driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), Duration.ofSeconds());
+			// driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()),
+			// Duration.ofSeconds());
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), TimeUnit.SECONDS);
 		} catch (Exception e) {
 			return "Failed - unable to load the page";
@@ -514,7 +519,7 @@ public class Keywords extends TestBase {
 
 	public static String getCarrierName() {
 		getText();
-		reader.setCellData("Status", "Carrier",TestController.TD, ActualText);
+		reader.setCellData("Status", "Carrier", TestController.TD, ActualText);
 		return "Pass";
 	}
 
@@ -574,6 +579,53 @@ public class Keywords extends TestBase {
 				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
 
 		Saml_Util.writeXml(DataDocFinal, output);
+		return "Pass";
+	}
+
+	public static String Change_UserEmail() throws ParserConfigurationException, SAXException, IOException,
+			TransformerConfigurationException, TransformerFactoryConfigurationError, TransformerException {
+
+		File fXmlFile = new File(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+// Xls_Reader reader = new
+// Xls_Reader(System.getProperty("user.dir")+"\\src\\test\\java\\data\\UAT_Stability_Status.xlsx");
+		DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		Document doc = builder.parse(fXmlFile);
+		doc.getDocumentElement().normalize();
+// System.out.println("Root element :" +
+// doc.getDocumentElement().getNodeName());
+		NodeList nList = doc.getElementsByTagName("saml2:Attribute");
+
+// System.out.println("----------------------------");
+		for (int temp = 0; temp < nList.getLength(); temp++) {
+			Element element = (Element) nList.item(temp);
+			NodeList name = element.getElementsByTagName("saml2:AttributeValue");
+			Element line = (Element) name.item(0);
+			NodeList list = line.getChildNodes();
+			String data;
+			// System.out.println(list.getLength());
+			for (int index = 0; index < list.getLength(); index++) {
+				String updatedEmail = null;
+				if (list.item(index) instanceof CharacterData) {
+					CharacterData child = (CharacterData) list.item(index);
+					data = child.getData();
+					if (data != null && data.trim().length() > 0)
+						if (data.contains("<Data>")) {
+							// System.out.println(data);
+							String lEValue = data.substring(data.indexOf("<EmailAddress>") + 1);
+							String valueEmail = lEValue.substring(13, lEValue.indexOf("</EmailAddress>"));
+							System.out.println(valueEmail);
+							String excelEmail = reader.getCellData(TestController.TestCaseID, "EmailAddress",
+									TestController.TD);
+							System.out.println(excelEmail);
+							updatedEmail = data.replace(valueEmail, excelEmail);
+							child.setNodeValue(updatedEmail);
+						}
+				}
+			}
+		}
+		writeXMLFile(doc);
+
 		return "Pass";
 	}
 
@@ -639,6 +691,36 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 
+	public static String Change_UserName() throws Exception {
+		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		Document DataDoc = db.parse(new InputSource(new StringReader(ProductAndCarrierCodeUtils.getXMLString())));
+
+		// --------- PROCESS
+		String cdata = UserName.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = UserName.getDataDocWithCDataPlaceHolder(DataDoc);
+
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = UserName.getModifiedCDataUserName(cDataDoc);
+
+		// --------- OUTPUT
+		String finalcData = UserName.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = UserName.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
+
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = UserName.convertStringToDocument(xmlStr);
+
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+
+		UserName.writeXml(DataDocFinal, output);
+		return "Pass";
+	}
+
 	public static String Change_CUSIP() throws ParserConfigurationException, SAXException, IOException,
 			TransformerConfigurationException, TransformerFactoryConfigurationError, TransformerException {
 
@@ -672,7 +754,8 @@ public class Keywords extends TestBase {
 							String lValue = data.substring(data.indexOf("<CUSIP>") + 1);
 							String valuecuspi = lValue.substring(6, lValue.indexOf("</CUSIP>"));
 							System.out.println(valuecuspi);
-							String excelCUSIP = reader.getCellData(TestController.TestCaseID, "CUSIP", TestController.TD);
+							String excelCUSIP = reader.getCellData(TestController.TestCaseID, "CUSIP",
+									TestController.TD);
 							System.out.println(excelCUSIP);
 							updatedCUSIP = data.replace(valuecuspi, excelCUSIP);
 							child.setNodeValue(updatedCUSIP);
@@ -876,26 +959,23 @@ public class Keywords extends TestBase {
 
 		return "Pass";
 	}
-	
+
 	public static String DateSelection() {
 		try {
 			expliciteWait();
-			
-			
-			JavascriptExecutor executor8 = (JavascriptExecutor)driver;
-			
+
+			JavascriptExecutor executor8 = (JavascriptExecutor) driver;
+
 			executor8.executeScript("document.webElement.style.display='block';");
 			WebElement element = getWebElement(webElement);
 			Select select8 = new Select(element);
 			select8.selectByVisibleText(TestData);
-			
+
 		} catch (Exception e) {
 			return "Failed - Element not found " + webElement;
 		}
 		return "Pass";
 	}
-	
-	
 
 	public static String verify_Disclosure() {
 
@@ -917,9 +997,6 @@ public class Keywords extends TestBase {
 
 		return "Pass";
 	}
-	
-
-	
 
 	public static String getPopupTransText() {
 		try {
