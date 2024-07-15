@@ -1,745 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_40_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_40_38.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_15_07_2024_02_59_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_15_07_2024_02_59_55.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_05_07_2024_12_41_29.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_05_07_2024_12_41_29.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_01_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_01_42.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_43_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_43_15.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_02_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_02_31.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_05_07_2024_12_44_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_05_07_2024_12_44_45.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]DateSelection_15_07_2024_03_04_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]DateSelection_15_07_2024_03_04_13.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_05_07_2024_12_45_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_05_07_2024_12_45_27.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_04_54.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_04_54.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_45_44.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_45_44.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_05_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_05_55.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_47_32.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_47_32.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_06_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_06_58.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_48_22.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_48_22.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_07_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_07_19.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_50_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_50_24.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_15_07_2024_03_08_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_15_07_2024_03_08_49.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_06.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_08_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_08_51.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_32.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_32.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_09_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_09_24.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_05_07_2024_12_53_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_05_07_2024_12_53_02.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_53_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_53_31.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_54_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_54_15.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_58_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_58_51.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_01_50.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_01_50.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_05_07_2024_01_02_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_05_07_2024_01_02_41.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_04_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_04_27.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_05_07_2024_01_05_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_05_07_2024_01_05_58.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_05_07_2024_01_06_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_05_07_2024_01_06_40.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_06_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_06_56.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_08_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_08_45.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_09_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_09_36.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_11_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_11_38.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_20.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_46.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_46.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_05_07_2024_01_14_16.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_05_07_2024_01_14_16.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_14_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_14_45.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_15_30.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_15_30.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_20_05.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_20_05.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_23_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_23_06.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_05_07_2024_01_23_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_05_07_2024_01_23_56.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_25_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_25_43.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_05_07_2024_01_27_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_05_07_2024_01_27_13.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_05_07_2024_01_27_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_05_07_2024_01_27_56.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_28_12.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_28_12.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_01.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_52.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_32_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_32_53.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_33_35.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_33_35.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_34_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_34_01.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_05_07_2024_01_35_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_05_07_2024_01_35_31.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_01.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_45.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_41_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_41_20.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_44_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_44_20.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_46_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_46_06.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_05_07_2024_01_47_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_05_07_2024_01_47_36.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_05_07_2024_01_48_18.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_05_07_2024_01_48_18.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_48_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_48_34.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_50_23.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_50_23.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_51_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_51_13.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_52_04.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_52_04.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_07.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_49.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_55_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_55_15.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_05_07_2024_01_56_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_05_07_2024_01_56_45.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_14.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_14.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_58.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[captureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_02_02_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_02_02_34.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_09_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_09_51.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-05T12:39:16 IST" name="Default suite" finished-at="2024-07-05T14:04:14 IST" duration-ms="5097034">
+  <suite started-at="2024-07-15T14:57:41 IST" name="Default suite" finished-at="2024-07-15T15:15:06 IST" duration-ms="1045353">
     <groups>
     </groups>
-    <test started-at="2024-07-05T12:39:16 IST" name="Default test" finished-at="2024-07-05T14:04:14 IST" duration-ms="5097034">
+    <test started-at="2024-07-15T14:57:41 IST" name="Default test" finished-at="2024-07-15T15:15:06 IST" duration-ms="1045353">
       <class name="testController.TestController">
-        <test-method is-config="true" signature="setLog4j()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-05T12:39:16 IST" name="setLog4j" finished-at="2024-07-05T12:39:16 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-15T14:57:41 IST" name="setLog4j" finished-at="2024-07-15T14:57:41 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLog4j -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-05T12:39:17 IST" name="initBrowser" finished-at="2024-07-05T12:39:18 IST" duration-ms="1116" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-15T14:57:41 IST" name="initBrowser" finished-at="2024-07-15T14:57:42 IST" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="TestCaseController()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-05T12:39:18 IST" name="TestCaseController" finished-at="2024-07-05T14:04:14 IST" duration-ms="5095885" status="PASS">
+        <test-method signature="TestCaseController()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-15T14:57:42 IST" name="TestCaseController" finished-at="2024-07-15T15:15:06 IST" duration-ms="1044231" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "TSStatus" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "TSStatus" is null
+at testController.TestController.TestCaseController(TestController.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_40_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_40_38.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_15_07_2024_02_59_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_15_07_2024_02_59_55.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_05_07_2024_12_41_29.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_05_07_2024_12_41_29.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_01_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_01_42.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_43_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_43_15.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_02_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_02_31.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_05_07_2024_12_44_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_05_07_2024_12_44_45.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]DateSelection_15_07_2024_03_04_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]DateSelection_15_07_2024_03_04_13.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_05_07_2024_12_45_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_05_07_2024_12_45_27.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_04_54.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_04_54.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_45_44.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_45_44.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_05_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_05_55.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_47_32.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_47_32.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_06_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_06_58.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_48_22.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_05_07_2024_12_48_22.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_07_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_07_19.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_50_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_50_24.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_15_07_2024_03_08_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_15_07_2024_03_08_49.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_06.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_08_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_08_51.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_32.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_51_32.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_09_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_15_07_2024_03_09_24.png'height='100' width='100'/></a>]]>
             </line>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_05_07_2024_12_53_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_05_07_2024_12_53_02.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_53_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_53_31.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_54_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_54_15.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_58_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickOnLink_05_07_2024_12_58_51.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_01_50.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_01_50.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_05_07_2024_01_02_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_05_07_2024_01_02_41.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_04_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_04_27.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_05_07_2024_01_05_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_05_07_2024_01_05_58.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_05_07_2024_01_06_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_05_07_2024_01_06_40.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_06_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_06_56.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_08_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_08_45.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_09_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_05_07_2024_01_09_36.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_11_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_11_38.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_20.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_46.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_12_46.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_05_07_2024_01_14_16.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_05_07_2024_01_14_16.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_14_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_14_45.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_15_30.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_15_30.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_20_05.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickOnLink_05_07_2024_01_20_05.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_23_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_23_06.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_05_07_2024_01_23_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_05_07_2024_01_23_56.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_25_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_25_43.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_05_07_2024_01_27_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_05_07_2024_01_27_13.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_05_07_2024_01_27_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_05_07_2024_01_27_56.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_28_12.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_28_12.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_01.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_05_07_2024_01_30_52.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_32_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_32_53.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_33_35.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_33_35.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_34_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_34_01.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_05_07_2024_01_35_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_05_07_2024_01_35_31.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_01.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_36_45.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_41_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickOnLink_05_07_2024_01_41_20.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_44_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_44_20.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_46_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_46_06.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_05_07_2024_01_47_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_05_07_2024_01_47_36.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_05_07_2024_01_48_18.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_05_07_2024_01_48_18.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_48_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_48_34.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_50_23.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_50_23.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_51_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_51_13.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_52_04.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_05_07_2024_01_52_04.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_07.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_54_49.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_55_15.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_55_15.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_05_07_2024_01_56_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_05_07_2024_01_56_45.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_14.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_14.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_01_57_58.png'height='100' width='100'/></a>]]>
-            </line>
-            <line>
-              <![CDATA[captureScreen method called]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_02_02_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]clickOnLink_05_07_2024_02_02_34.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_09_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickOnLink_15_07_2024_03_09_51.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCaseController -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-05T14:04:14 IST" name="quitBrowser" finished-at="2024-07-05T14:04:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testController.TestController@31ea9581]" started-at="2024-07-15T15:15:06 IST" name="quitBrowser" finished-at="2024-07-15T15:15:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
