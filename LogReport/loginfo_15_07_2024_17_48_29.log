@@ -1,0 +1,22 @@
+2024-07-15 17:48:37 INFO  Keywords:102 - Navigate is called
+2024-07-15 17:48:39 INFO  Keywords:128 - InputText is called
+2024-07-15 17:48:39 INFO  Keywords:286 - Waiting for webElement...gateway.username
+2024-07-15 17:48:39 INFO  Keywords:290 - Element found...gateway.username
+2024-07-15 17:48:39 INFO  Keywords:128 - InputText is called
+2024-07-15 17:48:39 INFO  Keywords:286 - Waiting for webElement...gateway.password
+2024-07-15 17:48:39 INFO  Keywords:290 - Element found...gateway.password
+2024-07-15 17:48:40 INFO  Keywords:139 - ClickOnLink is called
+2024-07-15 17:48:40 INFO  Keywords:286 - Waiting for webElement...gateway.login
+2024-07-15 17:48:40 INFO  Keywords:290 - Element found...gateway.login
+2024-07-15 17:49:17 INFO  Keywords:139 - ClickOnLink is called
+2024-07-15 17:49:17 INFO  Keywords:286 - Waiting for webElement...postsamldata
+2024-07-15 17:49:17 INFO  Keywords:290 - Element found...postsamldata
+2024-07-15 17:49:33 INFO  Keywords:139 - ClickOnLink is called
+2024-07-15 17:49:33 INFO  Keywords:286 - Waiting for webElement...next
+2024-07-15 17:49:33 INFO  Keywords:290 - Element found...next
+2024-07-15 17:49:52 INFO  Keywords:128 - InputText is called
+2024-07-15 17:49:52 INFO  Keywords:286 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-07-15 17:49:52 INFO  Keywords:290 - Element found...policyConfiguration.insuranceamount
+2024-07-15 17:49:52 INFO  Keywords:286 - Waiting for webElement...policyConfiguration.LTC
+2024-07-15 17:49:52 INFO  Keywords:290 - Element found...policyConfiguration.LTC
+2024-07-15 17:49:53 INFO  Keywords:286 - Waiting for webElement...policyConfiguration.Benefit

@@ -1,0 +1,10 @@
+2024-07-16 11:13:53 INFO  Keywords:102 - Navigate is called
+2024-07-16 11:13:55 INFO  Keywords:128 - InputText is called
+2024-07-16 11:13:55 INFO  Keywords:286 - Waiting for webElement...gateway.username
+2024-07-16 11:13:56 INFO  Keywords:290 - Element found...gateway.username
+2024-07-16 11:13:56 INFO  Keywords:128 - InputText is called
+2024-07-16 11:13:56 INFO  Keywords:286 - Waiting for webElement...gateway.password
+2024-07-16 11:13:56 INFO  Keywords:290 - Element found...gateway.password
+2024-07-16 11:13:56 INFO  Keywords:139 - ClickOnLink is called
+2024-07-16 11:13:56 INFO  Keywords:286 - Waiting for webElement...gateway.login
+2024-07-16 11:13:56 INFO  Keywords:290 - Element found...gateway.login

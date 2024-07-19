@@ -190,6 +190,19 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 
+	
+	public static String SpaceKeys() {
+		try {
+			expliciteWait();
+			WebElement element = getWebElement(webElement);
+			Actions builder = new Actions(driver);
+			builder.sendKeys(element).build().perform();
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			return "Failed - Element not found " + webElement;
+		}
+		return "Pass";
+	}
 	public static String selectByValue() {
 		try {
 			expliciteWait();
