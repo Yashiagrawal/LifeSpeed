@@ -1,0 +1,41 @@
+2024-07-25 11:34:53 INFO  Keywords:102 - Navigate is called
+2024-07-25 11:34:55 INFO  Keywords:128 - InputText is called
+2024-07-25 11:34:55 INFO  Keywords:299 - Waiting for webElement...gateway.username
+2024-07-25 11:34:55 INFO  Keywords:303 - Element found...gateway.username
+2024-07-25 11:34:56 INFO  Keywords:128 - InputText is called
+2024-07-25 11:34:56 INFO  Keywords:299 - Waiting for webElement...gateway.password
+2024-07-25 11:34:56 INFO  Keywords:303 - Element found...gateway.password
+2024-07-25 11:34:56 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:34:56 INFO  Keywords:299 - Waiting for webElement...gateway.login
+2024-07-25 11:34:56 INFO  Keywords:303 - Element found...gateway.login
+2024-07-25 11:35:33 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:35:33 INFO  Keywords:299 - Waiting for webElement...postsamldata
+2024-07-25 11:35:33 INFO  Keywords:303 - Element found...postsamldata
+2024-07-25 11:35:49 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:35:49 INFO  Keywords:299 - Waiting for webElement...next
+2024-07-25 11:36:15 INFO  Keywords:128 - InputText is called
+2024-07-25 11:36:15 INFO  Keywords:299 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-07-25 11:36:25 INFO  Keywords:299 - Waiting for webElement...policyConfiguration.LTC
+2024-07-25 11:36:35 INFO  Keywords:299 - Waiting for webElement...policyConfiguration.payors
+2024-07-25 11:36:46 INFO  Keywords:299 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-07-25 11:36:57 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:36:57 INFO  Keywords:299 - Waiting for webElement...next
+2024-07-25 11:38:37 INFO  Keywords:299 - Waiting for webElement...primaryinsured.birthcountry
+2024-07-25 11:38:47 INFO  Keywords:299 - Waiting for webElement...primaryinsured.birthstate
+2024-07-25 11:38:57 INFO  Keywords:128 - InputText is called
+2024-07-25 11:38:57 INFO  Keywords:299 - Waiting for webElement...primaryinsured.birthcity
+2024-07-25 11:39:08 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:39:08 INFO  Keywords:299 - Waiting for webElement...next
+2024-07-25 11:39:08 INFO  Keywords:303 - Element found...next
+2024-07-25 11:39:29 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:39:29 INFO  Keywords:299 - Waiting for webElement...next
+2024-07-25 11:39:29 INFO  Keywords:303 - Element found...next
+2024-07-25 11:39:29 INFO  Keywords:299 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-07-25 11:39:43 INFO  Keywords:139 - ClickOnLink is called
+2024-07-25 11:39:43 INFO  Keywords:299 - Waiting for webElement...next
+2024-07-25 11:39:43 INFO  Keywords:303 - Element found...next
+2024-07-25 11:40:03 INFO  Keywords:299 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-07-25 11:40:13 INFO  Keywords:299 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-07-25 11:40:23 INFO  Keywords:299 - Waiting for webElement...financialDetails.envisiontaking
+2024-07-25 11:40:33 INFO  Keywords:299 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-07-25 11:40:43 INFO  Keywords:299 - Waiting for webElement...financialDetails.riskTolerance

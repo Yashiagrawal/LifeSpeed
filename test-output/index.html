@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\agraway\AppData\Local\Temp\testng-eclipse-1150817374\testng-customsuite.xml</span>
+                    <span>C:\Users\agraway\AppData\Local\Temp\testng-eclipse--48659929\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testController.TestController" class="method navigator-link" hash-for-method="TestCaseController">TestCaseController</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +118,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testController.TestController</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,14 +129,68 @@
                   <a name="TestCaseController">
                   </a> <!-- TestCaseController -->
                   <span class="method-name">TestCaseController</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e5c481b0-8fd7-4c19-8a7e-ff3036f756ab, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:45045, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17740, moz:profile: C:\Users\agraway\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:45045/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e5c481b0-8fd7-4c19-8a7e-ff3036f756ab
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+	at testBase.TestBase.getScreenShot(TestBase.java:152)
+	at testController.TestController.TestCaseController(TestController.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\agraway\AppData\Local\Temp\testng-eclipse-1150817374\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\agraway\AppData\Local\Temp\testng-eclipse--48659929\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -189,12 +243,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestCaseController')
 data.setCell(0, 2, 'testController.TestController')
-data.setCell(0, 3, 15677874);
+data.setCell(0, 3, 590804);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 hours</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -209,269 +263,34 @@ return data;
               <span class="reporter-method-name">TestCaseController</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_41_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_41_40.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_14_46.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_14_46.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_18_07_2024_05_42_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]clickRadioButton_18_07_2024_05_42_31.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_14_56.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_14_56.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_44_17.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_44_17.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_16_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_16_42.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_18_07_2024_05_45_48.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByVisibleText_18_07_2024_05_45_48.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]selectByVisibleText_25_07_2024_03_17_46.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]selectByVisibleText_25_07_2024_03_17_46.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_18_07_2024_05_46_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]selectByValue_18_07_2024_05_46_31.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_18_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_18_02.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_46_47.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_46_47.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_20_05.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_20_05.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_48_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_48_41.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_20_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_20_55.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_49_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]inputText_18_07_2024_05_49_31.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_21_46.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_21_46.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_18_07_2024_05_53_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[1]verifyText_18_07_2024_05_53_42.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_22_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_22_02.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_01_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_01_27.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_18_07_2024_06_02_18.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]clickRadioButton_18_07_2024_06_02_18.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_04_04.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_04_04.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_22_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]inputText_25_07_2024_03_22_52.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_18_07_2024_06_05_37.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByVisibleText_18_07_2024_06_05_37.png'height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_22_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC02[1]clickRadioButton_25_07_2024_03_22_53.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_18_07_2024_06_06_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]selectByValue_18_07_2024_06_06_20.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_06_36.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_06_36.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_08_29.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_08_29.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_09_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]inputText_18_07_2024_06_09_20.png'height='100' width='100'/></a></span>
                 <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_18_07_2024_06_13_32.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[2]verifyText_18_07_2024_06_13_32.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_21_17.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_21_17.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_18_07_2024_06_22_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]clickRadioButton_18_07_2024_06_22_07.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_23_54.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_23_54.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_18_07_2024_06_25_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByVisibleText_18_07_2024_06_25_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_18_07_2024_06_26_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]selectByValue_18_07_2024_06_26_07.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_26_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_26_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_28_16.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_28_16.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_29_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]inputText_18_07_2024_06_29_07.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_18_07_2024_06_33_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[3]verifyText_18_07_2024_06_33_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_41_07.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_41_07.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_42_54.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_42_54.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_18_07_2024_06_44_26.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByVisibleText_18_07_2024_06_44_26.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_18_07_2024_06_45_11.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]selectByValue_18_07_2024_06_45_11.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_45_28.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_45_28.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_47_20.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_47_20.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_48_11.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_48_11.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_49_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]inputText_18_07_2024_06_49_01.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_18_07_2024_06_53_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC23[4]verifyText_18_07_2024_06_53_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_18_07_2024_07_01_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]clickRadioButton_18_07_2024_07_01_51.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_03_37.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_03_37.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_04_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_04_27.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_07_39.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_07_39.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_08_30.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]inputText_18_07_2024_07_08_30.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_18_07_2024_07_11_14.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[1]verifyText_18_07_2024_07_11_14.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]clickRadioButton_18_07_2024_07_19_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]clickRadioButton_18_07_2024_07_19_40.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_21_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_21_27.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_22_18.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_22_18.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_25_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_25_27.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_26_18.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]inputText_18_07_2024_07_26_18.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]verifyText_18_07_2024_07_28_54.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[2]verifyText_18_07_2024_07_28_54.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickRadioButton_18_07_2024_07_37_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickRadioButton_18_07_2024_07_37_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_39_10.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_39_10.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_40_04.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_40_04.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_43_23.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_43_23.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_44_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_44_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_45_16.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_45_16.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_45_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_45_43.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]verifyText_18_07_2024_07_47_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]verifyText_18_07_2024_07_47_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_47_23.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_47_23.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]selectByVisibleText_18_07_2024_07_47_33.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]selectByVisibleText_18_07_2024_07_47_33.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_47_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_47_43.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_47_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_47_53.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_48_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_48_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]selectByVisibleText_18_07_2024_07_48_45.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]selectByVisibleText_18_07_2024_07_48_45.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_48_55.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]inputText_18_07_2024_07_48_55.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_49_05.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_49_05.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_49_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_49_31.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_53_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[3]clickOnLink_18_07_2024_07_53_51.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]clickRadioButton_18_07_2024_07_57_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]clickRadioButton_18_07_2024_07_57_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_07_59_11.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_07_59_11.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_00_00.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_00_00.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_03_10.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_03_10.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_04_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]inputText_18_07_2024_08_04_01.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]verifyText_18_07_2024_08_06_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[4]verifyText_18_07_2024_08_06_38.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickRadioButton_18_07_2024_08_15_04.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickRadioButton_18_07_2024_08_15_04.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_16_50.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_16_50.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_17_39.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_17_39.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_20_50.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_20_50.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_21_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]inputText_18_07_2024_08_21_40.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_22_08.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_22_08.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_22_51.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_22_51.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_23_17.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_23_17.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]verifyText_18_07_2024_08_24_47.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]verifyText_18_07_2024_08_24_47.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_25_17.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_25_17.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_26_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_26_02.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_30_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[5]clickOnLink_18_07_2024_08_30_31.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]clickRadioButton_18_07_2024_08_33_25.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]clickRadioButton_18_07_2024_08_33_25.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_35_12.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_35_12.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_36_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_36_02.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_39_11.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_39_11.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_40_01.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]inputText_18_07_2024_08_40_01.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]verifyText_18_07_2024_08_42_38.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[6]verifyText_18_07_2024_08_42_38.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]clickRadioButton_18_07_2024_08_51_02.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]clickRadioButton_18_07_2024_08_51_02.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_52_48.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_52_48.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_53_37.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_53_37.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_56_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_56_52.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_57_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]inputText_18_07_2024_08_57_42.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]verifyText_18_07_2024_09_00_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[7]verifyText_18_07_2024_09_00_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickRadioButton_18_07_2024_09_08_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickRadioButton_18_07_2024_09_08_43.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_10_29.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_10_29.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_11_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_11_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_14_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_14_31.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_15_21.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]inputText_18_07_2024_09_15_21.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_15_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_15_49.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_16_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_16_31.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_16_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_16_58.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]verifyText_18_07_2024_09_18_28.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]verifyText_18_07_2024_09_18_28.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_18_58.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_18_58.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_19_42.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_19_42.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_24_12.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[8]clickOnLink_18_07_2024_09_24_12.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickRadioButton_18_07_2024_09_27_06.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickRadioButton_18_07_2024_09_27_06.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_28_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_28_52.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_29_41.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_29_41.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_32_52.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_32_52.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_33_43.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]inputText_18_07_2024_09_33_43.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_34_11.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_34_11.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_34_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_34_53.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_35_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_35_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]verifyText_18_07_2024_09_36_49.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]verifyText_18_07_2024_09_36_49.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_37_19.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_37_19.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_38_03.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_38_03.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_42_34.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[9]clickOnLink_18_07_2024_09_42_34.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickRadioButton_18_07_2024_09_45_27.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickRadioButton_18_07_2024_09_45_27.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_47_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_47_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_48_03.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_48_03.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_51_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_51_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_52_03.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]inputText_18_07_2024_09_52_03.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_52_31.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_52_31.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_53_13.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_53_13.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_53_39.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_53_39.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]verifyText_18_07_2024_09_55_09.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]verifyText_18_07_2024_09_55_09.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_55_40.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_55_40.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_56_24.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_09_56_24.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_10_00_53.png'><img src='C:\Users\agraway\Desktop\LifeSpeed-mainy\LifeSpeed-main\src\test\java\screenshot\TC25[10]clickOnLink_18_07_2024_10_00_53.png'height='100' width='100'/></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -496,15 +315,19 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">initBrowser</span>
-                <span class="method-start">109 ms</span>
+                <span class="method-start">102 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TestCaseController</span>
-                <span class="method-start">1265 ms</span>
+                <span class="method-start">1243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">15679142 ms</span>
+                <span class="method-start">592051 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

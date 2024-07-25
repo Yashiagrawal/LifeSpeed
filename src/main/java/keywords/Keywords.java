@@ -979,10 +979,8 @@ public class Keywords extends TestBase {
 
 			JavascriptExecutor executor8 = (JavascriptExecutor) driver;
 
-			executor8.executeScript("document.webElement.style.display='block';");
-			WebElement element = getWebElement(webElement);
-			Select select8 = new Select(element);
-			select8.selectByVisibleText(TestData);
+			executor8.executeScript("arguments[0].value=arguments[1]",getWebElement(webElement), TestData);
+			
 
 		} catch (Exception e) {
 			return "Failed - Element not found " + webElement;
