@@ -70,6 +70,8 @@ import samlUtility.Transaction_Status;
 import samlUtility.UserEmail;
 
 import samlUtility.UserName;
+import samlUtility.UserRole;
+import samlUtility.UserRoleSU;
 import testBase.LoggerHelper;
 import testBase.TestBase;
 import testBase.Wait;
@@ -441,6 +443,7 @@ public class Keywords extends TestBase {
 		}
 
 		driver.switchTo().window(individualHandle[1]);
+		System.out.println(driver.switchTo().window(individualHandle[1]));
 		return "Pass";
 	}
 
@@ -449,6 +452,7 @@ public class Keywords extends TestBase {
 		// driver.switchTo().defaultContent();
 
 		driver.switchTo().window(parentWindowHandle);
+		System.out.println(driver.switchTo().window(parentWindowHandle));
 		return "Pass";
 	}
 
@@ -706,7 +710,7 @@ public class Keywords extends TestBase {
 
 	public static String Change_UserName() throws Exception {
 		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-		Document DataDoc = db.parse(new InputSource(new StringReader(ProductAndCarrierCodeUtils.getXMLString())));
+		Document DataDoc = db.parse(new InputSource(new StringReader(UserName.getXMLString())));
 
 		// --------- PROCESS
 		String cdata = UserName.getCData(DataDoc);
@@ -731,6 +735,69 @@ public class Keywords extends TestBase {
 				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
 
 		UserName.writeXml(DataDocFinal, output);
+		return "Pass";
+	}
+	
+	
+	
+	public static String Change_UserRole() throws Exception {
+		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		Document DataDoc = db.parse(new InputSource(new StringReader(UserRole.getXMLString())));
+
+		// --------- PROCESS
+		String cdata = UserRole.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = UserRole.getDataDocWithCDataPlaceHolder(DataDoc);
+
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = UserRole.getModifiedCDataUserRole(cDataDoc);
+
+		// --------- OUTPUTconvertXMLDocumentToString(modifiedCData, true);
+		String finalcData = UserRole.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = UserRole.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
+
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = UserRole.convertStringToDocument(xmlStr);
+
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+
+		UserRole.writeXml(DataDocFinal, output);
+		return "Pass";
+	}
+	
+	
+	public static String Change_UserRoleSU() throws Exception {
+		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		Document DataDoc = db.parse(new InputSource(new StringReader(UserRoleSU.getXMLString())));
+
+		// --------- PROCESS
+		String cdata = UserRole.getCData(DataDoc);
+		// System.out.println(cdata);
+		Document docWithCDataPlaceholder = UserRoleSU.getDataDocWithCDataPlaceHolder(DataDoc);
+
+		// --------- LOAD CDATA XML
+		Document cDataDoc = db.parse(new InputSource(new StringReader(cdata)));
+		Document modifiedCData = UserRoleSU.getModifiedCDataUserRoleSU(cDataDoc);
+
+		// --------- OUTPUTconvertXMLDocumentToString(modifiedCData, true);
+		String finalcData = UserRoleSU.convertXMLDocumentToString(modifiedCData, true);
+		String finalXML = UserRoleSU.convertXMLDocumentToString(docWithCDataPlaceholder, false);
+
+		finalcData = "<![CDATA[" + finalcData + "]]>";
+		finalXML = finalXML.replace("C_DATA", finalcData);
+
+		final String xmlStr = new String(finalXML);
+		Document DataDocFinal = UserRoleSU.convertStringToDocument(xmlStr);
+
+		FileOutputStream output = new FileOutputStream(
+				System.getProperty("user.dir") + "\\src\\test\\java\\sMAL_File\\POS_Protectioniul.xml");
+
+		UserRoleSU.writeXml(DataDocFinal, output);
 		return "Pass";
 	}
 
@@ -954,10 +1021,15 @@ public class Keywords extends TestBase {
 	 * RegistrationPage reg = new RegistrationPage(); return
 	 * reg.selectYourAddressCountry(); }
 	 */
-	public static void closeBrowser() {
+	public static String closeBrowser() {
 		driver.quit();
+		return "Pass";
 	}
 
+	public static String closeB() {
+		driver.close();
+		return "Pass";
+	}
 	public static String verify_Transtatus() {
 
 		LangForm.status_TransXML();

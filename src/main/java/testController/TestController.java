@@ -35,7 +35,7 @@ public class TestController extends TestBase {
 		ReportUtil.startSuite("Suite1");
 		String TCStatus = "Pass";
 
-		// loop through the test cases
+		// loop through the test cases 
 		for (int TC = 2; TC <= SuiteData.getRowCount("TestCases"); TC++) {
 
 			// This will Read testCase ID from TestSuite e.g (TC01,TC02)

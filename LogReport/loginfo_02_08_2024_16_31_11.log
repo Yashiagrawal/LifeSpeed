@@ -1,0 +1,22 @@
+2024-08-02 16:31:21 INFO  Keywords:104 - Navigate is called
+2024-08-02 16:31:22 INFO  Keywords:104 - Navigate is called
+2024-08-02 16:31:24 INFO  Keywords:130 - InputText is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.username
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.username
+2024-08-02 16:31:24 INFO  Keywords:130 - InputText is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.password
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.password
+2024-08-02 16:31:24 INFO  Keywords:141 - ClickOnLink is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.login
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.login
+2024-08-02 16:31:24 INFO  Keywords:130 - InputText is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.username
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.username
+2024-08-02 16:31:24 INFO  Keywords:130 - InputText is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.password
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.password
+2024-08-02 16:31:24 INFO  Keywords:141 - ClickOnLink is called
+2024-08-02 16:31:24 INFO  Keywords:301 - Waiting for webElement...gateway.login
+2024-08-02 16:31:24 INFO  Keywords:305 - Element found...gateway.login
+2024-08-02 16:32:01 INFO  Keywords:141 - ClickOnLink is called
+2024-08-02 16:32:01 INFO  Keywords:301 - Waiting for webElement...postsamldata
