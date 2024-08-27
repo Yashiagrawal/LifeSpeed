@@ -1,0 +1,20 @@
+2024-08-26 16:27:17 INFO  Keywords:104 - Navigate is called
+2024-08-26 16:27:19 INFO  Keywords:130 - InputText is called
+2024-08-26 16:27:19 INFO  Keywords:301 - Waiting for webElement...gateway.username
+2024-08-26 16:27:19 INFO  Keywords:305 - Element found...gateway.username
+2024-08-26 16:27:19 INFO  Keywords:130 - InputText is called
+2024-08-26 16:27:19 INFO  Keywords:301 - Waiting for webElement...gateway.password
+2024-08-26 16:27:19 INFO  Keywords:305 - Element found...gateway.password
+2024-08-26 16:27:19 INFO  Keywords:141 - ClickOnLink is called
+2024-08-26 16:27:19 INFO  Keywords:301 - Waiting for webElement...gateway.login
+2024-08-26 16:27:19 INFO  Keywords:305 - Element found...gateway.login
+2024-08-26 16:27:55 INFO  Keywords:141 - ClickOnLink is called
+2024-08-26 16:27:55 INFO  Keywords:301 - Waiting for webElement...postsamldata
+2024-08-26 16:27:55 INFO  Keywords:305 - Element found...postsamldata
+2024-08-26 16:28:12 INFO  Keywords:141 - ClickOnLink is called
+2024-08-26 16:28:12 INFO  Keywords:301 - Waiting for webElement...next
+2024-08-26 16:28:38 INFO  Keywords:130 - InputText is called
+2024-08-26 16:28:38 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-08-26 16:28:48 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.LTC
+2024-08-26 16:28:58 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.payors
+2024-08-26 16:29:08 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.purposeofpolicy
