@@ -1,0 +1,40 @@
+2024-10-28 11:45:07 INFO  Keywords:106 - Navigate is called
+2024-10-28 11:45:09 INFO  Keywords:132 - InputText is called
+2024-10-28 11:45:09 INFO  Keywords:304 - Waiting for webElement...gateway.username
+2024-10-28 11:45:09 INFO  Keywords:308 - Element found...gateway.username
+2024-10-28 11:45:09 INFO  Keywords:132 - InputText is called
+2024-10-28 11:45:09 INFO  Keywords:304 - Waiting for webElement...gateway.password
+2024-10-28 11:45:09 INFO  Keywords:308 - Element found...gateway.password
+2024-10-28 11:45:09 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:45:09 INFO  Keywords:304 - Waiting for webElement...gateway.login
+2024-10-28 11:45:09 INFO  Keywords:308 - Element found...gateway.login
+2024-10-28 11:45:46 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:45:46 INFO  Keywords:304 - Waiting for webElement...postsamldata
+2024-10-28 11:45:46 INFO  Keywords:308 - Element found...postsamldata
+2024-10-28 11:46:02 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:46:02 INFO  Keywords:304 - Waiting for webElement...next
+2024-10-28 11:46:02 INFO  Keywords:308 - Element found...next
+2024-10-28 11:46:21 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.terms
+2024-10-28 11:46:21 INFO  Keywords:308 - Element found...policyConfiguration.terms
+2024-10-28 11:46:21 INFO  Keywords:132 - InputText is called
+2024-10-28 11:46:21 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-10-28 11:46:21 INFO  Keywords:308 - Element found...policyConfiguration.insuranceamount
+2024-10-28 11:46:21 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.LTC
+2024-10-28 11:46:31 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.payors
+2024-10-28 11:46:31 INFO  Keywords:308 - Element found...policyConfiguration.payors
+2024-10-28 11:46:32 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-10-28 11:46:32 INFO  Keywords:308 - Element found...policyConfiguration.purposeofpolicy
+2024-10-28 11:46:32 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:46:32 INFO  Keywords:304 - Waiting for webElement...next
+2024-10-28 11:46:32 INFO  Keywords:308 - Element found...next
+2024-10-28 11:48:07 INFO  Keywords:304 - Waiting for webElement...primaryinsured.anticipatedUnderwritingclass
+2024-10-28 11:48:07 INFO  Keywords:308 - Element found...primaryinsured.anticipatedUnderwritingclass
+2024-10-28 11:48:17 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthcountry
+2024-10-28 11:48:17 INFO  Keywords:308 - Element found...primaryinsured.birthcountry
+2024-10-28 11:48:18 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthstate
+2024-10-28 11:48:18 INFO  Keywords:308 - Element found...primaryinsured.birthstate
+2024-10-28 11:48:18 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:48:18 INFO  Keywords:304 - Waiting for webElement...next
+2024-10-28 11:48:18 INFO  Keywords:308 - Element found...next
+2024-10-28 11:48:38 INFO  Keywords:143 - ClickOnLink is called
+2024-10-28 11:48:38 INFO  Keywords:304 - Waiting for webElement...next

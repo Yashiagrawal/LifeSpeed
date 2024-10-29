@@ -41,10 +41,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.net.UrlChecker.TimeoutException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -161,6 +163,7 @@ public class Keywords extends TestBase {
 		} catch (Throwable t) {
 			return "Failed - Element not found " + webElement;
 		}
+		logger.info(ActualText);
 		return "Pass";
 	}
 
@@ -433,6 +436,8 @@ public class Keywords extends TestBase {
 
 		Set handles = driver.getWindowHandles();
 		String[] individualHandle = new String[handles.size()];
+		
+		System.out.println(individualHandle);
 		// Iterator it = handles.iterator();
 
 		Iterator its = handles.iterator();
@@ -443,16 +448,23 @@ public class Keywords extends TestBase {
 		}
 
 		driver.switchTo().window(individualHandle[1]);
-		System.out.println(driver.switchTo().window(individualHandle[1]));
+		System.out.println(driver.switchTo().window(individualHandle[1]).getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+
 		return "Pass";
 	}
 
+	
 	public static String switchToParentWindow() {
 		logger.info("switching to parent window...");
 		// driver.switchTo().defaultContent();
 
-		driver.switchTo().window(parentWindowHandle);
-		System.out.println(driver.switchTo().window(parentWindowHandle));
+		System.out.println(driver.getWindowHandles());
+	driver.switchTo().defaultContent();
+		System.out.println("inparent window error");
+		//driver.switchTo().window(parentWindowHandle);
+		
 		return "Pass";
 	}
 
@@ -1109,6 +1121,46 @@ public class Keywords extends TestBase {
 		}
 
 		return "Pass";
+	}
+	
+	
+	
+	public static String closeMultipleTabs() throws InterruptedException {
+        // Get all open tabs
+        Set<String> allTabs = driver.getWindowHandles();
+       
+        // Get Current tab
+        String currentTab = driver.getWindowHandle();
+       
+        Iterator<String> iterator = allTabs.iterator();
+       
+        while(iterator.hasNext()) {
+            // Condition to check if the selected tab is not current tab
+            String selectedTab = iterator.next();
+            if(!selectedTab.equals(currentTab)) {
+                // Switch to new tab
+                driver.switchTo().window(selectedTab);
+               
+                // Print title of tabs to be closed
+                System.out.println("Closing Tab = "+driver.getTitle());
+               
+                // Close the selected tab
+                driver.close();
+               
+                // Time delay
+                Thread.sleep(1000);
+            }
+        }
+		return "Pass"; // closeMultipleTabs
+    }
+	
+	
+	public void openNewTab()
+	{
+		  
+		 driver.switchTo().newWindow(WindowType.WINDOW);	
+		
+		
 	}
 
 }

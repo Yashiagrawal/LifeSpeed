@@ -138,8 +138,8 @@ public class TestController extends TestBase {
 	@AfterClass
 	public void quitBrowser() {
 		System.out.println("In quitBrowser---------------------------");
-		if (driver != null) {
-			driver.quit();
-		}
+	//	if (driver != null) {
+		//	driver.quit();
+	//	}
 	}
 }

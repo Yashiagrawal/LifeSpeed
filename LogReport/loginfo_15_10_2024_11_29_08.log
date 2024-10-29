@@ -1,0 +1,70 @@
+2024-10-15 11:29:26 INFO  Keywords:104 - Navigate is called
+2024-10-15 11:29:30 INFO  Keywords:130 - InputText is called
+2024-10-15 11:29:30 INFO  Keywords:301 - Waiting for webElement...gateway.username
+2024-10-15 11:29:30 INFO  Keywords:305 - Element found...gateway.username
+2024-10-15 11:29:30 INFO  Keywords:130 - InputText is called
+2024-10-15 11:29:30 INFO  Keywords:301 - Waiting for webElement...gateway.password
+2024-10-15 11:29:30 INFO  Keywords:305 - Element found...gateway.password
+2024-10-15 11:29:31 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:29:31 INFO  Keywords:301 - Waiting for webElement...gateway.login
+2024-10-15 11:29:31 INFO  Keywords:305 - Element found...gateway.login
+2024-10-15 11:30:08 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:30:08 INFO  Keywords:301 - Waiting for webElement...postsamldata
+2024-10-15 11:30:08 INFO  Keywords:305 - Element found...postsamldata
+2024-10-15 11:30:24 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:30:24 INFO  Keywords:301 - Waiting for webElement...next
+2024-10-15 11:30:24 INFO  Keywords:305 - Element found...next
+2024-10-15 11:30:46 INFO  Keywords:130 - InputText is called
+2024-10-15 11:30:46 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-10-15 11:30:56 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.LTC
+2024-10-15 11:31:08 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.payors
+2024-10-15 11:31:08 INFO  Keywords:305 - Element found...policyConfiguration.payors
+2024-10-15 11:31:09 INFO  Keywords:301 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-10-15 11:31:09 INFO  Keywords:305 - Element found...policyConfiguration.purposeofpolicy
+2024-10-15 11:31:09 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:31:09 INFO  Keywords:301 - Waiting for webElement...next
+2024-10-15 11:31:09 INFO  Keywords:305 - Element found...next
+2024-10-15 11:32:44 INFO  Keywords:301 - Waiting for webElement...primaryinsured.birthcountry
+2024-10-15 11:32:54 INFO  Keywords:301 - Waiting for webElement...primaryinsured.birthstate
+2024-10-15 11:33:04 INFO  Keywords:130 - InputText is called
+2024-10-15 11:33:04 INFO  Keywords:301 - Waiting for webElement...primaryinsured.birthcity
+2024-10-15 11:33:14 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:33:14 INFO  Keywords:301 - Waiting for webElement...next
+2024-10-15 11:33:14 INFO  Keywords:305 - Element found...next
+2024-10-15 11:33:31 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:33:31 INFO  Keywords:301 - Waiting for webElement...next
+2024-10-15 11:33:31 INFO  Keywords:305 - Element found...next
+2024-10-15 11:33:31 INFO  Keywords:301 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-10-15 11:33:41 INFO  Keywords:141 - ClickOnLink is called
+2024-10-15 11:33:41 INFO  Keywords:301 - Waiting for webElement...next
+2024-10-15 11:33:41 INFO  Keywords:305 - Element found...next
+2024-10-15 11:33:57 INFO  Keywords:301 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-10-15 11:34:07 INFO  Keywords:301 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-10-15 11:34:17 INFO  Keywords:301 - Waiting for webElement...financialDetails.envisiontaking
+2024-10-15 11:34:27 INFO  Keywords:301 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-10-15 11:34:37 INFO  Keywords:301 - Waiting for webElement...financialDetails.riskTolerance
+2024-10-15 11:34:47 INFO  Keywords:301 - Waiting for webElement...financialDetails.Investmentobjectives
+2024-10-15 11:34:57 INFO  Keywords:301 - Waiting for webElement...financialDetails.timehorizon
+2024-10-15 11:35:08 INFO  Keywords:301 - Waiting for webElement...financialDetails.investmentexperienceFA
+2024-10-15 11:35:18 INFO  Keywords:130 - InputText is called
+2024-10-15 11:35:18 INFO  Keywords:301 - Waiting for webElement...financialDetails.investmentstartyear
+2024-10-15 11:35:28 INFO  Keywords:130 - InputText is called
+2024-10-15 11:35:28 INFO  Keywords:301 - Waiting for webElement...financialdetails.wages
+2024-10-15 11:35:38 INFO  Keywords:130 - InputText is called
+2024-10-15 11:35:38 INFO  Keywords:301 - Waiting for webElement...financialdetails.livingexpenses
+2024-10-15 11:35:48 INFO  Keywords:130 - InputText is called
+2024-10-15 11:35:48 INFO  Keywords:301 - Waiting for webElement...financialdetails.personalinvestment
+2024-10-15 11:35:58 INFO  Keywords:130 - InputText is called
+2024-10-15 11:35:58 INFO  Keywords:301 - Waiting for webElement...financialdetails.fixeddebtexpenses
+2024-10-15 11:36:08 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:08 INFO  Keywords:301 - Waiting for webElement...financialdetails.rentalincome
+2024-10-15 11:36:18 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:18 INFO  Keywords:301 - Waiting for webElement...financialdetails.variabledebtexpenses
+2024-10-15 11:36:28 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:28 INFO  Keywords:301 - Waiting for webElement...financialdetails.incomepension
+2024-10-15 11:36:38 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:38 INFO  Keywords:301 - Waiting for webElement...financialdetails.discretionaryexpenses
+2024-10-15 11:36:49 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:49 INFO  Keywords:301 - Waiting for webElement...financialdetails.socialsecurityincome
+2024-10-15 11:36:59 INFO  Keywords:130 - InputText is called
+2024-10-15 11:36:59 INFO  Keywords:301 - Waiting for webElement...financialdetails.otherincome

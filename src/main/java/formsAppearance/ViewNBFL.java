@@ -25,7 +25,7 @@ public class ViewNBFL {
 		// System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
 		// WebDriver driver = new ChromeDriver();
 
-		String baseUrl = "https://lifespeed.uat.ebixexchange.com/lifespeedplus/login.aspx";
+		String baseUrl = "https://lifespeed.uat.zinnia.com/lifespeedplus/login.aspx";
 		driver.get(baseUrl);
 		
 
@@ -37,7 +37,7 @@ public class ViewNBFL {
 		driver.findElement(By.id("txtUserID")).sendKeys("Yashig");
 		Thread.sleep(500);
 		//for password text field
-		driver.findElement(By.name("txtPassword")).sendKeys("p");
+		driver.findElement(By.name("txtPassword")).sendKeys("operA$");
 		Thread.sleep(500);
 		//For login button click
 		driver.findElement(By.name("btnLogin")).click();
@@ -51,57 +51,35 @@ public class ViewNBFL {
 	    Actions a=new Actions(driver);
 	    a.moveToElement(mgntool).perform();
 		
-	    WebElement ViewNBFL = driver.findElement(By.xpath("//a[text()='Feed Management']"));
+	    WebElement ViewNBFL = driver.findElement(By.xpath("//a[text()='View NBFL']"));
 	    ViewNBFL.click();
-		Thread.sleep(10000);
+		Thread.sleep(100000);
 	   
-		
-		
-		WebElement Search1Bar = driver.findElement(By.xpath("//a[@class='btn btn-success']"));
-		Search1Bar.click();
+		WebElement SearchTrBar = driver.findElement(By.id("ContentPlaceHolder1_txtTransactionId"));
+		SearchTrBar.sendKeys("456765");
 		Thread.sleep(500);
 		
 		
-		
-		Select TrID = new Select(driver.findElement(By.xpath("//select[@class='search-panel-ctrl-fields']")));
-		TrID.selectByValue("AppID");
-		Thread.sleep(500);
-
-		
-		WebElement Search2Bar = driver.findElement(By.xpath("//input[@type='text']"));
-		Search2Bar.sendKeys("456765");
-		Thread.sleep(500);
-		
-		
-		
-		//SearchButton
-		
-		WebElement SearchButton = driver.findElement(By.xpath("//a[@class='btn btn-success btn-sm search-panel-btn-submit']"));
-		SearchButton.click();
-		Thread.sleep(1500);
-		
-		
-		//WebElement RowResult = driver.findElement(By.className("grid-row-inner-cell"));
-		
-		WebElement RowResult = driver.findElement(By.className("grid-row-inner-cell"));
-		RowResult.click();
-		
-		Thread.sleep(1000);
-
-		
-		//WebElement TransXmlbutton = driver.findElement(By.xpath("//button[@cmd='RTSM']"));
-
-		WebElement TransXmlbutton = driver.findElement(By.xpath("//button[@cmd='Transaction_XML']"));
-		TransXmlbutton.click();
+		WebElement Distributor103 = driver.findElement(By.xpath("(//input[@name='ctl00$ContentPlaceHolder1$rblListNBfLType'])(8)"));
+		Distributor103.click();
 		Thread.sleep(1500);
 
-	WebElement TransResponseXML = driver.findElement(By.id("txt_Transaction_XML"));
+		
+		
+		
+		
+		
+		
 
-		//WebElement TransResponseXML = driver.findElement(By.id("txt_ResponseXML"));
-		TransResponseXML.click();
-		//TransResponseXML.getText();
-		System.out.println(TransResponseXML.getAttribute("value"));
-		//System.out.println("TheData =="+TransResponseXML.click());
-	}
+		
+		WebElement GetXML = driver.findElement(By.xpath("//input[@type='submit']"));
+		GetXML.click();
+		Thread.sleep(500);
+		
+		
+		WebElement dataxml= driver.findElement(By.xpath("//textarea[@id='ContentPlaceHolder1_txtXmlArea']"));
+		System.out.println(dataxml.getText());
+		
+		}
 
 }

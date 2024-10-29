@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d169c16e-baeb-4612-811b-608ab77db132" activeEnvironment="Default" name="TM_UAT" resourceRoot="" soapui-version="4.0.1.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="9627c7c6-c802-4ec2-8009-1a40f6a2db21" wsaVersion="200508" name="WSHttpBinding_IWorkflowAdvancementService" type="wsdl" bindingName="{http://tempuri.org/}WSHttpBinding_IWorkflowAdvancementService" soapVersion="1_2" anonymous="optional" definition="https://lifespeed.uat.zinnia.com/AppServices/WorkflowAdvancementService.svc?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?wsdl"><con:part><con:url>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="WorkflowAdvancementService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://tempuri.org/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata">
+  <wsp:Policy wsu:Id="WSHttpBinding_IWorkflowAdvancementService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false"/>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256/>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict/>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing/>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?xsd=xsd0"/>
+      <xsd:import schemaLocation="https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?xsd=xsd1" namespace="www.finetre.com/webservices"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="WorkflowAdvancementRequest">
+    <wsdl:part name="PerformAction" element="PerformAction"/>
+  </wsdl:message>
+  <wsdl:message name="WorkflowAdvancementRequest_Headers">
+    <wsdl:part name="Header" element="Header"/>
+  </wsdl:message>
+  <wsdl:message name="WorkflowAdvancementResponse">
+    <wsdl:part name="parameters" element="q1:PerformActionResponse" xmlns:q1="www.finetre.com/webservices"/>
+  </wsdl:message>
+  <wsdl:message name="WorkflowAdvancementResponse_Headers">
+    <wsdl:part name="Header" element="Header"/>
+  </wsdl:message>
+  <wsdl:portType name="IWorkflowAdvancementService">
+    <wsdl:operation name="PerformAction">
+      <wsdl:input wsaw:Action="PerformAction" name="WorkflowAdvancementRequest" message="tns:WorkflowAdvancementRequest"/>
+      <wsdl:output wsaw:Action="PerformActionResponse" name="WorkflowAdvancementResponse" message="tns:WorkflowAdvancementResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IWorkflowAdvancementService" type="tns:IWorkflowAdvancementService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IWorkflowAdvancementService_policy"/>
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="PerformAction">
+      <soap12:operation soapAction="PerformAction" style="document"/>
+      <wsdl:input name="WorkflowAdvancementRequest">
+        <soap12:header message="tns:WorkflowAdvancementRequest_Headers" part="Header" use="literal"/>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="WorkflowAdvancementResponse">
+        <soap12:header message="tns:WorkflowAdvancementResponse_Headers" part="Header" use="literal"/>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WorkflowAdvancementService">
+    <wsdl:port name="WSHttpBinding_IWorkflowAdvancementService" binding="tns:WSHttpBinding_IWorkflowAdvancementService">
+      <soap12:address location="https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc"/>
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PerformAction" type="PerformAction"/>
+  <xs:complexType name="PerformAction">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Data" nillable="true" type="Data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Data">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Action" type="UserActionType"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="TransactionIds" nillable="true" type="TransactionIds"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="UserIds" nillable="true" type="UserIds"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Extensions" type="ArrayOfExtension"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="UserActionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Approve"/>
+      <xs:enumeration value="Decline"/>
+      <xs:enumeration value="Closed"/>
+      <xs:enumeration value="FinraExpired"/>
+      <xs:enumeration value="TransactionComment"/>
+      <xs:enumeration value="TransactionAssignReviewer"/>
+      <xs:enumeration value="PaperworkError"/>
+      <xs:enumeration value="eSignatureOptout"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="TransactionIds">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Id" nillable="true" type="Id"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Id">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="PartyId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="IdValue" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UserIds">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Id" nillable="true" type="Id"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfExtension">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Extension" nillable="true" type="Extension"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Extension">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Parameters" type="ArrayOfWebServiceParameter"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfWebServiceParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Parameter" nillable="true" type="WebServiceParameter"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Header" type="RequestHeader"/>
+  <xs:complexType name="RequestHeader">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Test" type="xs:int"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="ServiceVersion" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestorId" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestorKey" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestGUID" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestSentDateTime" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RequestReceivedDateTime" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ResponseSentDateTime" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ResponseReceivedDateTime" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="www.finetre.com/webservices" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.finetre.com/webservices">
+  <xs:element name="PerformActionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="Data" type="tns:Data"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Data">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Status" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="TransactionStatus" type="xs:string"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="Errors" nillable="true" type="tns:ArrayOfWorkflowAdvancementError"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="Extensions" nillable="true" type="tns:ArrayOfWebServiceParameter"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfWorkflowAdvancementError">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Error" nillable="true" type="tns:WorkflowAdvancementError"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WorkflowAdvancementError">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfWebServiceParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Extension" nillable="true" type="tns:WebServiceParameter"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WebServiceParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc</con:endpoint></con:endpoints><con:operation id="5a2f9cf8-80c2-4b6b-b260-6a4b8da35772" isOneWay="false" action="PerformAction" name="PerformAction" bindingOperationName="PerformAction" type="Request-Response" outputName="WorkflowAdvancementResponse" inputName="WorkflowAdvancementRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="41b32455-815e-4df9-af23-939a01bf78ba" name="Request 1" useWsAddressing="true" sslKeystore="lifespeed.uat.zinnia.com.pfx"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/&gt;</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@skip_soap_action">false</con:setting><con:setting id="WsdlSettings@enable-mtom">false</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@disable-multipart-attachments">false</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@enable_inline_files">false</con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <soap:Header>
+           <a:Action soap:mustUnderstand="1">PerformAction</a:Action>
+      <Header>
+			<Test>0</Test>
+			<ServiceVersion>1</ServiceVersion>
+			<RequestorId>JPMC</RequestorId>
+			<RequestorKey>JPMC_KEY</RequestorKey>
+			<RequestGUID />
+			<RequestGUID>34a5dd39-ccdd-4e7a-8fc0-81349f62d5c2</RequestGUID>
+			<RequestSentDateTime>2018-06-14T08:01:18.5343653-04:00</RequestSentDateTime>
+			<RequestReceivedDateTime>0001-01-01T00:00:00</RequestReceivedDateTime>
+			<ResponseSentDateTime>0001-01-01T00:00:00</ResponseSentDateTime>
+			<ResponseReceivedDateTime>0001-01-01T00:00:00</ResponseReceivedDateTime>
+      </Header>
+        <a:To soap:mustUnderstand="1">https://lifespeed.uat.ebixexchange.com/AppServices/WorkflowAdvancementService.svc</a:To>
+   </soap:Header>
+   <soap:Body>
+		<PerformAction>
+			<Data>
+				<Action>Approve</Action>
+				<TransactionIds>
+					<Id>
+						<PartyId>JPMC</PartyId>
+						<IdValue>hjrff51-1jr5-8t28-r44283-5ddmC37S7D44</IdValue>
+						<!-- TRANSACTION ID -->
+					</Id>
+				</TransactionIds>
+				<UserIds>
+					<Id>
+						<PartyId>JPMC</PartyId>
+						<IdValue>API_USER</IdValue>
+						<!-- USER LOGON ID -->
+					</Id>
+				</UserIds>
+				<Extensions>
+					<Extension>
+						<Parameters>
+							<Parameter>
+								<Name>COMMENT_DATA</Name>
+								<Value>Comment here</Value>
+							</Parameter>
+							<Parameter>
+								<Name>COMMENT_DATE</Name>
+								<Value>2018-03-19 06:48:06.022</Value>
+							</Parameter>
+						</Parameters>
+					</Extension>
+				</Extensions>
+			</Data>
+		</PerformAction>
+	</soap:Body>
+</soap:Envelope>
+]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="PerformAction"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer><con:crypto><con:source>C:/Users/agraway/Downloads/lifespeed.uat.zinnia.com (1).pfx</con:source><con:password>lsuat01</con:password><con:type>KEYSTORE</con:type></con:crypto></con:wssContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

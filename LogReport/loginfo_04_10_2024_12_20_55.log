@@ -1,0 +1,10 @@
+2024-10-04 12:21:02 INFO  Keywords:104 - Navigate is called
+2024-10-04 12:21:04 INFO  Keywords:130 - InputText is called
+2024-10-04 12:21:04 INFO  Keywords:301 - Waiting for webElement...gateway.username
+2024-10-04 12:21:04 INFO  Keywords:305 - Element found...gateway.username
+2024-10-04 12:21:05 INFO  Keywords:130 - InputText is called
+2024-10-04 12:21:05 INFO  Keywords:301 - Waiting for webElement...gateway.password
+2024-10-04 12:21:05 INFO  Keywords:305 - Element found...gateway.password
+2024-10-04 12:21:05 INFO  Keywords:141 - ClickOnLink is called
+2024-10-04 12:21:05 INFO  Keywords:301 - Waiting for webElement...gateway.login
+2024-10-04 12:21:05 INFO  Keywords:305 - Element found...gateway.login

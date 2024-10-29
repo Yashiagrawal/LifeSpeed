@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TXLife>
+ <UserAuthRequest>
+ <VendorApp>
+ <VendorName VendorCode="86">LifeSpeed</VendorName>
+ </VendorApp>
+ </UserAuthRequest>
+ <TXLifeRequest PrimaryObjectID="Holding_1">
+ <TransRefGUID>7204a179-3471-429c-a00b-14c80d20db22</TransRefGUID>
+ <TransType tc="103"/>
+ <TransExeDate>2024-09-16</TransExeDate>
+ <TransExeTime>12:19:13</TransExeTime>
+ <TransMode tc="2">Original</TransMode>
+ <NoResponseOK tc="1">True</NoResponseOK>
+ <OLifE>
+ <SourceInfo>
+ <CreationDate>2024-09-11</CreationDate>
+ <CreationTime>01:37:51-04:00</CreationTime>
+ <SourceInfoName>EbixExchange</SourceInfoName>
+ </SourceInfo>
+ <Holding id="Holding_1">
+ <HoldingTypeCode tc="1">Policy</HoldingTypeCode>
+ <HoldingStatus tc="3">Proposed</HoldingStatus>
+ <Policy CarrierPartyID="Party_9">
+ <LineOfBusiness tc="1">Life</LineOfBusiness>
+ <ProductType tc="2">Term Insurance</ProductType>
+ <ProductCode>JHT23</ProductCode>
+ <CarrierCode>65838</CarrierCode>
+ <PlanName>John Hancock Protection Term</PlanName>
+ <ShortName>JH Term10_JPMC</ShortName>
+ <PolicyStatus tc="12">Proposed</PolicyStatus>
+ <IssueType tc="1">Fully Underwritten</IssueType>
+ <CusipNum>47804V472           </CusipNum>
+ <PaymentMode tc="3">Quarter or Quarterly</PaymentMode>
+ <PaymentAmt>6700.00</PaymentAmt>
+ <PaymentMethod tc="2">Direct Billing</PaymentMethod>
+ <Life>
+ <FaceAmt>1000000.00</FaceAmt>
+ <Coverage>
+ <PlanName>JOHN HANCOCK TERM</PlanName>
+ <ProductCode>BASE</ProductCode>
+ <LifeCovTypeCode tc="6">Term Level Death Benefit</LifeCovTypeCode>
+ <IndicatorCode tc="1">Base</IndicatorCode>
+ <LivesType tc="1">Single life</LivesType>
+ <InitCovAmt>1000000.00</InitCovAmt>
+ <CovOption>
+ <PlanName>Accelerated Benefit Rider</PlanName>
+ <ProductCode>ABR</ProductCode>
+ <LifeCovOptTypeCode tc="1">Accelerated Benefit</LifeCovOptTypeCode>
+ </CovOption>
+ <LifeParticipant id="LifeParticipant_1" PartyID="Party_1">
+ <LifeParticipantRoleCode tc="15">Primary Agent</LifeParticipantRoleCode>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_2" PartyID="Party_8">
+ <LifeParticipantRoleCode tc="30">Servicing Agent</LifeParticipantRoleCode>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_3" PartyID="Party_3">
+ <LifeParticipantRoleCode tc="7">Beneficiary - Primary</LifeParticipantRoleCode>
+ <ParticipationPct>25.00</ParticipationPct>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_4" PartyID="Party_4">
+ <LifeParticipantRoleCode tc="7">Beneficiary - Primary</LifeParticipantRoleCode>
+ <ParticipationPct>25.00</ParticipationPct>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_5" PartyID="Party_5">
+ <LifeParticipantRoleCode tc="7">Beneficiary - Primary</LifeParticipantRoleCode>
+ <ParticipationPct>25.00</ParticipationPct>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_6" PartyID="Party_6">
+ <LifeParticipantRoleCode tc="7">Beneficiary - Primary</LifeParticipantRoleCode>
+ <ParticipationPct>25.00</ParticipationPct>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_7" PartyID="Party_2">
+ <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+ <TobaccoPremiumBasis tc="1">Non-Smoker</TobaccoPremiumBasis>
+ <UnderwritingClass tc="4">Aerobic</UnderwritingClass>
+ </LifeParticipant>
+ <LifeParticipant id="LifeParticipant_8" PartyID="Party_7">
+ <LifeParticipantRoleCode tc="18">Owner</LifeParticipantRoleCode>
+ </LifeParticipant>
+ </Coverage>
+ </Life>
+ <ApplicationInfo>
+ <TrackingID>JHC000000535578</TrackingID>
+ <ApplicationType tc="1">New Application</ApplicationType>
+ <ApplicationJurisdiction tc="5">Arkansas</ApplicationJurisdiction>
+ </ApplicationInfo>
+ </Policy>
+ </Holding>
+ <Party id="Party_1">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>891234567</GovtID>
+ <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+ <Person>
+ <FirstName>Agent</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Agent</LastName>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="26">Billing Mailing</AddressTypeCode>
+ <Line1>495 Bhangel Street </Line1>
+ <Line3/>
+ <City>CINCINNATI</City>
+ <AddressStateTC tc="41">Ohio</AddressStateTC>
+ <Zip>45202</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ <Phone>
+ <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+ <AreaCode>750</AreaCode>
+ <DialNumber>3582861</DialNumber>
+ </Phone>
+ <Producer>
+ <CarrierAppointment>
+ <CompanyProducerID>J758114</CompanyProducerID>
+ </CarrierAppointment>
+ </Producer>
+ <EMailAddress>
+ <AddrLine>gopikishan.bose@zinnia.com</AddrLine>
+ </EMailAddress>
+ </Party>
+ <Party id="Party_2">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>123456789</GovtID>
+ <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+ <Person>
+ <FirstName>Tester1</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Test</LastName>
+ <Gender tc="2">Female</Gender>
+ <BirthDate>1977-06-01</BirthDate>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="1">Residence</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ <Address>
+ <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ <Phone>
+ <PhoneTypeCode tc="16">General voice number unspecific</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="17">Business Toll-Free</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="19">Fax</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+ <AreaCode>750</AreaCode>
+ <DialNumber>3582861</DialNumber>
+ </Phone>
+ <EMailAddress>
+ <AddrLine>nitin.sharma@zinnia.com</AddrLine>
+ </EMailAddress>
+ </Party>
+ <Party id="Party_3">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>234567891</GovtID>
+ <GovtIDTC tc="1">Social Security Number (SSN)</GovtIDTC>
+ <Person>
+ <FirstName>Tester2</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Test</LastName>
+ <BirthDate>1970-01-02</BirthDate>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="1">Residence</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ </Party>
+ <Party id="Party_4">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>345678912</GovtID>
+ <GovtIDTC tc="1">Social Security Number (SSN)</GovtIDTC>
+ <Person>
+ <FirstName>Tester3</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Test</LastName>
+ <BirthDate>1970-01-01</BirthDate>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="1">Residence</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ </Party>
+ <Party id="Party_5">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>456564123</GovtID>
+ <GovtIDTC tc="1">Social Security Number (SSN)</GovtIDTC>
+ <Person>
+ <FirstName>Tester4</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Test</LastName>
+ <BirthDate>1970-01-01</BirthDate>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="1">Residence</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ </Party>
+ <Party id="Party_6">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>567891234</GovtID>
+ <GovtIDTC tc="1">Social Security Number (SSN)</GovtIDTC>
+ <Person>
+ <FirstName>Tester5</FirstName>
+ <MiddleName>T</MiddleName>
+ <LastName>Test</LastName>
+ <BirthDate>1970-01-02</BirthDate>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="1">Residence</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ </Party>
+ <Party id="Party_7">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <GovtID>874122128</GovtID>
+ <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+ <Person>
+ <FirstName>Nice</FirstName>
+ <LastName>Ktest</LastName>
+ <Gender tc="1">Male</Gender>
+ <BirthDate>1965-06-01</BirthDate>
+ <Age>59</Age>
+ </Person>
+ <Address>
+ <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ <Address>
+ <AddressTypeCode tc="12">Previous</AddressTypeCode>
+ <Line1>Address Line 1</Line1>
+ <Line2>Address Line 2</Line2>
+ <City>Montgomery</City>
+ <AddressStateTC tc="1">Alabama</AddressStateTC>
+ <Zip>36609</Zip>
+ <AddressCountryTC tc="1">United States</AddressCountryTC>
+ </Address>
+ <Phone>
+ <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+ <AreaCode>750</AreaCode>
+ <DialNumber>3582861</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="17">Business Toll-Free</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="16">General voice number unspecific</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="19">Fax</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <Phone>
+ <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+ <AreaCode>639</AreaCode>
+ <DialNumber>5138537</DialNumber>
+ </Phone>
+ <EMailAddress>
+ <AddrLine>anju.keshri@zinnia.com</AddrLine>
+ </EMailAddress>
+ </Party>
+ <Party id="Party_8">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <Person>
+ <FirstName>M Financial</FirstName>
+ <MiddleName>M</MiddleName>
+ <LastName>Bridge</LastName>
+ </Person>
+ <Phone>
+ <PhoneTypeCode tc="2">Business Toll-Free</PhoneTypeCode>
+ <AreaCode>798</AreaCode>
+ <DialNumber>7666036</DialNumber>
+ </Phone>
+ <EMailAddress>
+ <AddrLine>cmtest@ebix.com</AddrLine>
+ </EMailAddress>
+ </Party>
+ <Party id="Party_9">
+ <PartyTypeCode tc="2">Organization</PartyTypeCode>
+ <FullName>John Hancock Carrier</FullName>
+ <Carrier>
+ <CarrierCode>JHC</CarrierCode>
+ <NAICCode>65838</NAICCode>
+ </Carrier>
+ </Party>
+ <Party id="Party_10">
+ <PartyTypeCode tc="2">Organization</PartyTypeCode>
+ <FullName>JP Morgan Chase Distributor</FullName>
+ </Party>
+ <Party id="Submitter_User_Party">
+ <PartyTypeCode tc="1">Person</PartyTypeCode>
+ <Producer>
+ <CarrierAppointment>
+ <CompanyProducerID>AlishaT</CompanyProducerID>
+ <CarrierCode>LifeSpeed</CarrierCode>
+ </CarrierAppointment>
+ </Producer>
+ </Party>
+ <Relation id="Relation_1" OriginatingObjectID="Holding_1" RelatedObjectID="Party_1">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="37">Primary writing agent</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_2" OriginatingObjectID="Holding_1" RelatedObjectID="Party_8">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="38">Primary servicing agent</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_3" OriginatingObjectID="Holding_1" RelatedObjectID="Party_3">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+ <InterestPercent>25.00</InterestPercent>
+ </Relation>
+ <Relation id="Relation_4" OriginatingObjectID="Holding_1" RelatedObjectID="Party_4">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+ <InterestPercent>25.00</InterestPercent>
+ </Relation>
+ <Relation id="Relation_5" OriginatingObjectID="Holding_1" RelatedObjectID="Party_5">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+ <InterestPercent>25.00</InterestPercent>
+ </Relation>
+ <Relation id="Relation_6" OriginatingObjectID="Holding_1" RelatedObjectID="Party_6">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+ <InterestPercent>25.00</InterestPercent>
+ </Relation>
+ <Relation id="Relation_7" OriginatingObjectID="Holding_1" RelatedObjectID="Party_2">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="32">Insured</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_8" OriginatingObjectID="Holding_1" RelatedObjectID="Party_7">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="8">Owner</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_9" OriginatingObjectID="Party_2" RelatedObjectID="Party_7">
+ <OriginatingObjectType tc="6">Party</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="4">Sibling</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_10" OriginatingObjectID="Holding_1" RelatedObjectID="Party_10">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="182">Writing Agency</RelationRoleCode>
+ </Relation>
+ <Relation id="Relation_11" OriginatingObjectID="Holding_1" RelatedObjectID="Submitter_User_Party">
+ <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+ <RelatedObjectType tc="6">Party</RelatedObjectType>
+ <RelationRoleCode tc="258">Submitter</RelationRoleCode>
+ </Relation>
+ </OLifE>
+ </TXLifeRequest>
+</TXLife>
+
+
