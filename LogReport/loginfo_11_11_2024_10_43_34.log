@@ -1,0 +1,54 @@
+2024-11-11 10:43:42 INFO  Keywords:106 - Navigate is called
+2024-11-11 10:43:44 INFO  Keywords:132 - InputText is called
+2024-11-11 10:43:44 INFO  Keywords:304 - Waiting for webElement...gateway.username
+2024-11-11 10:43:44 INFO  Keywords:308 - Element found...gateway.username
+2024-11-11 10:43:44 INFO  Keywords:132 - InputText is called
+2024-11-11 10:43:44 INFO  Keywords:304 - Waiting for webElement...gateway.password
+2024-11-11 10:43:44 INFO  Keywords:308 - Element found...gateway.password
+2024-11-11 10:43:44 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:43:44 INFO  Keywords:304 - Waiting for webElement...gateway.login
+2024-11-11 10:43:44 INFO  Keywords:308 - Element found...gateway.login
+2024-11-11 10:44:20 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:44:20 INFO  Keywords:304 - Waiting for webElement...postsamldata
+2024-11-11 10:44:20 INFO  Keywords:308 - Element found...postsamldata
+2024-11-11 10:44:37 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:44:37 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-11 10:44:37 INFO  Keywords:308 - Element found...next
+2024-11-11 10:44:56 INFO  Keywords:132 - InputText is called
+2024-11-11 10:44:56 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-11 10:44:56 INFO  Keywords:308 - Element found...policyConfiguration.insuranceamount
+2024-11-11 10:44:56 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.LTC
+2024-11-11 10:44:56 INFO  Keywords:308 - Element found...policyConfiguration.LTC
+2024-11-11 10:44:56 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.Benefit
+2024-11-11 10:45:47 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.payors
+2024-11-11 10:45:47 INFO  Keywords:308 - Element found...policyConfiguration.payors
+2024-11-11 10:45:47 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-11 10:45:47 INFO  Keywords:308 - Element found...policyConfiguration.purposeofpolicy
+2024-11-11 10:45:47 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:45:47 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-11 10:45:47 INFO  Keywords:308 - Element found...next
+2024-11-11 10:47:22 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthcountry
+2024-11-11 10:47:22 INFO  Keywords:308 - Element found...primaryinsured.birthcountry
+2024-11-11 10:47:23 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthstate
+2024-11-11 10:47:23 INFO  Keywords:308 - Element found...primaryinsured.birthstate
+2024-11-11 10:47:23 INFO  Keywords:132 - InputText is called
+2024-11-11 10:47:23 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthcity
+2024-11-11 10:47:33 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:47:33 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-11 10:47:33 INFO  Keywords:308 - Element found...next
+2024-11-11 10:47:53 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:47:53 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-11 10:47:53 INFO  Keywords:308 - Element found...next
+2024-11-11 10:48:12 INFO  Keywords:304 - Waiting for webElement...jointInsured.birthCountry
+2024-11-11 10:48:12 INFO  Keywords:308 - Element found...jointInsured.birthCountry
+2024-11-11 10:48:12 INFO  Keywords:304 - Waiting for webElement...jointInsured.birthState
+2024-11-11 10:48:12 INFO  Keywords:308 - Element found...jointInsured.birthState
+2024-11-11 10:48:12 INFO  Keywords:132 - InputText is called
+2024-11-11 10:48:12 INFO  Keywords:304 - Waiting for webElement...jointInsured.birthCity
+2024-11-11 10:48:22 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:48:22 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-11 10:48:22 INFO  Keywords:308 - Element found...next
+2024-11-11 10:48:42 INFO  Keywords:464 - switching to parent window...
+2024-11-11 10:48:58 INFO  Keywords:143 - ClickOnLink is called
+2024-11-11 10:48:58 INFO  Keywords:304 - Waiting for webElement...postsamldata
+2024-11-11 10:48:58 INFO  Keywords:308 - Element found...postsamldata

@@ -1,0 +1,43 @@
+2024-11-12 11:22:26 INFO  Keywords:106 - Navigate is called
+2024-11-12 11:22:29 INFO  Keywords:132 - InputText is called
+2024-11-12 11:22:29 INFO  Keywords:309 - Waiting for webElement...gateway.username
+2024-11-12 11:22:29 INFO  Keywords:313 - Element found...gateway.username
+2024-11-12 11:22:30 INFO  Keywords:132 - InputText is called
+2024-11-12 11:22:30 INFO  Keywords:309 - Waiting for webElement...gateway.password
+2024-11-12 11:22:30 INFO  Keywords:313 - Element found...gateway.password
+2024-11-12 11:22:30 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:22:30 INFO  Keywords:309 - Waiting for webElement...gateway.login
+2024-11-12 11:22:30 INFO  Keywords:313 - Element found...gateway.login
+2024-11-12 11:23:06 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:23:06 INFO  Keywords:309 - Waiting for webElement...postsamldata
+2024-11-12 11:23:06 INFO  Keywords:313 - Element found...postsamldata
+2024-11-12 11:23:23 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:23:23 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-12 11:23:49 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.terms
+2024-11-12 11:23:59 INFO  Keywords:132 - InputText is called
+2024-11-12 11:23:59 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-12 11:24:09 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.LTC
+2024-11-12 11:24:19 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.payors
+2024-11-12 11:24:29 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-12 11:24:39 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:24:39 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-12 11:26:19 INFO  Keywords:309 - Waiting for webElement...primaryinsured.anticipatedUnderwritingclass
+2024-11-12 11:26:29 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcountry
+2024-11-12 11:26:39 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthstate
+2024-11-12 11:26:49 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:26:49 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-12 11:27:15 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:27:15 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-12 11:27:41 INFO  Keywords:309 - Waiting for webElement...EntityRelationship
+2024-11-12 11:27:51 INFO  Keywords:143 - ClickOnLink is called
+2024-11-12 11:27:51 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-12 11:28:17 INFO  Keywords:309 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-11-12 11:28:28 INFO  Keywords:309 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-11-12 11:28:38 INFO  Keywords:309 - Waiting for webElement...financialDetails.envisiontaking
+2024-11-12 11:28:48 INFO  Keywords:309 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-11-12 11:28:58 INFO  Keywords:309 - Waiting for webElement...financialDetails.riskTolerance
+2024-11-12 11:29:08 INFO  Keywords:309 - Waiting for webElement...financialDetails.Investmentobjectives
+2024-11-12 11:29:18 INFO  Keywords:309 - Waiting for webElement...financialDetails.timehorizon
+2024-11-12 11:29:28 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentexperienceFA
+2024-11-12 11:29:38 INFO  Keywords:132 - InputText is called
+2024-11-12 11:29:38 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentstartyear

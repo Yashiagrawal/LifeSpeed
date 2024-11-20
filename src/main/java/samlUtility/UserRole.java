@@ -34,9 +34,8 @@ import org.xml.sax.SAXException;
 import excelReader.ExcelReader;
 import testController.TestController;
 
-public class UserRole {
-	
-	
+public class UserRole{
+
 	public static ExcelReader reader = new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\java\\testData\\TestSuite1Data.xlsx");
 
 	public static String convertXMLDocumentToString(Document xmlData, Boolean omitXMLDeclaration) {
@@ -106,9 +105,9 @@ public class UserRole {
                    // String childAttributeNode = children.item(j).getNodeName();
                     String childValueNode = children.item(j).getTextContent();
 
-                     if (childValueNode.equalsIgnoreCase("JPMC")) {
-                        children.item(j + 1).setTextContent(String.valueOf(reader.getCellData(TestController.TestCaseID, "RoleChange", TestController.TD)));
-                    }
+                     if(childValueNode.equalsIgnoreCase("JPMC")) {
+                         children.item(j + 1).setTextContent(String.valueOf(reader.getCellData(TestController.TestCaseID, "RoleChange", TestController.TD)));
+                     }
                 }
             }
             return xmlDoc;
@@ -147,8 +146,9 @@ public class UserRole {
          Transformer transformer = transformerFactory.newTransformer();
 
          // pretty print
-         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-         transformer.setOutputProperty(OutputKeys.STANDALONE, "no");
+        // transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        // transformer.setOutputProperty(OutputKeys.STANDALONE, "no");
+         transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
 
          DOMSource source = new DOMSource(doc);
          StreamResult result = new StreamResult(output);
@@ -177,6 +177,7 @@ public class UserRole {
 		SimpleDateFormat fm = new SimpleDateFormat(pattern);
 		return fm.format(cal.getTime());
 	 }
+
 
 
 }

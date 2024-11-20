@@ -1,0 +1,23 @@
+2024-11-14 11:22:33 INFO  Keywords:106 - Navigate is called
+2024-11-14 11:22:36 INFO  Keywords:132 - InputText is called
+2024-11-14 11:22:36 INFO  Keywords:309 - Waiting for webElement...gateway.username
+2024-11-14 11:22:36 INFO  Keywords:313 - Element found...gateway.username
+2024-11-14 11:22:36 INFO  Keywords:132 - InputText is called
+2024-11-14 11:22:36 INFO  Keywords:309 - Waiting for webElement...gateway.password
+2024-11-14 11:22:36 INFO  Keywords:313 - Element found...gateway.password
+2024-11-14 11:22:36 INFO  Keywords:143 - ClickOnLink is called
+2024-11-14 11:22:36 INFO  Keywords:309 - Waiting for webElement...gateway.login
+2024-11-14 11:22:36 INFO  Keywords:313 - Element found...gateway.login
+2024-11-14 11:23:12 INFO  Keywords:143 - ClickOnLink is called
+2024-11-14 11:23:12 INFO  Keywords:309 - Waiting for webElement...postsamldata
+2024-11-14 11:23:12 INFO  Keywords:313 - Element found...postsamldata
+2024-11-14 11:23:29 INFO  Keywords:143 - ClickOnLink is called
+2024-11-14 11:23:29 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-14 11:23:55 INFO  Keywords:132 - InputText is called
+2024-11-14 11:23:55 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-14 11:24:05 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.LTC
+2024-11-14 11:24:15 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.payors
+2024-11-14 11:24:25 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-14 11:24:35 INFO  Keywords:143 - ClickOnLink is called
+2024-11-14 11:24:35 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-14 11:26:15 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcountry

@@ -1,0 +1,39 @@
+2024-11-05 11:01:12 INFO  Keywords:106 - Navigate is called
+2024-11-05 11:01:16 INFO  Keywords:132 - InputText is called
+2024-11-05 11:01:16 INFO  Keywords:304 - Waiting for webElement...gateway.username
+2024-11-05 11:01:16 INFO  Keywords:308 - Element found...gateway.username
+2024-11-05 11:01:16 INFO  Keywords:132 - InputText is called
+2024-11-05 11:01:16 INFO  Keywords:304 - Waiting for webElement...gateway.password
+2024-11-05 11:01:16 INFO  Keywords:308 - Element found...gateway.password
+2024-11-05 11:01:16 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:01:16 INFO  Keywords:304 - Waiting for webElement...gateway.login
+2024-11-05 11:01:16 INFO  Keywords:308 - Element found...gateway.login
+2024-11-05 11:01:52 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:01:52 INFO  Keywords:304 - Waiting for webElement...postsamldata
+2024-11-05 11:01:52 INFO  Keywords:308 - Element found...postsamldata
+2024-11-05 11:02:09 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:02:09 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-05 11:02:20 INFO  Keywords:308 - Element found...next
+2024-11-05 11:02:38 INFO  Keywords:132 - InputText is called
+2024-11-05 11:02:38 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-05 11:02:48 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.LTC
+2024-11-05 11:02:58 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.payors
+2024-11-05 11:03:08 INFO  Keywords:304 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-05 11:03:18 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:03:18 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-05 11:03:18 INFO  Keywords:308 - Element found...next
+2024-11-05 11:04:48 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthcountry
+2024-11-05 11:04:59 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthstate
+2024-11-05 11:05:09 INFO  Keywords:132 - InputText is called
+2024-11-05 11:05:09 INFO  Keywords:304 - Waiting for webElement...primaryinsured.birthcity
+2024-11-05 11:05:19 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:05:19 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-05 11:05:19 INFO  Keywords:308 - Element found...next
+2024-11-05 11:05:35 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:05:35 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-05 11:05:35 INFO  Keywords:308 - Element found...next
+2024-11-05 11:05:35 INFO  Keywords:304 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-11-05 11:05:45 INFO  Keywords:143 - ClickOnLink is called
+2024-11-05 11:05:45 INFO  Keywords:304 - Waiting for webElement...next
+2024-11-05 11:05:45 INFO  Keywords:308 - Element found...next
+2024-11-05 11:06:01 INFO  Keywords:304 - Waiting for webElement...financialDetails.SourceOfFundsLI

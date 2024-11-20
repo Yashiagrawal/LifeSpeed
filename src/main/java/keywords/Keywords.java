@@ -151,6 +151,11 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 
+	public static String closeChildWindow() {
+		driver.close();
+		return "Pass";
+	}
+
 	public static String verifyText() {
 		logger.info("VerifyText is called");
 		try {
@@ -195,7 +200,6 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 
-	
 	public static String SpaceKeys() {
 		try {
 			expliciteWait();
@@ -208,6 +212,7 @@ public class Keywords extends TestBase {
 		}
 		return "Pass";
 	}
+
 	public static String selectByValue() {
 		try {
 			expliciteWait();
@@ -335,6 +340,7 @@ public class Keywords extends TestBase {
 			// Thread.sleep(5000);
 			// driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()),
 			// Duration.ofSeconds());
+			//driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(Wait.getImplicitWait()), TimeUnit.SECONDS);
 		} catch (Exception e) {
 			return "Failed - unable to load the page";
@@ -384,6 +390,8 @@ public class Keywords extends TestBase {
 		Base64Encode.SAML_base64Decode();
 		return "Pass";
 	}
+
+	
 
 	public static String read_SAML_DATA_XMLFile() throws InterruptedException {
 
@@ -436,7 +444,7 @@ public class Keywords extends TestBase {
 
 		Set handles = driver.getWindowHandles();
 		String[] individualHandle = new String[handles.size()];
-		
+
 		System.out.println(individualHandle);
 		// Iterator it = handles.iterator();
 
@@ -455,16 +463,12 @@ public class Keywords extends TestBase {
 		return "Pass";
 	}
 
-	
 	public static String switchToParentWindow() {
 		logger.info("switching to parent window...");
-		// driver.switchTo().defaultContent();
+		//driver.switchTo().defaultContent();
 
-		System.out.println(driver.getWindowHandles());
-	driver.switchTo().defaultContent();
-		System.out.println("inparent window error");
-		//driver.switchTo().window(parentWindowHandle);
-		
+		driver.switchTo().window(parentWindowHandle);
+		System.out.println(parentWindowHandle);
 		return "Pass";
 	}
 
@@ -749,9 +753,7 @@ public class Keywords extends TestBase {
 		UserName.writeXml(DataDocFinal, output);
 		return "Pass";
 	}
-	
-	
-	
+
 	public static String Change_UserRole() throws Exception {
 		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 		Document DataDoc = db.parse(new InputSource(new StringReader(UserRole.getXMLString())));
@@ -781,14 +783,13 @@ public class Keywords extends TestBase {
 		UserRole.writeXml(DataDocFinal, output);
 		return "Pass";
 	}
-	
-	
+
 	public static String Change_UserRoleSU() throws Exception {
 		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 		Document DataDoc = db.parse(new InputSource(new StringReader(UserRoleSU.getXMLString())));
 
 		// --------- PROCESS
-		String cdata = UserRole.getCData(DataDoc);
+		String cdata = UserRoleSU.getCData(DataDoc);
 		// System.out.println(cdata);
 		Document docWithCDataPlaceholder = UserRoleSU.getDataDocWithCDataPlaceHolder(DataDoc);
 
@@ -1042,6 +1043,7 @@ public class Keywords extends TestBase {
 		driver.close();
 		return "Pass";
 	}
+
 	public static String verify_Transtatus() {
 
 		LangForm.status_TransXML();
@@ -1063,8 +1065,7 @@ public class Keywords extends TestBase {
 
 			JavascriptExecutor executor8 = (JavascriptExecutor) driver;
 
-			executor8.executeScript("arguments[0].value=arguments[1]",getWebElement(webElement), TestData);
-			
+			executor8.executeScript("arguments[0].value=arguments[1]", getWebElement(webElement), TestData);
 
 		} catch (Exception e) {
 			return "Failed - Element not found " + webElement;
@@ -1122,45 +1123,60 @@ public class Keywords extends TestBase {
 
 		return "Pass";
 	}
-	
-	
-	
+
 	public static String closeMultipleTabs() throws InterruptedException {
-        // Get all open tabs
-        Set<String> allTabs = driver.getWindowHandles();
-       
-        // Get Current tab
-        String currentTab = driver.getWindowHandle();
-       
-        Iterator<String> iterator = allTabs.iterator();
-       
-        while(iterator.hasNext()) {
-            // Condition to check if the selected tab is not current tab
-            String selectedTab = iterator.next();
-            if(!selectedTab.equals(currentTab)) {
-                // Switch to new tab
-                driver.switchTo().window(selectedTab);
-               
-                // Print title of tabs to be closed
-                System.out.println("Closing Tab = "+driver.getTitle());
-               
-                // Close the selected tab
-                driver.close();
-               
-                // Time delay
-                Thread.sleep(1000);
-            }
-        }
+		// Get all open tabs
+		Set<String> allTabs = driver.getWindowHandles();
+
+		// Get Current tab
+		String currentTab = driver.getWindowHandle();
+
+		Iterator<String> iterator = allTabs.iterator();
+
+		while (iterator.hasNext()) {
+			// Condition to check if the selected tab is not current tab
+			String selectedTab = iterator.next();
+			if (!selectedTab.equals(currentTab)) {
+				// Switch to new tab
+				driver.switchTo().window(selectedTab);
+
+				// Print title of tabs to be closed
+				System.out.println("Closing Tab = " + driver.getTitle());
+
+				// Close the selected tab
+				driver.close();
+
+				// Time delay
+				Thread.sleep(1000);
+			}
+		}
 		return "Pass"; // closeMultipleTabs
-    }
-	
-	
-	public void openNewTab()
-	{
-		  
-		 driver.switchTo().newWindow(WindowType.WINDOW);	
-		
-		
 	}
 
+	public static String openNewTab() {
+
+		try {
+			expliciteWait();
+
+			driver.switchTo().newWindow(WindowType.WINDOW);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return "Pass";
+
+	}
+
+	public static String closecurntTab() {
+
+		try {
+			expliciteWait();
+
+			driver.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return "Pass";
+
+	}
 }

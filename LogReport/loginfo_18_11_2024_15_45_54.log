@@ -1,0 +1,423 @@
+2024-11-18 15:46:15 INFO  Keywords:106 - Navigate is called
+2024-11-18 15:46:18 INFO  Keywords:132 - InputText is called
+2024-11-18 15:46:18 INFO  Keywords:309 - Waiting for webElement...gateway.username
+2024-11-18 15:46:18 INFO  Keywords:313 - Element found...gateway.username
+2024-11-18 15:46:18 INFO  Keywords:132 - InputText is called
+2024-11-18 15:46:18 INFO  Keywords:309 - Waiting for webElement...gateway.password
+2024-11-18 15:46:18 INFO  Keywords:313 - Element found...gateway.password
+2024-11-18 15:46:18 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:46:18 INFO  Keywords:309 - Waiting for webElement...gateway.login
+2024-11-18 15:46:18 INFO  Keywords:313 - Element found...gateway.login
+2024-11-18 15:46:54 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:46:54 INFO  Keywords:309 - Waiting for webElement...postsamldata
+2024-11-18 15:46:54 INFO  Keywords:313 - Element found...postsamldata
+2024-11-18 15:47:11 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:47:11 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:47:11 INFO  Keywords:313 - Element found...next
+2024-11-18 15:47:29 INFO  Keywords:132 - InputText is called
+2024-11-18 15:47:29 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-18 15:47:29 INFO  Keywords:313 - Element found...policyConfiguration.insuranceamount
+2024-11-18 15:47:29 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.LTC
+2024-11-18 15:47:39 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.payors
+2024-11-18 15:47:40 INFO  Keywords:313 - Element found...policyConfiguration.payors
+2024-11-18 15:47:40 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-18 15:47:40 INFO  Keywords:313 - Element found...policyConfiguration.purposeofpolicy
+2024-11-18 15:47:40 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:47:40 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:47:40 INFO  Keywords:313 - Element found...next
+2024-11-18 15:48:01 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcountry
+2024-11-18 15:48:01 INFO  Keywords:313 - Element found...primaryinsured.birthcountry
+2024-11-18 15:48:02 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthstate
+2024-11-18 15:48:02 INFO  Keywords:313 - Element found...primaryinsured.birthstate
+2024-11-18 15:48:02 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:02 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcity
+2024-11-18 15:48:12 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:48:12 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:48:12 INFO  Keywords:313 - Element found...next
+2024-11-18 15:48:31 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:48:31 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:48:31 INFO  Keywords:313 - Element found...next
+2024-11-18 15:48:34 INFO  Keywords:309 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-11-18 15:48:34 INFO  Keywords:313 - Element found...naturalOwner.relationwithInsured
+2024-11-18 15:48:35 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:48:35 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:48:35 INFO  Keywords:313 - Element found...next
+2024-11-18 15:48:51 INFO  Keywords:309 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-11-18 15:48:51 INFO  Keywords:313 - Element found...financialDetails.SourceOfFundsLI
+2024-11-18 15:48:51 INFO  Keywords:309 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-11-18 15:48:51 INFO  Keywords:313 - Element found...financialDetails.SurrenderChargeSOFLI
+2024-11-18 15:48:51 INFO  Keywords:309 - Waiting for webElement...financialDetails.envisiontaking
+2024-11-18 15:48:51 INFO  Keywords:313 - Element found...financialDetails.envisiontaking
+2024-11-18 15:48:51 INFO  Keywords:309 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-11-18 15:48:51 INFO  Keywords:313 - Element found...financialDetails.federalfaxbracket
+2024-11-18 15:48:52 INFO  Keywords:309 - Waiting for webElement...financialDetails.riskTolerance
+2024-11-18 15:48:52 INFO  Keywords:313 - Element found...financialDetails.riskTolerance
+2024-11-18 15:48:52 INFO  Keywords:309 - Waiting for webElement...financialDetails.Investmentobjectives
+2024-11-18 15:48:52 INFO  Keywords:313 - Element found...financialDetails.Investmentobjectives
+2024-11-18 15:48:52 INFO  Keywords:309 - Waiting for webElement...financialDetails.timehorizon
+2024-11-18 15:48:52 INFO  Keywords:313 - Element found...financialDetails.timehorizon
+2024-11-18 15:48:52 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentexperienceFA
+2024-11-18 15:48:52 INFO  Keywords:313 - Element found...financialDetails.investmentexperienceFA
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentstartyear
+2024-11-18 15:48:53 INFO  Keywords:313 - Element found...financialDetails.investmentstartyear
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialdetails.wages
+2024-11-18 15:48:53 INFO  Keywords:313 - Element found...financialdetails.wages
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialdetails.livingexpenses
+2024-11-18 15:48:53 INFO  Keywords:313 - Element found...financialdetails.livingexpenses
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialdetails.personalinvestment
+2024-11-18 15:48:53 INFO  Keywords:313 - Element found...financialdetails.personalinvestment
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialdetails.fixeddebtexpenses
+2024-11-18 15:48:53 INFO  Keywords:313 - Element found...financialdetails.fixeddebtexpenses
+2024-11-18 15:48:53 INFO  Keywords:132 - InputText is called
+2024-11-18 15:48:53 INFO  Keywords:309 - Waiting for webElement...financialdetails.rentalincome
+2024-11-18 15:49:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:03 INFO  Keywords:309 - Waiting for webElement...financialdetails.variabledebtexpenses
+2024-11-18 15:49:13 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:13 INFO  Keywords:309 - Waiting for webElement...financialdetails.incomepension
+2024-11-18 15:49:23 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:23 INFO  Keywords:309 - Waiting for webElement...financialdetails.discretionaryexpenses
+2024-11-18 15:49:33 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:33 INFO  Keywords:309 - Waiting for webElement...financialdetails.socialsecurityincome
+2024-11-18 15:49:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:43 INFO  Keywords:309 - Waiting for webElement...financialdetails.otherincome
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.bonds
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.bonds
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.businessTrustRealstate
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.businessTrustRealstate
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.retirementplan
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.retirementplan
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.equities
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.equities
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.facevalueilfeinsurance
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.facevalueilfeinsurance
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.fixedannuity
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.fixedannuity
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.indexannuity
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.indexannuity
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.liquidnetworth
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.liquidnetworth
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.AlerternativeInvetment
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.AlerternativeInvetment
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.mutualfund
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.mutualfund
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.otherbrokerage
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.otherbrokerage
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.policypremium
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.policypremium
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.variableannuity
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.variableannuity
+2024-11-18 15:49:54 INFO  Keywords:132 - InputText is called
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.totalpremium
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.totalpremium
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.anticipatedchanges
+2024-11-18 15:49:54 INFO  Keywords:313 - Element found...financialdetails.anticipatedchanges
+2024-11-18 15:49:54 INFO  Keywords:309 - Waiting for webElement...financialdetails.nonguaranteedelement
+2024-11-18 15:50:45 INFO  Keywords:309 - Waiting for webElement...financialdetails.reversemortgage
+2024-11-18 15:50:45 INFO  Keywords:313 - Element found...financialdetails.reversemortgage
+2024-11-18 15:50:45 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:50:45 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:50:45 INFO  Keywords:313 - Element found...next
+2024-11-18 15:51:05 INFO  Keywords:309 - Waiting for webElement...payment.modal
+2024-11-18 15:51:05 INFO  Keywords:313 - Element found...payment.modal
+2024-11-18 15:51:21 INFO  Keywords:309 - Waiting for webElement...payment.method
+2024-11-18 15:51:21 INFO  Keywords:313 - Element found...payment.method
+2024-11-18 15:51:22 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:22 INFO  Keywords:309 - Waiting for webElement...payment.premium
+2024-11-18 15:51:22 INFO  Keywords:313 - Element found...payment.premium
+2024-11-18 15:51:22 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:51:22 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:51:22 INFO  Keywords:313 - Element found...next
+2024-11-18 15:51:41 INFO  Keywords:309 - Waiting for webElement...existinginsurance.borrowingfunds
+2024-11-18 15:51:41 INFO  Keywords:313 - Element found...existinginsurance.borrowingfunds
+2024-11-18 15:51:41 INFO  Keywords:309 - Waiting for webElement...existinginsurance.terminatingexistinglifepolicy
+2024-11-18 15:51:41 INFO  Keywords:313 - Element found...existinginsurance.terminatingexistinglifepolicy
+2024-11-18 15:51:42 INFO  Keywords:309 - Waiting for webElement...existinginsurance.longtermcoverage
+2024-11-18 15:51:42 INFO  Keywords:313 - Element found...existinginsurance.longtermcoverage
+2024-11-18 15:51:42 INFO  Keywords:309 - Waiting for webElement...existanceterminating.InsuranceCompanyName
+2024-11-18 15:51:42 INFO  Keywords:313 - Element found...existanceterminating.InsuranceCompanyName
+2024-11-18 15:51:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ProductName
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.ProductName
+2024-11-18 15:51:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.Insured
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.Insured
+2024-11-18 15:51:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.Owner
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.Owner
+2024-11-18 15:51:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.DateIssued
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.DateIssued
+2024-11-18 15:51:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.AmountOfInsurance
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.AmountOfInsurance
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ExistingInsuranceType
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.ExistingInsuranceType
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ProductType
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.ProductType
+2024-11-18 15:51:43 INFO  Keywords:309 - Waiting for webElement...existanceterminating.LifeProductType
+2024-11-18 15:51:43 INFO  Keywords:313 - Element found...existanceterminating.LifeProductType
+2024-11-18 15:51:44 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:44 INFO  Keywords:309 - Waiting for webElement...existanceterminating.PolicyNo
+2024-11-18 15:51:44 INFO  Keywords:313 - Element found...existanceterminating.PolicyNo
+2024-11-18 15:51:44 INFO  Keywords:309 - Waiting for webElement...existanceterminating.PurposeOfPolicy
+2024-11-18 15:51:44 INFO  Keywords:313 - Element found...existanceterminating.PurposeOfPolicy
+2024-11-18 15:51:44 INFO  Keywords:309 - Waiting for webElement...existanceterminating.FundsNewPolicy
+2024-11-18 15:51:44 INFO  Keywords:313 - Element found...existanceterminating.FundsNewPolicy
+2024-11-18 15:51:44 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ReplacingNewPolicy
+2024-11-18 15:51:44 INFO  Keywords:313 - Element found...existanceterminating.ReplacingNewPolicy
+2024-11-18 15:51:44 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ReplacementThType
+2024-11-18 15:51:44 INFO  Keywords:313 - Element found...existanceterminating.ReplacementThType
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existance.suvivorship
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existance.suvivorship
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existnace.soldSettled
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existnace.soldSettled
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.1035ThExchange
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.1035ThExchange
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.ReasonReplacement
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.ReasonReplacement
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.NoOfPolicy
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.NoOfPolicy
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.PremiumPayment
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.PremiumPayment
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.FrequencyPremium
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.FrequencyPremium
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.AmountBeingExchanged
+2024-11-18 15:51:45 INFO  Keywords:313 - Element found...existanceterminating.AmountBeingExchanged
+2024-11-18 15:51:45 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:45 INFO  Keywords:309 - Waiting for webElement...existanceterminating.SurrenderCharge
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existanceterminating.SurrenderCharge
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existanceterminating.DeathBenefit
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existanceterminating.DeathBenefit
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existanceterminating.SpecialFeatures
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existanceterminating.SpecialFeatures
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinginsurance.longtermpolicyYes
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinginsurance.longtermpolicyYes
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.InsuranceName
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.InsuranceName
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.policyCertificateNumber
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.policyCertificateNumber
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.ProductName
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.ProductName
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.ProductType
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.ProductType
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.Insured
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.Insured
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.Owner
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.Owner
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.DailyBenefit
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.DailyBenefit
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.AmountOfInsurance
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.AmountOfInsurance
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.benefitAmount
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.benefitAmount
+2024-11-18 15:51:46 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinglongtermpolicy.benefitPeriod
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinglongtermpolicy.benefitPeriod
+2024-11-18 15:51:46 INFO  Keywords:309 - Waiting for webElement...existinginsurance.longterminsuranceYes
+2024-11-18 15:51:46 INFO  Keywords:313 - Element found...existinginsurance.longterminsuranceYes
+2024-11-18 15:51:47 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existinglongterminsurance.InsuranceCompany
+2024-11-18 15:51:47 INFO  Keywords:313 - Element found...existinglongterminsurance.InsuranceCompany
+2024-11-18 15:51:47 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existinglongterminsurance.Certificate
+2024-11-18 15:51:47 INFO  Keywords:313 - Element found...existinglongterminsurance.Certificate
+2024-11-18 15:51:47 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existinglongterminsurance.LTCBenefit
+2024-11-18 15:51:47 INFO  Keywords:313 - Element found...existinglongterminsurance.LTCBenefit
+2024-11-18 15:51:47 INFO  Keywords:132 - InputText is called
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existinglongterminsurance.IssueDate
+2024-11-18 15:51:47 INFO  Keywords:313 - Element found...existinglongterminsurance.IssueDate
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existinglongterminsurance.LapseDate
+2024-11-18 15:51:47 INFO  Keywords:313 - Element found...existinglongterminsurance.LapseDate
+2024-11-18 15:51:47 INFO  Keywords:309 - Waiting for webElement...existance.AgentReadNotice
+2024-11-18 15:51:57 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:51:57 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:51:57 INFO  Keywords:313 - Element found...next
+2024-11-18 15:52:16 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:52:16 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:52:16 INFO  Keywords:313 - Element found...next
+2024-11-18 15:52:34 INFO  Keywords:132 - InputText is called
+2024-11-18 15:52:34 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q1
+2024-11-18 15:52:34 INFO  Keywords:313 - Element found...additionalclientquestion.q1
+2024-11-18 15:52:34 INFO  Keywords:132 - InputText is called
+2024-11-18 15:52:34 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q2
+2024-11-18 15:52:34 INFO  Keywords:313 - Element found...additionalclientquestion.q2
+2024-11-18 15:52:34 INFO  Keywords:132 - InputText is called
+2024-11-18 15:52:34 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q3
+2024-11-18 15:52:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:52:43 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q4
+2024-11-18 15:53:43 INFO  Keywords:132 - InputText is called
+2024-11-18 15:53:43 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q5
+2024-11-18 15:54:33 INFO  Keywords:132 - InputText is called
+2024-11-18 15:54:33 INFO  Keywords:309 - Waiting for webElement...additionalclientquestion.q6
+2024-11-18 15:54:33 INFO  Keywords:313 - Element found...additionalclientquestion.q6
+2024-11-18 15:54:33 INFO  Keywords:521 - GetText is called
+2024-11-18 15:54:33 INFO  Keywords:309 - Waiting for webElement...ebixTxnID
+2024-11-18 15:54:33 INFO  Keywords:313 - Element found...ebixTxnID
+2024-11-18 15:54:33 INFO  Keywords:525 - LinkId: 548487
+2024-11-18 15:54:33 INFO  Keywords:569 - LinkId: 548487
+2024-11-18 15:54:33 INFO  Keywords:521 - GetText is called
+2024-11-18 15:54:33 INFO  Keywords:309 - Waiting for webElement...ebixTxnID
+2024-11-18 15:54:33 INFO  Keywords:313 - Element found...ebixTxnID
+2024-11-18 15:54:33 INFO  Keywords:525 - LinkId: 548487
+2024-11-18 15:54:33 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:54:33 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:54:33 INFO  Keywords:313 - Element found...next
+2024-11-18 15:54:51 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:54:51 INFO  Keywords:309 - Waiting for webElement...BGAPopUp
+2024-11-18 15:54:51 INFO  Keywords:313 - Element found...BGAPopUp
+2024-11-18 15:55:08 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:55:08 INFO  Keywords:309 - Waiting for webElement...AssignButton
+2024-11-18 15:55:08 INFO  Keywords:313 - Element found...AssignButton
+2024-11-18 15:55:26 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:55:26 INFO  Keywords:309 - Waiting for webElement...BGA2PopUp
+2024-11-18 15:55:26 INFO  Keywords:313 - Element found...BGA2PopUp
+2024-11-18 15:55:42 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:55:42 INFO  Keywords:309 - Waiting for webElement...CloseButtonBGA
+2024-11-18 15:55:42 INFO  Keywords:313 - Element found...CloseButtonBGA
+2024-11-18 15:56:14 INFO  Keywords:466 - switching to parent window...
+2024-11-18 15:56:30 INFO  Keywords:535 - ClearText is called
+2024-11-18 15:56:30 INFO  Keywords:309 - Waiting for webElement...samlTextArea
+2024-11-18 15:56:30 INFO  Keywords:313 - Element found...samlTextArea
+2024-11-18 15:56:30 INFO  Keywords:539 - LinkId: 548487
+2024-11-18 15:56:51 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:56:51 INFO  Keywords:309 - Waiting for webElement...postsamldata
+2024-11-18 15:56:51 INFO  Keywords:313 - Element found...postsamldata
+2024-11-18 15:57:08 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:57:08 INFO  Keywords:309 - Waiting for webElement...CarrierAdditional
+2024-11-18 15:57:18 INFO  Keywords:309 - Waiting for webElement...AnnuitiesCompany
+2024-11-18 15:57:27 INFO  Keywords:313 - Element found...AnnuitiesCompany
+2024-11-18 15:57:27 INFO  Keywords:309 - Waiting for webElement...InsuranceReplace
+2024-11-18 15:57:27 INFO  Keywords:313 - Element found...InsuranceReplace
+2024-11-18 15:57:28 INFO  Keywords:309 - Waiting for webElement...Carrier.ReplacingJH
+2024-11-18 15:57:38 INFO  Keywords:309 - Waiting for webElement...Carrier.InterestIssue
+2024-11-18 15:57:48 INFO  Keywords:309 - Waiting for webElement...Carrier.EntityConnection
+2024-11-18 15:57:58 INFO  Keywords:132 - InputText is called
+2024-11-18 15:57:58 INFO  Keywords:309 - Waiting for webElement...PremiumCollected
+2024-11-18 15:57:58 INFO  Keywords:313 - Element found...PremiumCollected
+2024-11-18 15:57:58 INFO  Keywords:309 - Waiting for webElement...ResultApplication
+2024-11-18 15:57:58 INFO  Keywords:313 - Element found...ResultApplication
+2024-11-18 15:57:58 INFO  Keywords:132 - InputText is called
+2024-11-18 15:57:58 INFO  Keywords:309 - Waiting for webElement...ResultGiveDetails
+2024-11-18 15:57:58 INFO  Keywords:313 - Element found...ResultGiveDetails
+2024-11-18 15:57:58 INFO  Keywords:309 - Waiting for webElement...PolicySettlement
+2024-11-18 15:57:58 INFO  Keywords:313 - Element found...PolicySettlement
+2024-11-18 15:57:58 INFO  Keywords:309 - Waiting for webElement...PremiumLoans
+2024-11-18 15:57:58 INFO  Keywords:313 - Element found...PremiumLoans
+2024-11-18 15:57:59 INFO  Keywords:309 - Waiting for webElement...EvaluatingFinancing
+2024-11-18 15:57:59 INFO  Keywords:313 - Element found...EvaluatingFinancing
+2024-11-18 15:57:59 INFO  Keywords:309 - Waiting for webElement...PersonallyInsured
+2024-11-18 15:57:59 INFO  Keywords:313 - Element found...PersonallyInsured
+2024-11-18 15:57:59 INFO  Keywords:309 - Waiting for webElement...PolicyProposedInsured
+2024-11-18 15:57:59 INFO  Keywords:313 - Element found...PolicyProposedInsured
+2024-11-18 15:57:59 INFO  Keywords:309 - Waiting for webElement...ProposedInsuredWritten
+2024-11-18 15:57:59 INFO  Keywords:313 - Element found...ProposedInsuredWritten
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...ConsentRelationshipTerminates
+2024-11-18 15:58:00 INFO  Keywords:313 - Element found...ConsentRelationshipTerminates
+2024-11-18 15:58:00 INFO  Keywords:132 - InputText is called
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...HealthPoliciesForce
+2024-11-18 15:58:00 INFO  Keywords:313 - Element found...HealthPoliciesForce
+2024-11-18 15:58:00 INFO  Keywords:132 - InputText is called
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...SoldForceHP
+2024-11-18 15:58:00 INFO  Keywords:313 - Element found...SoldForceHP
+2024-11-18 15:58:00 INFO  Keywords:132 - InputText is called
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...NameWholeSaler
+2024-11-18 15:58:00 INFO  Keywords:313 - Element found...NameWholeSaler
+2024-11-18 15:58:00 INFO  Keywords:132 - InputText is called
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...ExistingReplacedCarier
+2024-11-18 15:58:00 INFO  Keywords:313 - Element found...ExistingReplacedCarier
+2024-11-18 15:58:00 INFO  Keywords:309 - Waiting for webElement...Carrier.SignedIllustration
+2024-11-18 15:58:10 INFO  Keywords:309 - Waiting for webElement...Carrier.PolicyDelivered
+2024-11-18 15:58:20 INFO  Keywords:309 - Waiting for webElement...Carrier.InsuranceCoverage
+2024-11-18 15:58:30 INFO  Keywords:132 - InputText is called
+2024-11-18 15:58:30 INFO  Keywords:309 - Waiting for webElement...Carrier.AcceptPlan
+2024-11-18 15:58:40 INFO  Keywords:309 - Waiting for webElement...Carrier.PremiumPaymentSrc
+2024-11-18 15:58:50 INFO  Keywords:309 - Waiting for webElement...Carrier.CriticalIllness
+2024-11-18 15:59:01 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:59:01 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 15:59:01 INFO  Keywords:313 - Element found...next
+2024-11-18 15:59:02 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:02 INFO  Keywords:309 - Waiting for webElement...NBNameF
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...NBNameF
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...NBNameL
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...NBNameL
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...NBPhoneW
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...NBPhoneW
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...NBEMail
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...NBEMail
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...POSYES
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...POSYES
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...POSNAmeF
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...POSNAmeF
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...POSNAmeL
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...POSNAmeL
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...POSWork
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...POSWork
+2024-11-18 15:59:03 INFO  Keywords:132 - InputText is called
+2024-11-18 15:59:03 INFO  Keywords:309 - Waiting for webElement...POSEmail
+2024-11-18 15:59:03 INFO  Keywords:313 - Element found...POSEmail
+2024-11-18 15:59:19 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 15:59:19 INFO  Keywords:309 - Waiting for webElement...validate.button
+2024-11-18 16:00:01 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:00:01 INFO  Keywords:309 - Waiting for webElement...notification.continue
+2024-11-18 16:00:01 INFO  Keywords:313 - Element found...notification.continue
+2024-11-18 16:00:18 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:00:18 INFO  Keywords:309 - Waiting for webElement...esignature.optout
+2024-11-18 16:02:38 INFO  Keywords:160 - VerifyText is called
+2024-11-18 16:02:38 INFO  Keywords:309 - Waiting for webElement...WebElement
+2024-11-18 16:02:38 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:02:38 INFO  Keywords:309 - Waiting for webElement...attachment
+2024-11-18 16:02:38 INFO  Keywords:313 - Element found...attachment
+2024-11-18 16:02:38 INFO  Keywords:309 - Waiting for webElement...attachment.documenttype
+2024-11-18 16:02:48 INFO  Keywords:132 - InputText is called
+2024-11-18 16:02:48 INFO  Keywords:309 - Waiting for webElement...attachment.choosefile
+2024-11-18 16:02:58 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:02:58 INFO  Keywords:309 - Waiting for webElement...attachment.upload
+2024-11-18 16:03:25 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:03:25 INFO  Keywords:309 - Waiting for webElement...RequestSignatures
+2024-11-18 16:03:51 INFO  Keywords:309 - Waiting for webElement...attachment.documenttype
+2024-11-18 16:04:01 INFO  Keywords:132 - InputText is called
+2024-11-18 16:04:01 INFO  Keywords:309 - Waiting for webElement...attachment.choosefile
+2024-11-18 16:04:11 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:04:11 INFO  Keywords:309 - Waiting for webElement...attachment.upload
+2024-11-18 16:04:37 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 16:04:37 INFO  Keywords:309 - Waiting for webElement...SubmitButton

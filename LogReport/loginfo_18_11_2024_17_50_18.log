@@ -1,0 +1,77 @@
+2024-11-18 17:50:26 INFO  Keywords:106 - Navigate is called
+2024-11-18 17:50:28 INFO  Keywords:132 - InputText is called
+2024-11-18 17:50:28 INFO  Keywords:309 - Waiting for webElement...gateway.username
+2024-11-18 17:50:28 INFO  Keywords:313 - Element found...gateway.username
+2024-11-18 17:50:28 INFO  Keywords:132 - InputText is called
+2024-11-18 17:50:28 INFO  Keywords:309 - Waiting for webElement...gateway.password
+2024-11-18 17:50:28 INFO  Keywords:313 - Element found...gateway.password
+2024-11-18 17:50:28 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:50:28 INFO  Keywords:309 - Waiting for webElement...gateway.login
+2024-11-18 17:50:28 INFO  Keywords:313 - Element found...gateway.login
+2024-11-18 17:51:05 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:51:05 INFO  Keywords:309 - Waiting for webElement...postsamldata
+2024-11-18 17:51:05 INFO  Keywords:313 - Element found...postsamldata
+2024-11-18 17:51:21 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:51:21 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 17:51:21 INFO  Keywords:313 - Element found...next
+2024-11-18 17:51:40 INFO  Keywords:132 - InputText is called
+2024-11-18 17:51:40 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.insuranceamount
+2024-11-18 17:51:40 INFO  Keywords:313 - Element found...policyConfiguration.insuranceamount
+2024-11-18 17:51:40 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.LTC
+2024-11-18 17:51:50 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.payors
+2024-11-18 17:51:50 INFO  Keywords:313 - Element found...policyConfiguration.payors
+2024-11-18 17:51:50 INFO  Keywords:309 - Waiting for webElement...policyConfiguration.purposeofpolicy
+2024-11-18 17:51:50 INFO  Keywords:313 - Element found...policyConfiguration.purposeofpolicy
+2024-11-18 17:51:51 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:51:51 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 17:51:51 INFO  Keywords:313 - Element found...next
+2024-11-18 17:52:12 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcountry
+2024-11-18 17:52:12 INFO  Keywords:313 - Element found...primaryinsured.birthcountry
+2024-11-18 17:52:12 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthstate
+2024-11-18 17:52:12 INFO  Keywords:313 - Element found...primaryinsured.birthstate
+2024-11-18 17:52:13 INFO  Keywords:132 - InputText is called
+2024-11-18 17:52:13 INFO  Keywords:309 - Waiting for webElement...primaryinsured.birthcity
+2024-11-18 17:52:23 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:52:23 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 17:52:23 INFO  Keywords:313 - Element found...next
+2024-11-18 17:52:41 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:52:41 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 17:52:41 INFO  Keywords:313 - Element found...next
+2024-11-18 17:52:44 INFO  Keywords:309 - Waiting for webElement...naturalOwner.relationwithInsured
+2024-11-18 17:52:44 INFO  Keywords:313 - Element found...naturalOwner.relationwithInsured
+2024-11-18 17:52:45 INFO  Keywords:143 - ClickOnLink is called
+2024-11-18 17:52:45 INFO  Keywords:309 - Waiting for webElement...next
+2024-11-18 17:52:45 INFO  Keywords:313 - Element found...next
+2024-11-18 17:53:03 INFO  Keywords:309 - Waiting for webElement...financialDetails.SourceOfFundsLI
+2024-11-18 17:53:03 INFO  Keywords:313 - Element found...financialDetails.SourceOfFundsLI
+2024-11-18 17:53:03 INFO  Keywords:309 - Waiting for webElement...financialDetails.SurrenderChargeSOFLI
+2024-11-18 17:53:04 INFO  Keywords:313 - Element found...financialDetails.SurrenderChargeSOFLI
+2024-11-18 17:53:04 INFO  Keywords:309 - Waiting for webElement...financialDetails.envisiontaking
+2024-11-18 17:53:04 INFO  Keywords:313 - Element found...financialDetails.envisiontaking
+2024-11-18 17:53:04 INFO  Keywords:309 - Waiting for webElement...financialDetails.federalfaxbracket
+2024-11-18 17:53:04 INFO  Keywords:313 - Element found...financialDetails.federalfaxbracket
+2024-11-18 17:53:04 INFO  Keywords:309 - Waiting for webElement...financialDetails.riskTolerance
+2024-11-18 17:53:04 INFO  Keywords:313 - Element found...financialDetails.riskTolerance
+2024-11-18 17:53:04 INFO  Keywords:309 - Waiting for webElement...financialDetails.Investmentobjectives
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialDetails.Investmentobjectives
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialDetails.timehorizon
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialDetails.timehorizon
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentexperienceFA
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialDetails.investmentexperienceFA
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialDetails.investmentstartyear
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialDetails.investmentstartyear
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialdetails.wages
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialdetails.wages
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialdetails.livingexpenses
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialdetails.livingexpenses
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialdetails.personalinvestment
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialdetails.personalinvestment
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialdetails.fixeddebtexpenses
+2024-11-18 17:53:05 INFO  Keywords:313 - Element found...financialdetails.fixeddebtexpenses
+2024-11-18 17:53:05 INFO  Keywords:132 - InputText is called
+2024-11-18 17:53:05 INFO  Keywords:309 - Waiting for webElement...financialdetails.rentalincome

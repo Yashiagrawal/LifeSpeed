@@ -146,8 +146,13 @@ public class UserRoleSU {
          Transformer transformer = transformerFactory.newTransformer();
 
          // pretty print
-         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-         transformer.setOutputProperty(OutputKeys.STANDALONE, "no");
+       //  transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+       //  transformer.setOutputProperty(OutputKeys.STANDALONE, "no");
+         transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+
+
+
+
 
          DOMSource source = new DOMSource(doc);
          StreamResult result = new StreamResult(output);
